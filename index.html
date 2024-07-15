@@ -8,54 +8,72 @@
     <link rel="stylesheet" type="text/css" href="home.css">
     <title>Tennis Data, Analysis and Visualization</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: url('image/claytennis.jpeg') no-repeat center center fixed; /* Replace with your image URL */
-            background-size: cover;
-            color: black;
+    body {
+        font-family: Arial, sans-serif;
+        background: url('claytennis.jpeg') no-repeat center center fixed; /* Replace with your image URL */
+        background-size: cover;
+        color: black;
+    }
+    .navbar {
+        background-color: rgba(0, 100, 0, 0.8);
+        color: white;
+    }
+    .navbar-brand {
+        color: white;
+        font-weight: bold;
+    }
+    .container-body {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #ECF8EC; 
+        border-radius: 10px;
+    }
+    .card {
+        margin-bottom: 20px;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #D0E8D0; 
+        color: black;
+    }
+    .card-title {
+        color: #006400; /* Dark green color */
+        font-weight: bold;
+    }
+    .card-text {
+        color: black;
+    }
+    .btn-primary {
+        background-color: #006400;
+        border: none;
+    }
+    .btn-primary:hover {
+        background-color: #004d00; /* Darker shade for hover */
+    }
+    .btn-primary a {
+        color: white;
+        text-decoration: none;
+        background: none;
+        outline: none; /* Remove the focus outline */
+    }
+    .btn-primary a:hover {
+        color: white;
+        text-decoration: underline; /* Underline on hover */
+        background: none;
+    }
+    .btn-primary a:focus {
+        outline: none; /* Ensure no outline when focused */
+    }
+    h1, h5 {
+        font-weight: bold;
+    }
+    @media (min-width: 576px) {
+        .card-group .card {
+            margin-bottom: 30px;
         }
-        .navbar {
-            background-color: rgba(0, 100, 0, 0.8);
-            color: white;
-        }
-        .navbar-brand {
-            color: white;
-            font-weight: bold;
-        }
-        .container-body {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #ECF8EC; 
-            border-radius: 10px;
-        }
-        .card {
-            margin-bottom: 20px;
-            border: none;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            background-color: #D0E8D0; 
-            color: black;
-        }
-        .card-title {
-            color: #006400; /* Dark green color */
-            font-weight: bold;
-        }
-        .card-text {
-            color: black;
-        }
-        .btn-primary {
-            background-color: #006400;
-            border: none;
-        }
-        h1, h5 {
-            font-weight: bold;
-        }
-        @media (min-width: 576px) {
-            .card-group .card {
-                margin-bottom: 30px;
-            }
-        }
-    </style>
+    }
+</style>
+
 </head>
 <!DOCTYPE html>
 <html lang="en">
