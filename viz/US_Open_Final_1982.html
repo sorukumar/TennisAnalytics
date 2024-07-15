@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1200px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#33a02c", "id": "Jimmy Connors", "label": "Jimmy Connors", "shape": "dot", "size": 13.862943611198906, "title": "Player: Jimmy Connors | Country: USA\nTotal Matches Played: 2 | Total Wins: 2 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 100.00% (2 wins)\n"}, {"color": "#008000", "id": "Ivan Lendl", "label": "Ivan Lendl", "shape": "dot", "size": 23.02585092994046, "title": "Player: Ivan Lendl | Country: USA\nTotal Matches Played: 8 | Total Wins: 3 | Win Percentage: 37.50%\nUnique Opponents: 5\nGS Win Percentages: Us Open: 37.50% (3 wins)\n"}, {"color": "#33a02c", "id": "John McEnroe", "label": "John McEnroe", "shape": "dot", "size": 13.862943611198906, "title": "Player: John McEnroe | Country: USA\nTotal Matches Played: 2 | Total Wins: 1 | Win Percentage: 50.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 50.00% (1 wins)\n"}, {"color": "#fc8d59", "id": "Miloslav Mecir", "label": "Miloslav Mecir", "shape": "dot", "size": 10.986122886681098, "title": "Player: Miloslav Mecir | Country: SVK\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Mats Wilander", "label": "Mats Wilander", "shape": "dot", "size": 13.862943611198906, "title": "Player: Mats Wilander | Country: SWE\nTotal Matches Played: 2 | Total Wins: 1 | Win Percentage: 50.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 50.00% (1 wins)\n"}, {"color": "#33a02c", "id": "Boris Becker", "label": "Boris Becker", "shape": "dot", "size": 10.986122886681098, "title": "Player: Boris Becker | Country: GER\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 100.00% (1 wins)\n"}, {"color": "#008000", "id": "Pete Sampras", "label": "Pete Sampras", "shape": "dot", "size": 23.02585092994046, "title": "Player: Pete Sampras | Country: USA\nTotal Matches Played: 8 | Total Wins: 5 | Win Percentage: 62.50%\nUnique Opponents: 6\nGS Win Percentages: Us Open: 62.50% (5 wins)\n"}, {"color": "#33a02c", "id": "Andre Agassi", "label": "Andre Agassi", "shape": "dot", "size": 20.79441541679836, "title": "Player: Andre Agassi | Country: USA\nTotal Matches Played: 6 | Total Wins: 2 | Win Percentage: 33.33%\nUnique Opponents: 4\nGS Win Percentages: Us Open: 33.33% (2 wins)\n"}, {"color": "#33a02c", "id": "Stefan Edberg", "label": "Stefan Edberg", "shape": "dot", "size": 13.862943611198906, "title": "Player: Stefan Edberg | Country: SWE\nTotal Matches Played: 2 | Total Wins: 2 | Win Percentage: 100.00%\nUnique Opponents: 2\nGS Win Percentages: Us Open: 100.00% (2 wins)\n"}, {"color": "#fc8d59", "id": "Jim Courier", "label": "Jim Courier", "shape": "dot", "size": 10.986122886681098, "title": "Player: Jim Courier | Country: USA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Cedric Pioline", "label": "Cedric Pioline", "shape": "dot", "size": 10.986122886681098, "title": "Player: Cedric Pioline | Country: FRA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Michael Stich", "label": "Michael Stich", "shape": "dot", "size": 10.986122886681098, "title": "Player: Michael Stich | Country: GER\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Michael Chang", "label": "Michael Chang", "shape": "dot", "size": 10.986122886681098, "title": "Player: Michael Chang | Country: USA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Patrick Rafter", "label": "Patrick Rafter", "shape": "dot", "size": 13.862943611198906, "title": "Player: Patrick Rafter | Country: AUS\nTotal Matches Played: 2 | Total Wins: 2 | Win Percentage: 100.00%\nUnique Opponents: 2\nGS Win Percentages: Us Open: 100.00% (2 wins)\n"}, {"color": "#fc8d59", "id": "Greg Rusedski", "label": "Greg Rusedski", "shape": "dot", "size": 10.986122886681098, "title": "Player: Greg Rusedski | Country: GBR\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Mark Philippoussis", "label": "Mark Philippoussis", "shape": "dot", "size": 10.986122886681098, "title": "Player: Mark Philippoussis | Country: AUS\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Todd Martin", "label": "Todd Martin", "shape": "dot", "size": 10.986122886681098, "title": "Player: Todd Martin | Country: USA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Marat Safin", "label": "Marat Safin", "shape": "dot", "size": 10.986122886681098, "title": "Player: Marat Safin | Country: RUS\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 100.00% (1 wins)\n"}, {"color": "#33a02c", "id": "Lleyton Hewitt", "label": "Lleyton Hewitt", "shape": "dot", "size": 13.862943611198906, "title": "Player: Lleyton Hewitt | Country: AUS\nTotal Matches Played: 2 | Total Wins: 1 | Win Percentage: 50.00%\nUnique Opponents: 2\nGS Win Percentages: Us Open: 50.00% (1 wins)\n"}, {"color": "#33a02c", "id": "Andy Roddick", "label": "Andy Roddick", "shape": "dot", "size": 13.862943611198906, "title": "Player: Andy Roddick | Country: USA\nTotal Matches Played: 2 | Total Wins: 1 | Win Percentage: 50.00%\nUnique Opponents: 2\nGS Win Percentages: Us Open: 50.00% (1 wins)\n"}, {"color": "#fc8d59", "id": "Juan Carlos Ferrero", "label": "Juan Carlos Ferrero", "shape": "dot", "size": 10.986122886681098, "title": "Player: Juan Carlos Ferrero | Country: ESP\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#008000", "id": "Roger Federer", "label": "Roger Federer", "shape": "dot", "size": 21.972245773362197, "title": "Player: Roger Federer | Country: SUI\nTotal Matches Played: 7 | Total Wins: 5 | Win Percentage: 71.43%\nUnique Opponents: 6\nGS Win Percentages: Us Open: 71.43% (5 wins)\n"}, {"color": "#008000", "id": "Novak Djokovic", "label": "Novak Djokovic", "shape": "dot", "size": 24.849066497880003, "title": "Player: Novak Djokovic | Country: SRB\nTotal Matches Played: 10 | Total Wins: 4 | Win Percentage: 40.00%\nUnique Opponents: 6\nGS Win Percentages: Us Open: 40.00% (4 wins)\n"}, {"color": "#33a02c", "id": "Andy Murray", "label": "Andy Murray", "shape": "dot", "size": 13.862943611198906, "title": "Player: Andy Murray | Country: GBR\nTotal Matches Played: 2 | Total Wins: 1 | Win Percentage: 50.00%\nUnique Opponents: 2\nGS Win Percentages: Us Open: 50.00% (1 wins)\n"}, {"color": "#33a02c", "id": "Juan Martin del Potro", "label": "Juan Martin del Potro", "shape": "dot", "size": 13.862943611198906, "title": "Player: Juan Martin del Potro | Country: ARG\nTotal Matches Played: 2 | Total Wins: 1 | Win Percentage: 50.00%\nUnique Opponents: 2\nGS Win Percentages: Us Open: 50.00% (1 wins)\n"}, {"color": "#008000", "id": "Rafael Nadal", "label": "Rafael Nadal", "shape": "dot", "size": 19.45910149055313, "title": "Player: Rafael Nadal | Country: ESP\nTotal Matches Played: 5 | Total Wins: 4 | Win Percentage: 80.00%\nUnique Opponents: 3\nGS Win Percentages: Us Open: 80.00% (4 wins)\n"}, {"color": "#33a02c", "id": "Marin Cilic", "label": "Marin Cilic", "shape": "dot", "size": 10.986122886681098, "title": "Player: Marin Cilic | Country: CRO\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 100.00% (1 wins)\n"}, {"color": "#fc8d59", "id": "Kei Nishikori", "label": "Kei Nishikori", "shape": "dot", "size": 10.986122886681098, "title": "Player: Kei Nishikori | Country: JPN\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Stan Wawrinka", "label": "Stan Wawrinka", "shape": "dot", "size": 10.986122886681098, "title": "Player: Stan Wawrinka | Country: SUI\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 100.00% (1 wins)\n"}, {"color": "#fc8d59", "id": "Kevin Anderson", "label": "Kevin Anderson", "shape": "dot", "size": 10.986122886681098, "title": "Player: Kevin Anderson | Country: RSA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Daniil Medvedev", "label": "Daniil Medvedev", "shape": "dot", "size": 16.094379124341003, "title": "Player: Daniil Medvedev | Country: RUS\nTotal Matches Played: 3 | Total Wins: 1 | Win Percentage: 33.33%\nUnique Opponents: 2\nGS Win Percentages: Us Open: 33.33% (1 wins)\n"}, {"color": "#33a02c", "id": "Dominic Thiem", "label": "Dominic Thiem", "shape": "dot", "size": 10.986122886681098, "title": "Player: Dominic Thiem | Country: AUT\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 100.00% (1 wins)\n"}, {"color": "#fc8d59", "id": "Alexander Zverev", "label": "Alexander Zverev", "shape": "dot", "size": 10.986122886681098, "title": "Player: Alexander Zverev | Country: GER\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Carlos Alcaraz", "label": "Carlos Alcaraz", "shape": "dot", "size": 10.986122886681098, "title": "Player: Carlos Alcaraz | Country: ESP\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 100.00% (1 wins)\n"}, {"color": "#fc8d59", "id": "Casper Ruud", "label": "Casper Ruud", "shape": "dot", "size": 10.986122886681098, "title": "Player: Casper Ruud | Country: NOR\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Us Open: 0.00% (0 wins)\n"}]);
+                  edges = new vis.DataSet([{"color": "#add8e6", "from": "Jimmy Connors", "hoverWidth": 1.5, "title": "2 matches between Jimmy Connors and Ivan Lendl\nMatches by Tournament:\nUS Open: Total Matches 2, Jimmy Connors Wins: 2, Ivan Lendl Wins: 0\n", "to": "Ivan Lendl", "width": 2.1972245773362196}, {"color": "#add8e6", "from": "Ivan Lendl", "hoverWidth": 1.5, "title": "2 matches between Ivan Lendl and John McEnroe\nMatches by Tournament:\nUS Open: Total Matches 2, Ivan Lendl Wins: 1, John McEnroe Wins: 1\n", "to": "John McEnroe", "width": 2.1972245773362196}, {"color": "#add8e6", "from": "Ivan Lendl", "hoverWidth": 1.5, "title": "1 matches between Ivan Lendl and Miloslav Mecir\nMatches by Tournament:\nUS Open: Total Matches 1, Ivan Lendl Wins: 1, Miloslav Mecir Wins: 0\n", "to": "Miloslav Mecir", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Ivan Lendl", "hoverWidth": 1.5, "title": "2 matches between Ivan Lendl and Mats Wilander\nMatches by Tournament:\nUS Open: Total Matches 2, Ivan Lendl Wins: 1, Mats Wilander Wins: 1\n", "to": "Mats Wilander", "width": 2.1972245773362196}, {"color": "#add8e6", "from": "Ivan Lendl", "hoverWidth": 1.5, "title": "1 matches between Ivan Lendl and Boris Becker\nMatches by Tournament:\nUS Open: Total Matches 1, Ivan Lendl Wins: 0, Boris Becker Wins: 1\n", "to": "Boris Becker", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Pete Sampras", "hoverWidth": 1.5, "title": "3 matches between Pete Sampras and Andre Agassi\nMatches by Tournament:\nUS Open: Total Matches 3, Pete Sampras Wins: 3, Andre Agassi Wins: 0\n", "to": "Andre Agassi", "width": 2.772588722239781}, {"color": "#add8e6", "from": "Pete Sampras", "hoverWidth": 1.5, "title": "1 matches between Pete Sampras and Stefan Edberg\nMatches by Tournament:\nUS Open: Total Matches 1, Pete Sampras Wins: 0, Stefan Edberg Wins: 1\n", "to": "Stefan Edberg", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Pete Sampras", "hoverWidth": 1.5, "title": "1 matches between Pete Sampras and Cedric Pioline\nMatches by Tournament:\nUS Open: Total Matches 1, Pete Sampras Wins: 1, Cedric Pioline Wins: 0\n", "to": "Cedric Pioline", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Pete Sampras", "hoverWidth": 1.5, "title": "1 matches between Pete Sampras and Michael Chang\nMatches by Tournament:\nUS Open: Total Matches 1, Pete Sampras Wins: 1, Michael Chang Wins: 0\n", "to": "Michael Chang", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Pete Sampras", "hoverWidth": 1.5, "title": "1 matches between Pete Sampras and Marat Safin\nMatches by Tournament:\nUS Open: Total Matches 1, Pete Sampras Wins: 0, Marat Safin Wins: 1\n", "to": "Marat Safin", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Pete Sampras", "hoverWidth": 1.5, "title": "1 matches between Pete Sampras and Lleyton Hewitt\nMatches by Tournament:\nUS Open: Total Matches 1, Pete Sampras Wins: 0, Lleyton Hewitt Wins: 1\n", "to": "Lleyton Hewitt", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Andre Agassi", "hoverWidth": 1.5, "title": "1 matches between Andre Agassi and Michael Stich\nMatches by Tournament:\nUS Open: Total Matches 1, Andre Agassi Wins: 1, Michael Stich Wins: 0\n", "to": "Michael Stich", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Andre Agassi", "hoverWidth": 1.5, "title": "1 matches between Andre Agassi and Todd Martin\nMatches by Tournament:\nUS Open: Total Matches 1, Andre Agassi Wins: 1, Todd Martin Wins: 0\n", "to": "Todd Martin", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Andre Agassi", "hoverWidth": 1.5, "title": "1 matches between Andre Agassi and Roger Federer\nMatches by Tournament:\nUS Open: Total Matches 1, Andre Agassi Wins: 0, Roger Federer Wins: 1\n", "to": "Roger Federer", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Stefan Edberg", "hoverWidth": 1.5, "title": "1 matches between Stefan Edberg and Jim Courier\nMatches by Tournament:\nUS Open: Total Matches 1, Stefan Edberg Wins: 1, Jim Courier Wins: 0\n", "to": "Jim Courier", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Patrick Rafter", "hoverWidth": 1.5, "title": "1 matches between Patrick Rafter and Greg Rusedski\nMatches by Tournament:\nUS Open: Total Matches 1, Patrick Rafter Wins: 1, Greg Rusedski Wins: 0\n", "to": "Greg Rusedski", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Patrick Rafter", "hoverWidth": 1.5, "title": "1 matches between Patrick Rafter and Mark Philippoussis\nMatches by Tournament:\nUS Open: Total Matches 1, Patrick Rafter Wins: 1, Mark Philippoussis Wins: 0\n", "to": "Mark Philippoussis", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Lleyton Hewitt", "hoverWidth": 1.5, "title": "1 matches between Lleyton Hewitt and Roger Federer\nMatches by Tournament:\nUS Open: Total Matches 1, Lleyton Hewitt Wins: 0, Roger Federer Wins: 1\n", "to": "Roger Federer", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Andy Roddick", "hoverWidth": 1.5, "title": "1 matches between Andy Roddick and Juan Carlos Ferrero\nMatches by Tournament:\nUS Open: Total Matches 1, Andy Roddick Wins: 1, Juan Carlos Ferrero Wins: 0\n", "to": "Juan Carlos Ferrero", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Andy Roddick", "hoverWidth": 1.5, "title": "1 matches between Andy Roddick and Roger Federer\nMatches by Tournament:\nUS Open: Total Matches 1, Andy Roddick Wins: 0, Roger Federer Wins: 1\n", "to": "Roger Federer", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Roger Federer", "hoverWidth": 1.5, "title": "2 matches between Roger Federer and Novak Djokovic\nMatches by Tournament:\nUS Open: Total Matches 2, Roger Federer Wins: 1, Novak Djokovic Wins: 1\n", "to": "Novak Djokovic", "width": 2.1972245773362196}, {"color": "#add8e6", "from": "Roger Federer", "hoverWidth": 1.5, "title": "1 matches between Roger Federer and Andy Murray\nMatches by Tournament:\nUS Open: Total Matches 1, Roger Federer Wins: 1, Andy Murray Wins: 0\n", "to": "Andy Murray", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Roger Federer", "hoverWidth": 1.5, "title": "1 matches between Roger Federer and Juan Martin del Potro\nMatches by Tournament:\nUS Open: Total Matches 1, Roger Federer Wins: 0, Juan Martin del Potro Wins: 1\n", "to": "Juan Martin del Potro", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Novak Djokovic", "hoverWidth": 1.5, "title": "3 matches between Novak Djokovic and Rafael Nadal\nMatches by Tournament:\nUS Open: Total Matches 3, Novak Djokovic Wins: 1, Rafael Nadal Wins: 2\n", "to": "Rafael Nadal", "width": 2.772588722239781}, {"color": "#add8e6", "from": "Novak Djokovic", "hoverWidth": 1.5, "title": "1 matches between Novak Djokovic and Andy Murray\nMatches by Tournament:\nUS Open: Total Matches 1, Novak Djokovic Wins: 0, Andy Murray Wins: 1\n", "to": "Andy Murray", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Novak Djokovic", "hoverWidth": 1.5, "title": "1 matches between Novak Djokovic and Stan Wawrinka\nMatches by Tournament:\nUS Open: Total Matches 1, Novak Djokovic Wins: 0, Stan Wawrinka Wins: 1\n", "to": "Stan Wawrinka", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Novak Djokovic", "hoverWidth": 1.5, "title": "1 matches between Novak Djokovic and Juan Martin del Potro\nMatches by Tournament:\nUS Open: Total Matches 1, Novak Djokovic Wins: 1, Juan Martin del Potro Wins: 0\n", "to": "Juan Martin del Potro", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Novak Djokovic", "hoverWidth": 1.5, "title": "2 matches between Novak Djokovic and Daniil Medvedev\nMatches by Tournament:\nUS Open: Total Matches 2, Novak Djokovic Wins: 1, Daniil Medvedev Wins: 1\n", "to": "Daniil Medvedev", "width": 2.1972245773362196}, {"color": "#add8e6", "from": "Rafael Nadal", "hoverWidth": 1.5, "title": "1 matches between Rafael Nadal and Kevin Anderson\nMatches by Tournament:\nUS Open: Total Matches 1, Rafael Nadal Wins: 1, Kevin Anderson Wins: 0\n", "to": "Kevin Anderson", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Rafael Nadal", "hoverWidth": 1.5, "title": "1 matches between Rafael Nadal and Daniil Medvedev\nMatches by Tournament:\nUS Open: Total Matches 1, Rafael Nadal Wins: 1, Daniil Medvedev Wins: 0\n", "to": "Daniil Medvedev", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Marin Cilic", "hoverWidth": 1.5, "title": "1 matches between Marin Cilic and Kei Nishikori\nMatches by Tournament:\nUS Open: Total Matches 1, Marin Cilic Wins: 1, Kei Nishikori Wins: 0\n", "to": "Kei Nishikori", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Dominic Thiem", "hoverWidth": 1.5, "title": "1 matches between Dominic Thiem and Alexander Zverev\nMatches by Tournament:\nUS Open: Total Matches 1, Dominic Thiem Wins: 1, Alexander Zverev Wins: 0\n", "to": "Alexander Zverev", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Carlos Alcaraz", "hoverWidth": 1.5, "title": "1 matches between Carlos Alcaraz and Casper Ruud\nMatches by Tournament:\nUS Open: Total Matches 1, Carlos Alcaraz Wins: 1, Casper Ruud Wins: 0\n", "to": "Casper Ruud", "width": 1.3862943611198906}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"edges": {"color": {"inherit": false, "color": "#848484", "highlight": "#ff7f0e", "hover": "#f7b6d2"}, "width": 1, "hoverWidth": 2.5, "highlightWidth": 2.5, "smooth": {"type": "continuous"}}, "interaction": {"hover": true}, "physics": {"barnesHut": {"gravitationalConstant": -2500, "centralGravity": 0.8, "springLength": 150, "springConstant": 0.02, "damping": 0.1, "avoidOverlap": 0.4}, "minVelocity": 1, "maxVelocity": 10, "solver": "barnesHut"}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

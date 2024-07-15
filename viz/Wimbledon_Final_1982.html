@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1200px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#33a02c", "id": "Jimmy Connors", "label": "Jimmy Connors", "shape": "dot", "size": 13.862943611198906, "title": "Player: Jimmy Connors | Country: USA\nTotal Matches Played: 2 | Total Wins: 1 | Win Percentage: 50.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 50.00% (1 wins)\n"}, {"color": "#33a02c", "id": "John McEnroe", "label": "John McEnroe", "shape": "dot", "size": 16.094379124341003, "title": "Player: John McEnroe | Country: USA\nTotal Matches Played: 3 | Total Wins: 2 | Win Percentage: 66.67%\nUnique Opponents: 2\nGS Win Percentages: Wimbledon: 66.67% (2 wins)\n"}, {"color": "#fc8d59", "id": "Chris Lewis", "label": "Chris Lewis", "shape": "dot", "size": 10.986122886681098, "title": "Player: Chris Lewis | Country: NZL\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#008000", "id": "Boris Becker", "label": "Boris Becker", "shape": "dot", "size": 21.972245773362197, "title": "Player: Boris Becker | Country: GER\nTotal Matches Played: 7 | Total Wins: 3 | Win Percentage: 42.86%\nUnique Opponents: 5\nGS Win Percentages: Wimbledon: 42.86% (3 wins)\n"}, {"color": "#fc8d59", "id": "Kevin Curren", "label": "Kevin Curren", "shape": "dot", "size": 10.986122886681098, "title": "Player: Kevin Curren | Country: USA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Ivan Lendl", "label": "Ivan Lendl", "shape": "dot", "size": 13.862943611198906, "title": "Player: Ivan Lendl | Country: USA\nTotal Matches Played: 2 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 2\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Pat Cash", "label": "Pat Cash", "shape": "dot", "size": 10.986122886681098, "title": "Player: Pat Cash | Country: AUS\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 100.00% (1 wins)\n"}, {"color": "#33a02c", "id": "Stefan Edberg", "label": "Stefan Edberg", "shape": "dot", "size": 16.094379124341003, "title": "Player: Stefan Edberg | Country: SWE\nTotal Matches Played: 3 | Total Wins: 2 | Win Percentage: 66.67%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 66.67% (2 wins)\n"}, {"color": "#33a02c", "id": "Michael Stich", "label": "Michael Stich", "shape": "dot", "size": 10.986122886681098, "title": "Player: Michael Stich | Country: GER\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 100.00% (1 wins)\n"}, {"color": "#33a02c", "id": "Andre Agassi", "label": "Andre Agassi", "shape": "dot", "size": 13.862943611198906, "title": "Player: Andre Agassi | Country: USA\nTotal Matches Played: 2 | Total Wins: 1 | Win Percentage: 50.00%\nUnique Opponents: 2\nGS Win Percentages: Wimbledon: 50.00% (1 wins)\n"}, {"color": "#33a02c", "id": "Goran Ivanisevic", "label": "Goran Ivanisevic", "shape": "dot", "size": 17.91759469228055, "title": "Player: Goran Ivanisevic | Country: CRO\nTotal Matches Played: 4 | Total Wins: 1 | Win Percentage: 25.00%\nUnique Opponents: 3\nGS Win Percentages: Wimbledon: 25.00% (1 wins)\n"}, {"color": "#008000", "id": "Pete Sampras", "label": "Pete Sampras", "shape": "dot", "size": 21.972245773362197, "title": "Player: Pete Sampras | Country: USA\nTotal Matches Played: 7 | Total Wins: 7 | Win Percentage: 100.00%\nUnique Opponents: 6\nGS Win Percentages: Wimbledon: 100.00% (7 wins)\n"}, {"color": "#fc8d59", "id": "Jim Courier", "label": "Jim Courier", "shape": "dot", "size": 10.986122886681098, "title": "Player: Jim Courier | Country: USA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Richard Krajicek", "label": "Richard Krajicek", "shape": "dot", "size": 10.986122886681098, "title": "Player: Richard Krajicek | Country: NED\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 100.00% (1 wins)\n"}, {"color": "#fc8d59", "id": "Malivai Washington", "label": "Malivai Washington", "shape": "dot", "size": 10.986122886681098, "title": "Player: Malivai Washington | Country: USA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Cedric Pioline", "label": "Cedric Pioline", "shape": "dot", "size": 10.986122886681098, "title": "Player: Cedric Pioline | Country: FRA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Patrick Rafter", "label": "Patrick Rafter", "shape": "dot", "size": 13.862943611198906, "title": "Player: Patrick Rafter | Country: AUS\nTotal Matches Played: 2 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 2\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Lleyton Hewitt", "label": "Lleyton Hewitt", "shape": "dot", "size": 10.986122886681098, "title": "Player: Lleyton Hewitt | Country: AUS\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 100.00% (1 wins)\n"}, {"color": "#fc8d59", "id": "David Nalbandian", "label": "David Nalbandian", "shape": "dot", "size": 10.986122886681098, "title": "Player: David Nalbandian | Country: ARG\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#008000", "id": "Roger Federer", "label": "Roger Federer", "shape": "dot", "size": 26.390573296152585, "title": "Player: Roger Federer | Country: SUI\nTotal Matches Played: 12 | Total Wins: 8 | Win Percentage: 66.67%\nUnique Opponents: 6\nGS Win Percentages: Wimbledon: 66.67% (8 wins)\n"}, {"color": "#fc8d59", "id": "Mark Philippoussis", "label": "Mark Philippoussis", "shape": "dot", "size": 10.986122886681098, "title": "Player: Mark Philippoussis | Country: AUS\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Andy Roddick", "label": "Andy Roddick", "shape": "dot", "size": 16.094379124341003, "title": "Player: Andy Roddick | Country: USA\nTotal Matches Played: 3 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Rafael Nadal", "label": "Rafael Nadal", "shape": "dot", "size": 19.45910149055313, "title": "Player: Rafael Nadal | Country: ESP\nTotal Matches Played: 5 | Total Wins: 2 | Win Percentage: 40.00%\nUnique Opponents: 3\nGS Win Percentages: Wimbledon: 40.00% (2 wins)\n"}, {"color": "#fc8d59", "id": "Tomas Berdych", "label": "Tomas Berdych", "shape": "dot", "size": 10.986122886681098, "title": "Player: Tomas Berdych | Country: CZE\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#008000", "id": "Novak Djokovic", "label": "Novak Djokovic", "shape": "dot", "size": 23.978952727983707, "title": "Player: Novak Djokovic | Country: SRB\nTotal Matches Played: 9 | Total Wins: 7 | Win Percentage: 77.78%\nUnique Opponents: 7\nGS Win Percentages: Wimbledon: 77.78% (7 wins)\n"}, {"color": "#33a02c", "id": "Andy Murray", "label": "Andy Murray", "shape": "dot", "size": 16.094379124341003, "title": "Player: Andy Murray | Country: GBR\nTotal Matches Played: 3 | Total Wins: 2 | Win Percentage: 66.67%\nUnique Opponents: 3\nGS Win Percentages: Wimbledon: 66.67% (2 wins)\n"}, {"color": "#fc8d59", "id": "Milos Raonic", "label": "Milos Raonic", "shape": "dot", "size": 10.986122886681098, "title": "Player: Milos Raonic | Country: CAN\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Marin Cilic", "label": "Marin Cilic", "shape": "dot", "size": 10.986122886681098, "title": "Player: Marin Cilic | Country: CRO\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Kevin Anderson", "label": "Kevin Anderson", "shape": "dot", "size": 10.986122886681098, "title": "Player: Kevin Anderson | Country: RSA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Matteo Berrettini", "label": "Matteo Berrettini", "shape": "dot", "size": 10.986122886681098, "title": "Player: Matteo Berrettini | Country: ITA\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#fc8d59", "id": "Nick Kyrgios", "label": "Nick Kyrgios", "shape": "dot", "size": 10.986122886681098, "title": "Player: Nick Kyrgios | Country: AUS\nTotal Matches Played: 1 | Total Wins: 0 | Win Percentage: 0.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 0.00% (0 wins)\n"}, {"color": "#33a02c", "id": "Carlos Alcaraz", "label": "Carlos Alcaraz", "shape": "dot", "size": 10.986122886681098, "title": "Player: Carlos Alcaraz | Country: ESP\nTotal Matches Played: 1 | Total Wins: 1 | Win Percentage: 100.00%\nUnique Opponents: 1\nGS Win Percentages: Wimbledon: 100.00% (1 wins)\n"}]);
+                  edges = new vis.DataSet([{"color": "#add8e6", "from": "Jimmy Connors", "hoverWidth": 1.5, "title": "2 matches between Jimmy Connors and John McEnroe\nMatches by Tournament:\nWimbledon: Total Matches 2, Jimmy Connors Wins: 1, John McEnroe Wins: 1\n", "to": "John McEnroe", "width": 2.1972245773362196}, {"color": "#add8e6", "from": "John McEnroe", "hoverWidth": 1.5, "title": "1 matches between John McEnroe and Chris Lewis\nMatches by Tournament:\nWimbledon: Total Matches 1, John McEnroe Wins: 1, Chris Lewis Wins: 0\n", "to": "Chris Lewis", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Boris Becker", "hoverWidth": 1.5, "title": "1 matches between Boris Becker and Kevin Curren\nMatches by Tournament:\nWimbledon: Total Matches 1, Boris Becker Wins: 1, Kevin Curren Wins: 0\n", "to": "Kevin Curren", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Boris Becker", "hoverWidth": 1.5, "title": "1 matches between Boris Becker and Ivan Lendl\nMatches by Tournament:\nWimbledon: Total Matches 1, Boris Becker Wins: 1, Ivan Lendl Wins: 0\n", "to": "Ivan Lendl", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Boris Becker", "hoverWidth": 1.5, "title": "3 matches between Boris Becker and Stefan Edberg\nMatches by Tournament:\nWimbledon: Total Matches 3, Boris Becker Wins: 1, Stefan Edberg Wins: 2\n", "to": "Stefan Edberg", "width": 2.772588722239781}, {"color": "#add8e6", "from": "Boris Becker", "hoverWidth": 1.5, "title": "1 matches between Boris Becker and Michael Stich\nMatches by Tournament:\nWimbledon: Total Matches 1, Boris Becker Wins: 0, Michael Stich Wins: 1\n", "to": "Michael Stich", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Boris Becker", "hoverWidth": 1.5, "title": "1 matches between Boris Becker and Pete Sampras\nMatches by Tournament:\nWimbledon: Total Matches 1, Boris Becker Wins: 0, Pete Sampras Wins: 1\n", "to": "Pete Sampras", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Ivan Lendl", "hoverWidth": 1.5, "title": "1 matches between Ivan Lendl and Pat Cash\nMatches by Tournament:\nWimbledon: Total Matches 1, Ivan Lendl Wins: 0, Pat Cash Wins: 1\n", "to": "Pat Cash", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Andre Agassi", "hoverWidth": 1.5, "title": "1 matches between Andre Agassi and Goran Ivanisevic\nMatches by Tournament:\nWimbledon: Total Matches 1, Andre Agassi Wins: 1, Goran Ivanisevic Wins: 0\n", "to": "Goran Ivanisevic", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Andre Agassi", "hoverWidth": 1.5, "title": "1 matches between Andre Agassi and Pete Sampras\nMatches by Tournament:\nWimbledon: Total Matches 1, Andre Agassi Wins: 0, Pete Sampras Wins: 1\n", "to": "Pete Sampras", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Goran Ivanisevic", "hoverWidth": 1.5, "title": "2 matches between Goran Ivanisevic and Pete Sampras\nMatches by Tournament:\nWimbledon: Total Matches 2, Goran Ivanisevic Wins: 0, Pete Sampras Wins: 2\n", "to": "Pete Sampras", "width": 2.1972245773362196}, {"color": "#add8e6", "from": "Goran Ivanisevic", "hoverWidth": 1.5, "title": "1 matches between Goran Ivanisevic and Patrick Rafter\nMatches by Tournament:\nWimbledon: Total Matches 1, Goran Ivanisevic Wins: 1, Patrick Rafter Wins: 0\n", "to": "Patrick Rafter", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Pete Sampras", "hoverWidth": 1.5, "title": "1 matches between Pete Sampras and Jim Courier\nMatches by Tournament:\nWimbledon: Total Matches 1, Pete Sampras Wins: 1, Jim Courier Wins: 0\n", "to": "Jim Courier", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Pete Sampras", "hoverWidth": 1.5, "title": "1 matches between Pete Sampras and Cedric Pioline\nMatches by Tournament:\nWimbledon: Total Matches 1, Pete Sampras Wins: 1, Cedric Pioline Wins: 0\n", "to": "Cedric Pioline", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Pete Sampras", "hoverWidth": 1.5, "title": "1 matches between Pete Sampras and Patrick Rafter\nMatches by Tournament:\nWimbledon: Total Matches 1, Pete Sampras Wins: 1, Patrick Rafter Wins: 0\n", "to": "Patrick Rafter", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Richard Krajicek", "hoverWidth": 1.5, "title": "1 matches between Richard Krajicek and Malivai Washington\nMatches by Tournament:\nWimbledon: Total Matches 1, Richard Krajicek Wins: 1, Malivai Washington Wins: 0\n", "to": "Malivai Washington", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Lleyton Hewitt", "hoverWidth": 1.5, "title": "1 matches between Lleyton Hewitt and David Nalbandian\nMatches by Tournament:\nWimbledon: Total Matches 1, Lleyton Hewitt Wins: 1, David Nalbandian Wins: 0\n", "to": "David Nalbandian", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Roger Federer", "hoverWidth": 1.5, "title": "1 matches between Roger Federer and Mark Philippoussis\nMatches by Tournament:\nWimbledon: Total Matches 1, Roger Federer Wins: 1, Mark Philippoussis Wins: 0\n", "to": "Mark Philippoussis", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Roger Federer", "hoverWidth": 1.5, "title": "3 matches between Roger Federer and Andy Roddick\nMatches by Tournament:\nWimbledon: Total Matches 3, Roger Federer Wins: 3, Andy Roddick Wins: 0\n", "to": "Andy Roddick", "width": 2.772588722239781}, {"color": "#add8e6", "from": "Roger Federer", "hoverWidth": 1.5, "title": "3 matches between Roger Federer and Rafael Nadal\nMatches by Tournament:\nWimbledon: Total Matches 3, Roger Federer Wins: 2, Rafael Nadal Wins: 1\n", "to": "Rafael Nadal", "width": 2.772588722239781}, {"color": "#add8e6", "from": "Roger Federer", "hoverWidth": 1.5, "title": "1 matches between Roger Federer and Andy Murray\nMatches by Tournament:\nWimbledon: Total Matches 1, Roger Federer Wins: 1, Andy Murray Wins: 0\n", "to": "Andy Murray", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Roger Federer", "hoverWidth": 1.5, "title": "3 matches between Roger Federer and Novak Djokovic\nMatches by Tournament:\nWimbledon: Total Matches 3, Roger Federer Wins: 0, Novak Djokovic Wins: 3\n", "to": "Novak Djokovic", "width": 2.772588722239781}, {"color": "#add8e6", "from": "Roger Federer", "hoverWidth": 1.5, "title": "1 matches between Roger Federer and Marin Cilic\nMatches by Tournament:\nWimbledon: Total Matches 1, Roger Federer Wins: 1, Marin Cilic Wins: 0\n", "to": "Marin Cilic", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Rafael Nadal", "hoverWidth": 1.5, "title": "1 matches between Rafael Nadal and Tomas Berdych\nMatches by Tournament:\nWimbledon: Total Matches 1, Rafael Nadal Wins: 1, Tomas Berdych Wins: 0\n", "to": "Tomas Berdych", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Rafael Nadal", "hoverWidth": 1.5, "title": "1 matches between Rafael Nadal and Novak Djokovic\nMatches by Tournament:\nWimbledon: Total Matches 1, Rafael Nadal Wins: 0, Novak Djokovic Wins: 1\n", "to": "Novak Djokovic", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Novak Djokovic", "hoverWidth": 1.5, "title": "1 matches between Novak Djokovic and Andy Murray\nMatches by Tournament:\nWimbledon: Total Matches 1, Novak Djokovic Wins: 0, Andy Murray Wins: 1\n", "to": "Andy Murray", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Novak Djokovic", "hoverWidth": 1.5, "title": "1 matches between Novak Djokovic and Kevin Anderson\nMatches by Tournament:\nWimbledon: Total Matches 1, Novak Djokovic Wins: 1, Kevin Anderson Wins: 0\n", "to": "Kevin Anderson", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Novak Djokovic", "hoverWidth": 1.5, "title": "1 matches between Novak Djokovic and Matteo Berrettini\nMatches by Tournament:\nWimbledon: Total Matches 1, Novak Djokovic Wins: 1, Matteo Berrettini Wins: 0\n", "to": "Matteo Berrettini", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Novak Djokovic", "hoverWidth": 1.5, "title": "1 matches between Novak Djokovic and Nick Kyrgios\nMatches by Tournament:\nWimbledon: Total Matches 1, Novak Djokovic Wins: 1, Nick Kyrgios Wins: 0\n", "to": "Nick Kyrgios", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Novak Djokovic", "hoverWidth": 1.5, "title": "1 matches between Novak Djokovic and Carlos Alcaraz\nMatches by Tournament:\nWimbledon: Total Matches 1, Novak Djokovic Wins: 0, Carlos Alcaraz Wins: 1\n", "to": "Carlos Alcaraz", "width": 1.3862943611198906}, {"color": "#add8e6", "from": "Andy Murray", "hoverWidth": 1.5, "title": "1 matches between Andy Murray and Milos Raonic\nMatches by Tournament:\nWimbledon: Total Matches 1, Andy Murray Wins: 1, Milos Raonic Wins: 0\n", "to": "Milos Raonic", "width": 1.3862943611198906}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"edges": {"color": {"inherit": false, "color": "#848484", "highlight": "#ff7f0e", "hover": "#f7b6d2"}, "width": 1, "hoverWidth": 2.5, "highlightWidth": 2.5, "smooth": {"type": "continuous"}}, "interaction": {"hover": true}, "physics": {"barnesHut": {"gravitationalConstant": -2500, "centralGravity": 0.8, "springLength": 150, "springConstant": 0.02, "damping": 0.1, "avoidOverlap": 0.4}, "minVelocity": 1, "maxVelocity": 10, "solver": "barnesHut"}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
