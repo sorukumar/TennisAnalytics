@@ -1,101 +1,129 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="home.css"/>
+    <link rel="stylesheet" type="text/css" href="home.css">
     <title>Tennis Data, Analysis and Visualization</title>
     <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-
-    h2 {
-      margin-bottom: 10px;
-    }
-
-    table {
-      width: 80%;
-      margin: 40px auto; /* Increased gap before and after the table */
-      border-collapse: collapse;
-    }
-
-    th, td {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-
-    th {
-      background-color: #f2f2f2;
-    }
-
-    p {
-      text-align: left;
-      margin: 20px auto;
-      max-width: 800px;
-    }
-
-    ol {
-      text-align: left;
-      margin: 20px auto;
-      max-width: 800px;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-  .container-body {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-  </style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('image/claytennis.jpeg') no-repeat center center fixed; /* Replace with your image URL */
+            background-size: cover;
+            color: black;
+        }
+        .navbar {
+            background-color: rgba(0, 100, 0, 0.8);
+            color: white;
+        }
+        .navbar-brand {
+            color: white;
+            font-weight: bold;
+        }
+        .container-body {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ECF8EC; 
+            border-radius: 10px;
+        }
+        .card {
+            margin-bottom: 20px;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #D0E8D0; 
+            color: black;
+        }
+        .card-title {
+            color: #006400; /* Dark green color */
+            font-weight: bold;
+        }
+        .card-text {
+            color: black;
+        }
+        .btn-primary {
+            background-color: #006400;
+            border: none;
+        }
+        h1, h5 {
+            font-weight: bold;
+        }
+        @media (min-width: 576px) {
+            .card-group .card {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
 </head>
-
 <body>
-  <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <h1 class="navbar-brand mb-0">
-                Tennis Data, Analysis and Visualization
-            </h1>
+            <h1 class="navbar-brand mb-0">Tennis Data, Analysis and Visualization</h1>
         </div>
     </nav>
     <div class="container-body">
-  <p>Tennis Data, Analysis and Visualization by tennis lover and for tennis lovers.
-  <table>
-    <tr>
-      <th>Category</th>
-      <th>What this visualization or analsyis is?</th>
-      <th>Link</th>
-      
-    </tr>
-    <tr>
-      <td>Tennis playter visualized as network graph.</td>
-      <td> Players with more than 800 Matches since 2000. Players with ~200 matchs are also there if they have above 60% win rate (top players)</td>
-      <td><a href="viz/tennis_network_200Match.html" target="_blank">Tennis players Visualized as Network graph</a></td>
-    </tr>
-    <tr>
-      <td>Visualization</td>
-      <td> All players who have played more than 200 ATP matches since Year 2000. Hover over players to see the basic stats. Hover over edges to see the basic stats on rivalries.</td>
-      <td><a href="viz/tennisPlayerasGraph_2000y_200m.html" target="_blank">Tennis players Visualized as Network graph</a></td>
-    </tr>
-
-       <tr>
-      <td>Visualization</td>
-      <td>ATP Performance of All Indian Players Since 1990</td>
-      <td><a href="viz/IndianTennisPlayers90-24.html" target="_blank">Indian ATP Players</a></td>
-    </tr>
-    
-
-  </table>
-
-  
-</div>
+        <p>Tennis Data, Analysis and Visualization by tennis lover and for tennis lovers.</p>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Tennis Players Visualized as Network Graph</h5>
+                        <p class="card-text">Players with more than 800 Matches since 2000. Players with ~200 matches are also there if they have above 60% win rate (top players).</p>
+                        <a href="viz/tennis_network_200Match.html" class="btn btn-primary" target="_blank">View Visualization</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Visualization</h5>
+                        <p class="card-text">All players who have played more than 200 ATP matches since Year 2000. Hover over players to see the basic stats. Hover over edges to see the basic stats on rivalries.</p>
+                        <a href="viz/tennisPlayerasGraph_2000y_200m.html" class="btn btn-primary" target="_blank">View Visualization</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Visualization</h5>
+                        <p class="card-text">ATP Performance of All Indian Players Since 1990</p>
+                        <a href="viz/IndianTennisPlayers90-24.html" class="btn btn-primary" target="_blank">View Visualization</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">GS Final since 2023</h5>
+                        <p class="card-text">Grand Slam Finals Visualization.</p>
+                        <a href="viz/Grand_Slam_Finals_2003.html" class="btn btn-primary" target="_blank">View Future Work</a>
+                    </div>
+                </div>
+            </div>
+               <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Australian Open since 1983</h5>
+                        <p class="card-text">Grand Slam Finals Visualization.</p>
+                        <a href="viz/Australian_Open_Final_1982.html" class="btn btn-primary" target="_blank">View Future Work</a>
+                    </div>
+                </div>
+            </div>
+               <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Wimbeldon Open since 1983</h5>
+                        <p class="card-text">Grand Slam Finals Visualization.</p>
+                        <a href="viz/French_Open_Final_1982" class="btn btn-primary" target="_blank">View Future Work</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 </body>
-
 </html>
