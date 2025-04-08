@@ -1,138 +1,428 @@
-/* Tennis Analytics Main CSS */
+/* Tennis Analytics Main CSS - Refined Open Source Project Design */
 
-/* Base Styles */
+/* Base Styles & Typography */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #1e5631;
+  --secondary-color: #8fb996;
+  --accent-color: #f9c74f;
+  --text-dark: #2d3142;
+  --text-light: #f8f9fa;
+  --background-light: #f8f9fa;
+  --card-bg: #ffffff;
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --transition-standard: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background: url('image/claytennis.jpeg') no-repeat center center fixed;
-    background-size: cover;
-    color: black;
-    margin: 0;
-    padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Compact Header */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+              url('image/claytennis.jpeg') no-repeat center center;
+  background-size: cover;
+  padding: 40px 0;
+  color: white;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+}
+
+.header p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: var(--transition-standard);
+}
+
+.github-link i {
+  margin-right: 8px;
+}
+
+.github-link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Navigation */
 .navbar {
-    background-color: rgba(0, 100, 0, 0.8);
-    color: white;
-    padding: 10px 0;
+  background-color: var(--primary-color);
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-soft);
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .navbar-brand {
-    color: white;
-    font-weight: bold;
-    margin: 10px auto;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
 }
 
 .nav-link {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  opacity: 0.9;
+  transition: var(--transition-standard);
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+  opacity: 1;
+  color: var(--accent-color);
 }
 
-/* Main Container */
+/* Main Content */
+.main-content {
+  padding: 40px 0 60px;
+}
+
 .container-body {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #ECF8EC; 
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* Cards */
+.intro-text {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+}
+
+.section-description {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Cards Grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
 .card {
-    margin-bottom: 20px;
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #D0E8D0; 
-    color: black;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition-standard);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0,0,0,0.05);
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-medium);
+}
+
+.card-icon {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(30, 86, 49, 0.1);
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+
+.card-body {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-title {
-    color: #006400;
-    font-weight: bold;
-    margin-bottom: 15px;
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  font-weight: 600;
 }
 
 .card-text {
-    color: black;
+  color: #555;
+  margin-bottom: 15px;
+  flex-grow: 1;
+  font-size: 0.95rem;
+}
+
+.card-footer {
+  padding: 0 20px 20px 20px;
+  background: none;
+  border: none;
 }
 
 /* Buttons */
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  transition: var(--transition-standard);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
 .btn-primary {
-    background-color: #006400;
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 4px;
-    text-decoration: none;
-    display: inline-block;
-    transition: background-color 0.3s ease;
+  background-color: var(--primary-color);
+  color: white;
+  border: 1px solid var(--primary-color);
 }
 
 .btn-primary:hover {
-    background-color: #004d00;
-    text-decoration: none;
+  background-color: #164525;
 }
 
-.btn-primary.btn-sm {
-    padding: 5px 10px;
-    font-size: 0.875rem;
+.btn-outline {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
-/* Links inside buttons */
-.btn-primary a {
-    color: white;
-    text-decoration: none;
-    background: none;
-    outline: none;
+.btn-outline:hover {
+  background-color: rgba(30, 86, 49, 0.1);
 }
 
-.btn-primary a:hover {
-    color: white;
-    text-decoration: none;
-    background: none;
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 0.8rem;
 }
 
-/* Typography */
-h1, h5 {
-    font-weight: bold;
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
-/* List styles */
-ul {
-    padding-left: 0;
-    list-style-type: none;
+/* Project Info Section */
+.project-info {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+  margin-top: 30px;
 }
 
-li {
-    margin-bottom: 8px;
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
 }
 
-/* Responsive adjustments */
-@media (min-width: 576px) {
-    .card-group .card {
-        margin-bottom: 30px;
-    }
+.info-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
 }
 
+.info-icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.info-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 30px 0;
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-left {
+  opacity: 0.9;
+}
+
+.footer-right a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  opacity: 0.9;
+  transition: var(--transition-standard);
+}
+
+.footer-right a:hover {
+  opacity: 1;
+  color: var(--accent-color);
+}
+
+/* Responsive Adjustments */
 @media (max-width: 768px) {
-    .container-body {
-        margin: 20px auto;
-        padding: 15px;
-    }
+  .header h1 {
+    font-size: 2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+  
+  .nav-links {
+    gap: 15px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .footer-right {
+    margin-top: 10px;
+  }
+}
 
-    .navbar-brand {
-        font-size: 1.5rem;
-    }
+@media (max-width: 576px) {
+  .header h1 {
+    font-size: 1.7rem;
+  }
+  
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .btn-group {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .btn-group .btn {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+/* Tooltip for charts */
+#shared-tooltip {
+  position: absolute;
+  text-align: left;
+  padding: 8px 12px;
+  font: 12px sans-serif;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Chart containers */
+.chart-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: var(--shadow-soft);
+}
+
+.chart-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Axis labels and other chart elements */
+.axis-label {
+  font-size: 12px;
+  fill: #555;
 }

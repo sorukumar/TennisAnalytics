@@ -2,90 +2,186 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="tennis_analytics.css">
-    <title>Tennis Data, Analysis and Visualization</title>
+    <title>Tennis Analytics | Open Source Tennis Data Visualizations</title>
+    <link rel="stylesheet" href="tennis_analytics.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <h1 class="navbar-brand mb-0">Tennis Data, Analysis and Visualization</h1>
-            <div>
-                <a class="nav-link" href="https://github.com/sorukumar/TennisAnalytics/tree/main" target="_blank">Github</a>
+    <!-- Compact Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1>Tennis Analytics</h1>
+            <p>An open-source project exploring professional tennis through data visualizations</p>
+            <a href="https://github.com/sorukumar/TennisAnalytics" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+            </a>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container-nav">
+            <a href="index.html" class="navbar-brand">Tennis Analytics</a>
+            <div class="nav-links">
+                <a href="#visualizations" class="nav-link">Visualizations</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="https://github.com/sorukumar/TennisAnalytics/tree/main" class="nav-link">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
             </div>
         </div>
     </nav>
 
-    <div class="container-body">
-        <div class="row">
-            <!-- Stan Wawrinka Analysis Card -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Stan "The Man" Wawrinka: Late Bloomer Analysis</h5>
-                        <p class="card-text">Explore how Stan Wawrinka and other "late bloomers" defied the odds to win Grand Slams later in their careers.</p>
-                        <a href="StanTheMan/index.html" class="btn btn-primary" target="_blank">View Analysis</a>
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container-body">
+            <!-- Visualizations Section -->
+            <section id="visualizations">
+                <div class="intro-text">
+                    <h2 class="section-title">Interactive Tennis Visualizations</h2>
+                    <p class="section-description">Explore professional tennis data through these interactive visualizations</p>
+                </div>
+                
+                <div class="cards-grid">
+                    <!-- Card 1: Network Graph -->
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Tennis Players Network</h3>
+                            <p class="card-text">Network graph of all tennis players who have competed on the ATP tour since 2000.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="viz/tennis_network_200Match.html" class="btn btn-primary">800+ Matches</a>
+                            <a href="viz/tennisPlayerasGraph_2000y_200m.html" class="btn btn-outline">200+ Matches</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2: Indian Tennis Players -->
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Indian Tennis Players</h3>
+                            <p class="card-text">Visualization of ATP performance for all Indian tennis players since 1990, highlighting their achievements.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="viz/IndianTennisPlayers90-24.html" class="btn btn-primary">View Analysis</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3: Tennis is Brutal -->
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Tennis is Brutal</h3>
+                            <p class="card-text">Data that reveals just how brutal pro tennis really is—few make it, fewer last, and a tiny elite takes home most of the trophies</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="viz/brutaltennis.html" class="btn btn-primary">View Analysis</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 4: Grand Slam Finals -->
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Grand Slam Finals</h3>
+                            <p class="card-text">Interactive visualizations of Grand Slam finals with detailed match statistics and historical trends.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="viz/Grand_Slam_Finals_2003.html" class="btn btn-primary">All Grand Slams</a>
+                            <div class="btn-group" style="margin-top: 10px;">
+                                <a href="viz/Australian_Open_Final_1982.html" class="btn btn-outline btn-sm">Australian</a>
+                                <a href="viz/French_Open_Final_1982.html" class="btn btn-outline btn-sm">French</a>
+                                <a href="viz/Wimbledon_Final_1982.html" class="btn btn-outline btn-sm">Wimbledon</a>
+                                <a href="viz/US_Open_Final_1982.html" class="btn btn-outline btn-sm">US Open</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 5: Stan Wawrinka Analysis -->
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-user-clock"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Stan Wawrinka: Late Bloomer</h3>
+                            <p class="card-text">Analysis of Stan Wawrinka's journey to Grand Slam success later in his career compared to other champions.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="StanTheMan/index.html" class="btn btn-primary">View Analysis</a>
+                        </div>
                     </div>
                 </div>
+            </section>
+            
+            <!-- About Section -->
+            <section id="about" class="project-info">
+                <div class="container-body">
+                    <div class="intro-text">
+                        <h2 class="section-title">About This Project</h2>
+                        <p class="section-description">Tennis Analytics is an open-source hobby project focused on creating professional-quality data visualizations</p>
+                    </div>
+                    
+                    <div class="info-container">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3 class="info-title">Data Sources</h3>
+                            <p>
+                            All visualizations use publicly available tennis data from ATP, WTA, and Grand Slam tournaments, processed and cleaned for analysis. 
+                             <a href="https://github.com/JeffSackmann" target="_blank">Jeff Sackman's</a> data is used extensively.
+                            </p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="info-title">Technology</h3>
+                            <p>Built with Python, D3.js, JavaScript, HTML, and CSS. All code is open-source and available on GitHub for learning and collaboration.</p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h3 class="info-title">Contribute</h3>
+                            <p>Interested in contributing? Fork the repository, create a pull request, or suggest new visualization ideas through GitHub issues.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Tooltip div for charts -->
+            <div id="shared-tooltip"></div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>© 2025 Tennis Analytics | An open-source project</p>
             </div>
-
-            <!-- Tennis Network Graph Card -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Tennis Players Visualized as Network Graph</h5>
-                        <p class="card-text">It covers players who have played singles ATP since 2000. The first one includes players with 800 ATP matches or with higher than 60% win rate.</p>
-                        <ul>
-                            <li><a href="viz/tennis_network_200Match.html" class="btn btn-primary btn-sm mb-2" target="_blank">Players with more than 800 ATP matches</a></li>
-                            <li><a href="viz/tennisPlayerasGraph_2000y_200m.html" class="btn btn-primary btn-sm mb-2" target="_blank">Players with more than 200 ATP matches</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Indian Tennis Players Card -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Indian Tennis Players</h5>
-                        <p class="card-text">Explore the performance of Indian tennis players on the ATP tour since 1990.</p>
-                        <a href="viz/IndianTennisPlayers90-24.html" class="btn btn-primary" target="_blank">ATP Performance of All Indian Players Since 1990</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tennis is Brutal Card -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Tennis is a Brutal Game</h5>
-                        <p class="card-text">Visualizations showing the competitive nature and challenges of professional tennis.</p>
-                        <a href="viz/brutaltennis.html" class="btn btn-primary" target="_blank">Tennis is Brutal</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Grand Slam Finals Card -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Grand Slam Finals</h5>
-                        <p class="card-text">Interactive visualizations of Grand Slam finals across different tournaments.</p>
-                        <ul>
-                            <li><a href="viz/Grand_Slam_Finals_2003.html" class="btn btn-primary btn-sm mb-2" target="_blank">Grand Slam Finals since 2003</a></li>
-                            <li><a href="viz/Australian_Open_Final_1982.html" class="btn btn-primary btn-sm mb-2" target="_blank">Australian Open since 1983</a></li>
-                            <li><a href="viz/French_Open_Final_1982.html" class="btn btn-primary btn-sm mb-2" target="_blank">French Open since 1983</a></li>
-                            <li><a href="viz/US_Open_Final_1982.html" class="btn btn-primary btn-sm mb-2" target="_blank">US Open since 1983</a></li>
-                            <li><a href="viz/Wimbledon_Final_1982.html" class="btn btn-primary btn-sm mb-2" target="_blank">Wimbledon since 1983</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="footer-right">
+                <a href="https://github.com/sorukumar/TennisAnalytics">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="#visualizations">Visualizations</a>
+                <a href="#about">About</a>
             </div>
         </div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    </footer>
 </body>
 </html>
