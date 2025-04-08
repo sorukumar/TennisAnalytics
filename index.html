@@ -5,178 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="tennis_analytics.css">
     <title>Tennis Data, Analysis and Visualization</title>
-    <style>
-    body {
-        font-family: Arial, sans-serif;
-        background: url('image/claytennis.jpeg') no-repeat center center fixed;
-        background-size: cover;
-        color: black;
-    }
-        .navbar {
-            background-color: rgba(0, 100, 0, 0.8);
-            color: white;
-        }
-        .navbar-brand {
-            color: white;
-            font-weight: bold;
-        }
-    .container-body {
-        max-width: 1200px;
-        margin: 40px auto;
-        padding: 20px;
-        background-color: #ECF8EC; 
-        border-radius: 10px;
-    }
-    .card {
-        margin-bottom: 20px;
-        border: none;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        background-color: #D0E8D0; 
-        color: black;
-    }
-    .card-title {
-        color: #006400; /* Dark green color */
-        font-weight: bold;
-    }
-    .card-text {
-        color: black;
-    }
-    .btn-primary {
-        background-color: #006400;
-        border: none;
-    }
-    .btn-primary:hover {
-        background-color: #004d00; /* Darker shade for hover */
-    }
-    .btn-primary a {
-        color: white;
-        text-decoration: none;
-        background: none;
-        outline: none; /* Remove the focus outline */
-    }
-    .btn-primary a:hover {
-        color: white;
-        text-decoration: underline; /* Underline on hover */
-        background: none;
-    }
-    .btn-primary a:focus {
-        outline: none; /* Ensure no outline when focused */
-    }
-    h1, h5 {
-        font-weight: bold;
-    }
-    @media (min-width: 576px) {
-        .card-group .card {
-            margin-bottom: 30px;
-        }
-    }
-</style>
-
-</head>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="home.css">
-    <title>Tennis Data, Analysis and Visualization</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: url('claytennis.jpeg') no-repeat center center fixed; /* Replace with your image URL */
-            background-size: cover;
-            color: black;
-        }
-        .navbar {
-            background-color: rgba(0, 100, 0, 0.8);
-            color: white;
-        }
-        .navbar-brand {
-            color: white;
-            font-weight: bold;
-            margin: 10px auto;
-        }
-        .container-body {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #ECF8EC; 
-            border-radius: 10px;
-        }
-        .card {
-            margin-bottom: 20px;
-            border: none;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            background-color: #D0E8D0; 
-            color: black;
-        }
-        .card-title {
-            color: #006400; /* Dark green color */
-            font-weight: bold;
-        }
-        .card-text {
-            color: black;
-        }
-        .btn-primary {
-            background-color: #006400;
-            border: none;
-        }
-        h1, h5 {
-            font-weight: bold;
-        }
-        @media (min-width: 576px) {
-            .card-group .card {
-                margin-bottom: 30px;
-            }
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <h1 class="navbar-brand mb-0">Tennis Data, Analysis and Visualization</h1>
+            <div>
+                <a class="nav-link" href="https://github.com/sorukumar/TennisAnalytics/tree/main" target="_blank">Github</a>
+            </div>
         </div>
-        <a class="nav-link" href="https://github.com/sorukumar/TennisAnalytics/tree/main">Github</a>
     </nav>
+
     <div class="container-body">
-        <p></p>
         <div class="row">
+            <!-- Stan Wawrinka Analysis Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Stan "The Man" Wawrinka: Late Bloomer Analysis</h5>
+                        <p class="card-text">Explore how Stan Wawrinka and other "late bloomers" defied the odds to win Grand Slams later in their careers.</p>
+                        <a href="StanTheMan/index.html" class="btn btn-primary" target="_blank">View Analysis</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tennis Network Graph Card -->
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Tennis Players Visualized as Network Graph</h5>
                         <p class="card-text">It covers players who have played singles ATP since 2000. The first one includes players with 800 ATP matches or with higher than 60% win rate.</p>
-                        <li><a href="viz/tennis_network_200Match.html" class="btn btn-primary btn-sm mb-2" target="_blank"> Players with more than 800 ATP matches </a></li>
-                        <li><a href="viz/tennisPlayerasGraph_2000y_200m.html" class="btn btn-primary btn-sm mb-2" target="_blank"> Players with more than 200 ATP matches</a></li>
+                        <ul>
+                            <li><a href="viz/tennis_network_200Match.html" class="btn btn-primary btn-sm mb-2" target="_blank">Players with more than 800 ATP matches</a></li>
+                            <li><a href="viz/tennisPlayerasGraph_2000y_200m.html" class="btn btn-primary btn-sm mb-2" target="_blank">Players with more than 200 ATP matches</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
+            <!-- Indian Tennis Players Card -->
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Indian Tennis Players</h5>
-                         <a href="viz/IndianTennisPlayers90-24.html" class="btn btn-primary" target="_blank">ATP Performance of All Indian Players Since 1990</a>
+                        <p class="card-text">Explore the performance of Indian tennis players on the ATP tour since 1990.</p>
+                        <a href="viz/IndianTennisPlayers90-24.html" class="btn btn-primary" target="_blank">ATP Performance of All Indian Players Since 1990</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Tennis is Brutal Card -->
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Tennis is a brutal game</h5>
-                         <a href="viz/brutaltennis.html" class="btn btn-primary" target="_blank">Tennis is brutal</a>
+                        <h5 class="card-title">Tennis is a Brutal Game</h5>
+                        <p class="card-text">Visualizations showing the competitive nature and challenges of professional tennis.</p>
+                        <a href="viz/brutaltennis.html" class="btn btn-primary" target="_blank">Tennis is Brutal</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Grand Slam Finals Card -->
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Grand Slam Finals</h5>
-                        <ul class="card-text">
-                            
+                        <p class="card-text">Interactive visualizations of Grand Slam finals across different tournaments.</p>
+                        <ul>
                             <li><a href="viz/Grand_Slam_Finals_2003.html" class="btn btn-primary btn-sm mb-2" target="_blank">Grand Slam Finals since 2003</a></li>
                             <li><a href="viz/Australian_Open_Final_1982.html" class="btn btn-primary btn-sm mb-2" target="_blank">Australian Open since 1983</a></li>
                             <li><a href="viz/French_Open_Final_1982.html" class="btn btn-primary btn-sm mb-2" target="_blank">French Open since 1983</a></li>
@@ -188,5 +85,7 @@
             </div>
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,138 @@
+/* Tennis Analytics Main CSS */
+
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('image/claytennis.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.navbar {
+    background-color: rgba(0, 100, 0, 0.8);
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Main Container */
+.container-body {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ECF8EC; 
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Cards */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #D0E8D0; 
+    color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: black;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #006400;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004d00;
+    text-decoration: none;
+}
+
+.btn-primary.btn-sm {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+}
+
+/* Links inside buttons */
+.btn-primary a {
+    color: white;
+    text-decoration: none;
+    background: none;
+    outline: none;
+}
+
+.btn-primary a:hover {
+    color: white;
+    text-decoration: none;
+    background: none;
+}
+
+/* Typography */
+h1, h5 {
+    font-weight: bold;
+}
+
+/* List styles */
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 576px) {
+    .card-group .card {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-body {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
