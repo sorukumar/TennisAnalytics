@@ -126,6 +126,17 @@ body {
   color: var(--accent-color);
 }
 
+/* Active navigation link */
+.nav-link.active {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+/* Home link in navigation */
+.home-link {
+    margin-left: 10px;
+}
+
 /* Main Content */
 .main-content {
   padding: 40px 0 60px;

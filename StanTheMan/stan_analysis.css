@@ -133,3 +133,43 @@ h2 {
         font-size: 20px;
     }
 }
+
+/* Compatibility styles for integration with main site */
+.navbar {
+    margin-bottom: 0;
+}
+
+.main-content {
+    padding-top: 20px;
+}
+
+/* Override any conflicting styles from the main site */
+.header + .navbar + .main-content .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ensure tooltips work properly with the main site */
+#shared-tooltip.tooltip {
+    position: absolute;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 12px;
+    z-index: 10;
+    opacity: 0;
+}
+
+/* Active navigation link */
+.nav-link.active {
+    color: #f9c74f;
+    font-weight: 600;
+}
+
+/* Home link in navigation */
+.home-link {
+    margin-left: 10px;
+}

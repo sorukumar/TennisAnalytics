@@ -2,73 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="home.css">
-    <title>Tennis Data, Analysis and Visualization</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: url('image/claytennis.jpeg') no-repeat center center fixed;
-            background-size: cover;
-            color: black;
-        }
-        .navbar {
-            background-color: rgba(0, 100, 0, 0.8);
-            color: white;
-        }
-        .navbar-brand {
-            color: white;
-            font-weight: bold;
-        }
-        .container-body {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #ECF8EC; 
-            border-radius: 10px;
-        }
-        .image-container {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-            border: 2px solid #006400;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-        h1, h5 {
-            font-weight: bold;
-        }
-    </style>
+    <title>Tennis is Brutal | Tennis Analytics</title>
+    <link rel="stylesheet" href="../tennis_analytics.css">
+    <link rel="stylesheet" href="viz.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="../components/include.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <h1 class="navbar-brand mb-0">Tennis Data, Analysis and Visualization</h1>
+    <!-- Header and navigation will be loaded by include.js -->
+    
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container-body">
+            <div class="intro-text">
+                <h2 class="section-title">Tennis is Brutal</h2>
+                <p class="section-description">Data that reveals just how brutal pro tennis really is—few make it, fewer last, and a tiny elite takes home most of the trophies</p>
+            </div>
+            
+            <div class="chart-container">
+                <div class="chart-title">Player Trophy Distribution</div>
+                <div class="chart-content">
+                    <img src="lorenzplayertrophies.png" alt="Player Trophies Distribution">
+                </div>
+                <div class="chart-description">
+                    <p>This visualization shows how tournament trophies are distributed among professional tennis players, highlighting the extreme inequality in the sport.</p>
+                </div>
+            </div>
+            
+            <div class="chart-container">
+                <div class="chart-title">ATP Players Trophy Analysis</div>
+                <div class="chart-content">
+                    <img src="trophiatpplayers.png" alt="ATP Players Trophy Analysis">
+                </div>
+                <div class="chart-description">
+                    <p>Analysis of how ATP tournament trophies are concentrated among a small percentage of players, demonstrating the winner-takes-all nature of professional tennis.</p>
+                </div>
+            </div>
+            
+            <div class="chart-container">
+                <div class="chart-title">Career Longevity in Professional Tennis</div>
+                <div class="chart-content">
+                    <img src="careerlongevity.png" alt="Career Longevity Analysis">
+                </div>
+                <div class="chart-description">
+                    <p>This chart examines the typical career span of professional tennis players, showing how few manage to sustain a long-term presence on the tour.</p>
+                </div>
+            </div>
+            
+            <div class="conclusion-section">
+                <h3>Why Tennis is One of the Most Brutal Sports</h3>
+                <p>These visualizations demonstrate why professional tennis is considered one of the most challenging sports to succeed in:</p>
+                <ul>
+                    <li>Extreme concentration of success among a tiny elite</li>
+                    <li>Short career spans for the majority of players</li>
+                    <li>Winner-takes-all economics that rewards only the very top performers</li>
+                </ul>
+                <p>While the sport appears glamorous at the top level, the data reveals a much harsher reality for the vast majority of professional players.</p>
+            </div>
         </div>
-        <a class="nav-link" href="https://github.com/sorukumar/TennisAnalytics/tree/main">Github</a>
-    </nav>
-    <div class="container-body">
-        <div class="image-container">
-            <img src="" id="image1" alt="Image 1">
-        </div>
-        <div class="image-container">
-            <img src="" id="image2" alt="Image 2">
-        </div>
-        <div class="image-container">
-            <img src="" id="image3" alt="Image 3">
-        </div>
-    </div>
-    <script>
-        // JavaScript to dynamically set the image sources
-        document.getElementById('image1').src = 'lorenzplayertrophies.png'; 
-        document.getElementById('image2').src = 'trophiatpplayers.png'; 
-        document.getElementById('image3').src = 'careerlongevity.png'; 
-    </script>
+    </main>
+    
+    <!-- Footer will be loaded by include.js -->
 </body>
 </html>

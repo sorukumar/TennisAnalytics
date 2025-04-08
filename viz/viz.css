@@ -1,0 +1,70 @@
+/* Additional styles for the brutaltennis.html page */
+
+.chart-container {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition-standard);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.chart-container:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+
+.chart-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.chart-content {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.chart-content img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.chart-description {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+.conclusion-section {
+    background-color: rgba(30, 86, 49, 0.05);
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 40px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.conclusion-section h3 {
+    color: var(--primary-color);
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.conclusion-section ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.conclusion-section li {
+    margin-bottom: 8px;
+    color: #444;
+}
