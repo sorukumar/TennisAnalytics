@@ -10,7 +10,7 @@
   --text-dark: #2d3142;
   --text-light: #f8f9fa;
   --background-light: #f8f9fa;
-  --card-bg: #ffffff;
+  --card-bg: #ffff;
   --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.05);
   --shadow-medium: 0 8px 24px rgba(0, 0, 0, 0.1);
   --transition-standard: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -33,7 +33,7 @@ body {
 /* Compact Header */
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-              url('image/claytennis.jpeg') no-repeat center center;
+    url('image/claytennis.jpeg') no-repeat center center;
   background-size: cover;
   padding: 40px 0;
   color: white;
@@ -60,16 +60,287 @@ body {
   opacity: 0.9;
 }
 
+/* Compact Hero with Direct Access */
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 320px; /* Reduced height */
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+  line-height: 1.1;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #555;
+  max-width: 450px;
+}
+
+/* Quick Access Section */
+.quick-access {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  min-width: 300px;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.quick-access h3 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.quick-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--text-dark);
+  border: 1px solid #eee;
+  transition: all 0.2s ease;
+}
+
+.quick-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateX(5px);
+}
+
+.quick-link i {
+  margin-right: 10px;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}
+
+.quick-link:hover i {
+  color: white;
+}
+
+.featured-link {
+  background-color: var(--accent-color);
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.featured-link i {
+  color: var(--text-dark);
+}
+
+.featured-link:hover {
+  background-color: #e9b73f;
+  color: var(--text-dark);
+}
+
+.featured-link:hover i {
+  color: var(--text-dark);
+}
+
+/* Tennis Court Visualization */
+.tennis-court {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  opacity: 0.08; /* More subtle */
+  transform: rotate(-5deg) scale(1.5) translateX(10%);
+}
+
+.court-outline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 70%;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.court-line {
+  position: absolute;
+  background-color: var(--primary-color);
+}
+
+.net {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.center-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: var(--primary-color);
+}
+
+.service-line-top {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.service-line-bottom {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+/* Data Points Animation */
+.data-point {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: pulse 2s infinite;
+}
+
+.data-point:nth-child(1) {
+  top: 30%;
+  left: 20%;
+  animation-delay: 0.2s;
+}
+
+.data-point:nth-child(2) {
+  top: 70%;
+  left: 80%;
+  animation-delay: 0.5s;
+}
+
+.data-point:nth-child(3) {
+  top: 40%;
+  left: 60%;
+  animation-delay: 0.8s;
+}
+
+.data-point:nth-child(4) {
+  top: 60%;
+  left: 30%;
+  animation-delay: 1.1s;
+}
+
+.data-point:nth-child(5) {
+  top: 20%;
+  left: 70%;
+  animation-delay: 1.4s;
+}
+
+.data-point:nth-child(6) {
+  top: 80%;
+  left: 40%;
+  animation-delay: 1.7s;
+}
+
+.data-line {
+  position: absolute;
+  background-color: rgba(249, 199, 79, 0.3);
+  height: 2px;
+  transform-origin: left center;
+  animation: grow 3s infinite;
+}
+
+.data-line:nth-child(7) {
+  top: 30%;
+  left: 20%;
+  width: 40%;
+  transform: rotate(30deg);
+  animation-delay: 0.2s;
+}
+
+.data-line:nth-child(8) {
+  top: 70%;
+  left: 80%;
+  width: 30%;
+  transform: rotate(-45deg);
+  animation-delay: 0.5s;
+}
+
+.data-line:nth-child(9) {
+  top: 40%;
+  left: 60%;
+  width: 25%;
+  transform: rotate(-15deg);
+  animation-delay: 0.8s;
+}
+
 .github-link {
   display: inline-flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--primary-color);
   color: white;
   text-decoration: none;
-  padding: 8px 16px;
+  padding: 10px 20px;
   border-radius: 4px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 500;
   transition: var(--transition-standard);
+  margin-top: 10px;
 }
 
 .github-link i {
@@ -77,7 +348,8 @@ body {
 }
 
 .github-link:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #164525;
+  transform: translateY(-2px);
 }
 
 /* Navigation */
@@ -128,13 +400,13 @@ body {
 
 /* Active navigation link */
 .nav-link.active {
-    color: var(--accent-color);
-    font-weight: 600;
+  color: var(--accent-color);
+  font-weight: 600;
 }
 
 /* Home link in navigation */
 .home-link {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 /* Main Content */
@@ -317,6 +589,65 @@ body {
   color: var(--primary-color);
 }
 
+/* Minimized About Section */
+.project-info-compact {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 0 15px;
+  color: var(--text-dark);
+}
+
+.about-item i {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.about-item span, .about-item a {
+  font-size: 0.95rem;
+}
+
+.about-item a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: var(--transition-standard);
+}
+
+.about-item a:hover {
+  text-decoration: underline;
+}
+
+.about-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition-standard);
+}
+
+.about-link:hover {
+  color: #164525;
+}
+
 /* Footer */
 .footer {
   background-color: var(--primary-color);
@@ -351,7 +682,74 @@ body {
   color: var(--accent-color);
 }
 
+/* Animations */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes grow {
+  0% {
+    opacity: 0;
+    transform-origin: left center;
+    transform: scaleX(0) rotate(var(--rotation, 30deg));
+  }
+  50% {
+    opacity: 1;
+    transform-origin: left center;
+    transform: scaleX(1) rotate(var(--rotation, 30deg));
+  }
+  100% {
+    opacity: 0;
+    transform-origin: left center;
+    transform: scaleX(0) rotate(var(--rotation, 30deg));
+  }
+}
+
 /* Responsive Adjustments */
+@media (max-width: 992px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .hero-text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .quick-access {
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .quick-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .quick-link {
+    width: auto;
+  }
+  
+  .about-container {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .header h1 {
     font-size: 2rem;
@@ -377,6 +775,34 @@ body {
   
   .footer-right {
     margin-top: 10px;
+  }
+  
+  .hero {
+    min-height: auto;
+    padding: 30px 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  .tennis-court {
+    opacity: 0.05;
+    width: 100%;
+    transform: rotate(0) scale(1.2);
+  }
+  
+  .quick-links {
+    flex-direction: column;
+  }
+  
+  .about-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .about-item {
+    margin: 8px 0;
   }
 }
 

@@ -14,13 +14,64 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="container-body">
-            <!-- Visualizations Section -->
-            <section id="visualizations">
-                <div class="intro-text">
-                    <h2 class="section-title">Interactive Tennis Visualizations</h2>
-                    <p class="section-description">Explore professional tennis data through these interactive visualizations</p>
+            <!-- Compact Hero with Direct Access -->
+            <section class="hero">
+                <div class="hero-background">
+                    <!-- Tennis Court Background -->
+                    <div class="tennis-court">
+                        <div class="court-outline"></div>
+                        <div class="court-line net"></div>
+                        <div class="court-line center-line"></div>
+                        <div class="court-line service-line-top"></div>
+                        <div class="court-line service-line-bottom"></div>
+                        
+                        <!-- Data Points -->
+                        <div class="data-point"></div>
+                        <div class="data-point"></div>
+                        <div class="data-point"></div>
+                        <div class="data-point"></div>
+                        <div class="data-point"></div>
+                        <div class="data-point"></div>
+                        
+                        <!-- Data Lines -->
+                        <div class="data-line"></div>
+                        <div class="data-line"></div>
+                        <div class="data-line"></div>
+                    </div>
                 </div>
                 
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Tennis Analytics</h1>
+                        <p>An open-source project exploring professional tennis through data visualizations</p>
+                        <a href="https://github.com/sorukumar/TennisAnalytics" class="github-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                    
+                    <!-- Quick Access Links -->
+                    <div class="quick-access">
+                        <h3>Popular Visualizations</h3>
+                        <div class="quick-links">
+                            <a href="StanTheMan/index.html" class="quick-link featured-link">
+                                <i class="fas fa-star"></i> Stan Wawrinka Analysis
+                            </a>
+                            <a href="viz/tennis_network_200Match.html" class="quick-link">
+                                <i class="fas fa-project-diagram"></i> Tennis Players Network
+                            </a>
+                            <a href="viz/brutaltennis.html" class="quick-link">
+                                <i class="fas fa-chart-bar"></i> Tennis is Brutal
+                            </a>
+                            <a href="viz/Grand_Slam_Finals_2003.html" class="quick-link">
+                                <i class="fas fa-trophy"></i> Grand Slam Finals
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Visualizations Section - No heading, just cards -->
+            <section id="visualizations">
                 <div class="cards-grid">
                     <!-- Card 1: Network Graph -->
                     <div class="card">
@@ -101,41 +152,24 @@
                 </div>
             </section>
             
-            <!-- About Section -->
-            <section id="about" class="project-info">
-                <div class="container-body">
-                    <div class="intro-text">
-                        <h2 class="section-title">About This Project</h2>
-                        <p class="section-description">Tennis Analytics is an open-source hobby project focused on creating professional-quality data visualizations</p>
+            <!-- Minimized About Section -->
+            <section id="about" class="project-info-compact">
+                <div class="about-container">
+                    <div class="about-item">
+                        <i class="fas fa-database"></i>
+                        <span>Data from ATP, WTA, and <a href="https://github.com/JeffSackmann" target="_blank">Jeff Sackmann</a></span>
                     </div>
-                    
-                    <div class="info-container">
-                        <div class="info-card">
-                            <div class="info-icon">
-                                <i class="fas fa-database"></i>
-                            </div>
-                            <h3 class="info-title">Data Sources</h3>
-                            <p>
-                                All visualizations use publicly available tennis data from ATP, WTA, and Grand Slam tournaments, processed and cleaned for analysis. 
-                                <a href="https://github.com/JeffSackmann" target="_blank">Jeff Sackman's</a> data is used extensively.
-                            </p>
-                        </div>
-                        
-                        <div class="info-card">
-                            <div class="info-icon">
-                                <i class="fas fa-code"></i>
-                            </div>
-                            <h3 class="info-title">Technology</h3>
-                            <p>Built with Python, D3.js, JavaScript, HTML, and CSS. All code is open-source and available on GitHub for learning and collaboration.</p>
-                        </div>
-                        
-                        <div class="info-card">
-                            <div class="info-icon">
-                                <i class="fas fa-lightbulb"></i>
-                            </div>
-                            <h3 class="info-title">Contribute</h3>
-                            <p>Interested in contributing? Fork the repository, create a pull request, or suggest new visualization ideas through GitHub issues.</p>
-                        </div>
+                    <div class="about-item">
+                        <i class="fas fa-code"></i>
+                        <span>Built with Python, D3.js, and JavaScript</span>
+                    </div>
+                    <div class="about-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Open-source project - contributions welcome</span>
+                    </div>
+                    <div class="about-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/sorukumar/TennisAnalytics" class="about-link">View on GitHub</a>
                     </div>
                 </div>
             </section>
