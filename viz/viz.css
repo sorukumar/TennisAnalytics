@@ -32,9 +32,9 @@
 .chart-content img {
     max-width: 100%;
     height: auto;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .chart-description {
@@ -67,4 +67,30 @@
 .conclusion-section li {
     margin-bottom: 8px;
     color: #444;
+}
+
+/* Tooltip for charts */
+#shared-tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 8px 12px;
+    font: 12px sans-serif;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .chart-title {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+
+    .conclusion-section h3 {
+        font-size: 1.2rem; /* Adjust heading size for smaller screens */
+    }
 }
