@@ -1,0 +1,247 @@
+/* Summer Camp specific styles */
+
+/* To control space between h1 and ul */
+.hero-text h1 {
+    margin-bottom: 15px; /* Adjust this value for desired spacing */
+}
+
+/* To control indentation of the hero bullets */
+.hero-bullets {
+    /* To ensure default bullets are still there, remove list-style:none */
+    /* To adjust indentation, you'd use padding-left */
+    padding-left: 20px; /* Adjust this value for desired indentation */
+}
+
+/* Button variations */
+.btn-highlight {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+}
+
+.btn-secondary {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+}
+
+/* Project info cards */
+.project-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-info li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-card p {
+    margin-bottom: 8px;
+}
+
+/* About section */
+.about-section {
+    background-color: white;
+    padding: 40px 0;
+    margin: 40px 0;
+    border-radius: 8px;
+    box-shadow: var(--shadow-soft);
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-content h3 {
+    color: var(--primary-color);
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+/* Updated styles for bullet points */
+.about-content ul,
+.info-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.about-content ul li,
+.info-container ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.info-title {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.pricing-amount {
+    font-size: 1rem;
+    /* font-weight: bold; */
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.about-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.about-bullets li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.about-bullets li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2196F3;
+}
+
+/* Instructor section styles */
+.instructor-section {
+    padding: 4rem 2rem;
+    background: var(--background-light);
+    margin: 2rem 0;
+}
+
+.instructor-profile {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: var(--shadow-soft);
+    /* Add this line to adjust the visible area */
+    object-position: center top; /* Keeps the top part of the image visible */
+}
+
+.experience-highlights {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-highlights li {
+    margin-bottom: 1.5rem;
+}
+
+.experience-highlights h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.experience-highlights p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.cta-secondary {
+    margin-top: 2rem;
+}
+
+.social-links {
+    display: flex; /* Make the container a flex container */
+    gap: 15px;    /* Add space between its direct children */
+    margin-top: 15px; /* Add some space above the icons as well, if desired */
+    margin-bottom: 15px; /* Add some space below the icons, if desired */
+}
+
+/* Course Timeline Section */
+.course-timeline {
+    padding: 4rem 0;
+    background: white;
+}
+
+.timeline-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.timeline-card {
+    background: var(--background-light);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition-standard);
+}
+
+.timeline-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+
+.week-label {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.timeline-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.timeline-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-card li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.timeline-card li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .instructor-profile {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .instructor-image {
+        margin: 0 auto;
+        max-width: 280px;
+    }
+
+    .timeline-grid {
+        grid-template-columns: 1fr;
+    }
+}
