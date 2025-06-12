@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Slam Nail-Biters index</title>
+    
+    <!-- Include components -->
+    <script src="../components/include.js"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Project CSS -->
+    <link rel="stylesheet" href="../tennis_analytics.css">
+    <link rel="stylesheet" href="nbi.css">
+    
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.2.2/css/buttons.dataTables.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../image/favicon.ico">
+</head>
+<body>
+    <main class="main-content">
+        <div class="container">
+            <h1 class="section-title">Grand Slam Nail-Biters Index</h1>
+            
+            <div class="toggle-container">
+                <button id="showAllMatches" class="toggle-btn">All Matches</button>
+                <button id="showFinals" class="toggle-btn active">Final Matches</button>
+            </div>
+
+            <div class="chart-container">
+                <table id="matchesTable" class="display" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Tournament</th>
+                            <th>Date</th>
+                            <th>Round</th>
+                            <th>Winner</th>
+                            <th>Loser</th>
+                            <th>Score</th>
+                            <th>Duration (min)</th>
+                            <th>NBI</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
+    
+    <script>
+        let matchesData = [];
+
+        // Function to format date with error handling
+        function formatDate(dateStr) {
+            if (!dateStr) return '';
+            try {
+                const year = dateStr.substring(0, 4);
+                const month = dateStr.substring(4, 6);
+                const day = dateStr.substring(6, 8);
+                if (year && month && day) {
+                    return `${year}-${month}-${day}`;
+                }
+                return dateStr;
+            } catch (e) {
+                console.error('Error formatting date:', dateStr);
+                return dateStr;
+            }
+        }
+
+        // Load data
+        fetch('data/gs_nailbiters.csv')
+            .then(response => response.text())
+            .then(csv => {
+                // Parse CSV, skip empty lines
+                const lines = csv.split('\n').filter(line => line.trim());
+                const headers = lines[0].split(',');
+                
+                matchesData = lines.slice(1)
+                    .map(line => {
+                        try {
+                            const values = line.split(',');
+                            if (values.length < 9) return null; // Skip invalid rows
+                            
+                            return {
+                                tournament: values[1] || '',
+                                date: formatDate(values[2]),
+                                round: values[3] || '',
+                                winner: values[6] || '',
+                                loser: values[7] || '',
+                                score: values[5] || '',
+                                duration: values[4] || '',
+                                nbi: values[8] ? parseFloat(values[8]).toFixed(3) : ''
+                            };
+                        } catch (e) {
+                            console.error('Error parsing line:', line);
+                            return null;
+                        }
+                    })
+                    .filter(row => row !== null); // Remove any invalid rows
+
+                // Initialize DataTable
+                const table = $('#matchesTable').DataTable({
+                    data: matchesData,
+                    columns: [
+                        { data: 'tournament' },
+                        { data: 'date' },
+                        { data: 'round' },
+                        { data: 'winner' },
+                        { data: 'loser' },
+                        { data: 'score' },
+                        { data: 'duration' },
+                        { data: 'nbi' }
+                    ],
+                    order: [[7, 'desc']], // Sort by NBI by default
+                    pageLength: 25,
+                    lengthMenu: [[25], [25]], // Only allow 25 records per page
+                    dom: 'Bfrtip',
+                    buttons: ['copy', 'csv', 'excel'],
+                    initComplete: function(settings, json) {
+                        const api = this.api();
+                        
+                        // Show only finals by default and limit to top 25
+                        api.column(2).search('^F$', true, false).draw();
+
+                        // Toggle button functionality
+                        $('#showAllMatches').click(function() {
+                            $(this).addClass('active');
+                            $('#showFinals').removeClass('active');
+                            // Show all matches but still limit to top 25
+                            api.column(2).search('').draw();
+                        });
+
+                        $('#showFinals').click(function() {
+                            $(this).addClass('active');
+                            $('#showAllMatches').removeClass('active');
+                            // Show only finals
+                            api.column(2).search('^F$', true, false).draw();
+                        });
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.querySelector('.chart-container').innerHTML = 
+                    '<p class="error">Error loading data. Please try again later.</p>';
+            });
+    </script>
+</body>
+</html>

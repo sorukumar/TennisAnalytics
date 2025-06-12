@@ -1,0 +1,146 @@
+/* Nail-biters Analysis Specific Styles */
+
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.toggle-btn {
+    padding: 8px 16px;
+    margin: 0 10px;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition-standard);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.toggle-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.toggle-btn:hover {
+    background-color: rgba(30, 86, 49, 0.1);
+}
+
+.chart-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-soft);
+}
+
+/* DataTables customization */
+.dataTables_wrapper {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dataTables_wrapper .dataTables_length, 
+.dataTables_wrapper .dataTables_filter {
+    margin-bottom: 15px;
+}
+
+.dataTables_wrapper .dt-buttons {
+    margin-bottom: 20px;
+}
+
+.dataTables_wrapper .dt-button {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 8px 16px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+    transition: var(--transition-standard) !important;
+}
+
+.dataTables_wrapper .dt-button:hover {
+    background-color: #164525 !important;
+    transform: translateY(-1px);
+}
+
+table.dataTable {
+    border-collapse: collapse !important;
+    margin-bottom: 1rem;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+}
+
+table.dataTable thead th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 12px 15px;
+}
+
+table.dataTable tbody td {
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    color: var(--text-dark);
+}
+
+table.dataTable tbody tr:hover {
+    background-color: rgba(30, 86, 49, 0.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .toggle-container {
+        flex-wrap: wrap;
+    }
+
+    .toggle-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    table.dataTable thead th,
+    table.dataTable tbody td {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+
+    .dt-buttons {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .dt-button {
+        width: 100%;
+        margin-bottom: 5px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .toggle-btn {
+        max-width: none;
+    }
+
+    table.dataTable {
+        font-size: 0.85rem;
+    }
+}
