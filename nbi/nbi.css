@@ -6,16 +6,29 @@
     padding: 20px;
 }
 
+/* Page Title and Controls Styling */
+.section-title {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+/* Toggle Container */
 .toggle-container {
     display: flex;
-    justify-content: center;
     gap: 10px;
-    margin-bottom: 30px;
 }
 
 .toggle-btn {
     padding: 8px 16px;
-    margin: 0 10px;
     border: 1px solid var(--primary-color);
     background-color: transparent;
     color: var(--primary-color);
@@ -35,6 +48,25 @@
     background-color: rgba(30, 86, 49, 0.1);
 }
 
+/* Methodology button styling */
+.methodology-btn {
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: var(--text-dark);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition-standard);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.methodology-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Chart Container */
 .chart-container {
     background-color: white;
     border-radius: 8px;
@@ -43,35 +75,24 @@
     box-shadow: var(--shadow-soft);
 }
 
+/* Download section inside chart container */
+.download-section {
+    text-align: right;
+    padding: 20px 0 0;
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.download-section .btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    min-width: 150px;
+}
+
 /* DataTables customization */
 .dataTables_wrapper {
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.dataTables_wrapper .dataTables_length, 
-.dataTables_wrapper .dataTables_filter {
-    margin-bottom: 15px;
-}
-
-.dataTables_wrapper .dt-buttons {
-    margin-bottom: 20px;
-}
-
-.dataTables_wrapper .dt-button {
-    background-color: var(--primary-color) !important;
-    color: white !important;
-    border: none !important;
-    border-radius: 4px !important;
-    padding: 8px 16px !important;
-    font-family: 'Montserrat', sans-serif !important;
-    font-weight: 500 !important;
-    transition: var(--transition-standard) !important;
-}
-
-.dataTables_wrapper .dt-button:hover {
-    background-color: #164525 !important;
-    transform: translateY(-1px);
 }
 
 table.dataTable {
@@ -80,7 +101,6 @@ table.dataTable {
     background-color: var(--card-bg);
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: var(--shadow-soft);
 }
 
 table.dataTable thead th {
@@ -101,6 +121,144 @@ table.dataTable tbody tr:hover {
     background-color: rgba(30, 86, 49, 0.05);
 }
 
+/* DataTable expand/collapse controls */
+td.details-control {
+    cursor: pointer;
+    width: 30px;
+}
+
+.expand-btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(30, 86, 49, 0.1);
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+tr.shown .expand-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* NBI Components Grid */
+.nbi-components-grid {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px 0;
+    box-shadow: var(--shadow-soft);
+}
+
+.nbi-components {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.nbi-component {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: left;
+    border: 1px solid rgba(0,0,0,0.05);
+    position: relative;
+}
+
+.nbi-component:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-color: var(--primary-color);
+}
+
+.nbi-component h4 {
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+.nbi-component p {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0 0 15px 0;
+    line-height: 1.4;
+}
+
+.weight {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: rgba(30, 86, 49, 0.1);
+    display: inline-block;
+}
+
+/* Detailed explanation */
+.nbi-detailed-explanation {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-soft);
+}
+
+.nbi-detailed-explanation h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.nbi-detailed-explanation p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* NBI Formula and Components */
+.nbi-breakdown {
+    margin-top: 40px;
+}
+
+.nbi-formula {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-soft);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.nbi-formula h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.formula-text {
+    font-family: 'Montserrat', monospace;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    padding: 15px;
+    background: rgba(30, 86, 49, 0.05);
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+/* Add smooth scrolling to body */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Responsive adjustments */
 @media (max-width: 992px) {
     .container {
@@ -115,23 +273,34 @@ table.dataTable tbody tr:hover {
         width: 100%;
         max-width: 200px;
     }
+
+    .nbi-components {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .formula-text {
+        font-size: 0.95rem;
+        padding: 12px;
+    }
 }
 
 @media (max-width: 768px) {
-    table.dataTable thead th,
-    table.dataTable tbody td {
-        padding: 8px 10px;
+    .nbi-quick-explanation,
+    .nbi-detailed-explanation {
+        padding: 20px;
+    }
+
+    .nbi-component {
+        padding: 20px;
+    }
+
+    .nbi-formula {
+        padding: 20px;
+    }
+
+    .formula-text {
         font-size: 0.9rem;
-    }
-
-    .dt-buttons {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
-    .dt-button {
-        width: 100%;
-        margin-bottom: 5px !important;
+        padding: 10px;
     }
 }
 
@@ -143,4 +312,67 @@ table.dataTable tbody tr:hover {
     table.dataTable {
         font-size: 0.85rem;
     }
+
+    .nbi-components {
+        grid-template-columns: 1fr;
+    }
+
+    .formula-text {
+        font-size: 0.85rem;
+    }
+}
+
+/* NBI score styling */
+.nbi-100 {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Component details styling */
+.details-container {
+    padding: 20px;
+    background: rgba(30, 86, 49, 0.02);
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.components-breakdown {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.component-row {
+    display: grid;
+    grid-template-columns: 140px 1fr 60px;
+    align-items: center;
+    gap: 15px;
+}
+
+.component-name {
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.component-bar-container {
+    height: 8px;
+    background: rgba(30, 86, 49, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.component-bar {
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+    max-width: 100%;
+}
+
+.component-value {
+    font-size: 0.9em;
+    color: var(--primary-color);
+    font-weight: 500;
+    text-align: right;
+    white-space: nowrap;
 }

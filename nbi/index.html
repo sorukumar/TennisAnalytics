@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grand Slam Nail-Biters index</title>
+    <title>Nail-Biting Index: A data-driven measure of tennis match drama</title>
     
     <!-- Include components -->
     <script src="../components/include.js"></script>
@@ -25,28 +25,95 @@
 <body>
     <main class="main-content">
         <div class="container">
-            <h1 class="section-title">Grand Slam Nail-Biters Index</h1>
+            <h1 class="section-title">Nail-Biting Index: A data-driven measure of tennis match drama</h1>
             
-            <div class="toggle-container">
-                <button id="showAllMatches" class="toggle-btn">All Matches</button>
-                <button id="showFinals" class="toggle-btn active">Final Matches</button>
+            <div class="controls-container">
+                <div class="toggle-container">
+                    <button id="showAllMatches" class="toggle-btn">All Matches</button>
+                    <button id="showFinals" class="toggle-btn active">Final Matches</button>
+                </div>
+
+                <button id="showMethodology" class="methodology-btn">
+                    What is NBI?
+                </button>
             </div>
 
             <div class="chart-container">
                 <table id="matchesTable" class="display" style="width:100%">
                     <thead>
                         <tr>
+                            <th></th>
+                            <th>Match</th>
                             <th>Tournament</th>
-                            <th>Date</th>
                             <th>Round</th>
-                            <th>Winner</th>
-                            <th>Loser</th>
                             <th>Score</th>
-                            <th>Duration (min)</th>
                             <th>NBI</th>
+                            <th>Drama Tags</th>
                         </tr>
                     </thead>
                 </table>
+                
+                <div class="download-section">
+                    <button id="downloadData" class="btn btn-primary">Download Data</button>
+                </div>
+            </div>
+
+            <div class="nbi-breakdown">
+                <div class="nbi-formula">
+                    <h3>The NBI Formula</h3>
+                    <div class="formula-text">NBI = 
+    0.22 × (Avg Set Margin) +
+    0.18 × (Tiebreak Count) + 
+    0.12 × (Lead Changes) +
+    0.08 × (Momentum Volatility) + 
+    0.25 × (Comeback Score) + 
+    0.05 × (Final Set Thriller) +
+    0.10 × (Break Point Drama) + 
+    0.11 × (Normalized Duration)</div>
+                </div>
+
+                <div class="nbi-components">
+                    <div class="nbi-component" data-component="sets" data-weight="0.22">
+                        <h4>Set Closeness</h4>
+                        <p>Tighter sets = More tension</p>
+                        <div class="weight">22%</div>
+                    </div>
+                    <div class="nbi-component" data-component="tiebreaks" data-weight="0.18">
+                        <h4>Tiebreak Drama</h4>
+                        <p>More tiebreaks = Higher stakes</p>
+                        <div class="weight">18%</div>
+                    </div>
+                    <div class="nbi-component" data-component="momentum" data-weight="0.12">
+                        <h4>Lead Changes</h4>
+                        <p>Back and forth battles</p>
+                        <div class="weight">12%</div>
+                    </div>
+                    <div class="nbi-component" data-component="volatility" data-weight="0.08">
+                        <h4>Momentum Shifts</h4>
+                        <p>Score volatility & swings</p>
+                        <div class="weight">8%</div>
+                    </div>
+                    <div class="nbi-component" data-component="comeback" data-weight="0.25">
+                        <h4>Epic Comebacks</h4>
+                        <p>Victories from behind</p>
+                        <div class="weight">25%</div>
+                    </div>
+                    <div class="nbi-component" data-component="final" data-weight="0.05">
+                        <h4>Final Set Thriller</h4>
+                        <p>Decisive set intensity</p>
+                        <div class="weight">5%</div>
+                    </div>
+                    <div class="nbi-component" data-component="breakpoints" data-weight="0.10">
+                        <h4>Break Point Drama</h4>
+                        <p>Crucial points saved</p>
+                        <div class="weight">10%</div>
+                    </div>
+                    <div class="nbi-component" data-component="duration" data-weight="0.11">
+                        <h4>Match Duration</h4>
+                        <p>Length of battle</p>
+                        <div class="weight">11%</div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -58,95 +125,127 @@
     <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
     
     <script>
-        let matchesData = [];
-
-        // Function to format date with error handling
         function formatDate(dateStr) {
             if (!dateStr) return '';
-            try {
-                const year = dateStr.substring(0, 4);
-                const month = dateStr.substring(4, 6);
-                const day = dateStr.substring(6, 8);
-                if (year && month && day) {
-                    return `${year}-${month}-${day}`;
-                }
-                return dateStr;
-            } catch (e) {
-                console.error('Error formatting date:', dateStr);
-                return dateStr;
-            }
+            const year = dateStr.substring(0, 4);
+            const month = dateStr.substring(4, 6);
+            const day = dateStr.substring(6, 8);
+            return `${year}-${month}-${day}`;
         }
 
-        // Load data
-        fetch('data/gs_nailbiters.csv')
-            .then(response => response.text())
-            .then(csv => {
-                // Parse CSV, skip empty lines
-                const lines = csv.split('\n').filter(line => line.trim());
-                const headers = lines[0].split(',');
-                
-                matchesData = lines.slice(1)
-                    .map(line => {
-                        try {
-                            const values = line.split(',');
-                            if (values.length < 9) return null; // Skip invalid rows
-                            
-                            return {
-                                tournament: values[1] || '',
-                                date: formatDate(values[2]),
-                                round: values[3] || '',
-                                winner: values[6] || '',
-                                loser: values[7] || '',
-                                score: values[5] || '',
-                                duration: values[4] || '',
-                                nbi: values[8] ? parseFloat(values[8]).toFixed(3) : ''
-                            };
-                        } catch (e) {
-                            console.error('Error parsing line:', line);
-                            return null;
-                        }
-                    })
-                    .filter(row => row !== null); // Remove any invalid rows
+        function formatDetails(data) {
+            if (!data.components) return '<div class="details-container">No component data available</div>';
+            
+            const components = data.components;
+            const totalNBI = Object.values(components).reduce((a, b) => a + b, 0);
+            
+            const rows = Object.entries(components)
+                .map(([name, value]) => {
+                    const percentage = ((value / totalNBI) * 100).toFixed(1);
+                    return `
+                        <div class="component-row">
+                            <div class="component-name">${name}</div>
+                            <div class="component-bar-container">
+                                <div class="component-bar" style="width: ${percentage}%"></div>
+                            </div>
+                            <div class="component-value">${percentage}%</div>
+                        </div>
+                    `;
+                })
+                .join('');
+
+            return `
+                <div class="details-container">
+                    <div class="components-breakdown">
+                        ${rows}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Load and display data
+        fetch('data/gs_nailbiters.json')
+            .then(response => response.json())
+            .then(data => {
+                const matchesData = data.map(match => ({
+                    match: match.match || '',
+                    tournament: match.tourney || '',
+                    date: formatDate(match.date),
+                    round: match.round || '',
+                    score: match.score || '',
+                    nbi: match.NBI ? match.NBI.toFixed(2) : '',
+                    drama_tags: match.drama_tags || '',
+                    components: match.components || {}
+                }));
 
                 // Initialize DataTable
                 const table = $('#matchesTable').DataTable({
                     data: matchesData,
                     columns: [
+                        {
+                            className: 'details-control',
+                            orderable: false,
+                            data: null,
+                            defaultContent: '<div class="expand-btn">+</div>'
+                        },
+                        { data: 'match' },
                         { data: 'tournament' },
-                        { data: 'date' },
                         { data: 'round' },
-                        { data: 'winner' },
-                        { data: 'loser' },
                         { data: 'score' },
-                        { data: 'duration' },
-                        { data: 'nbi' }
+                        { data: 'nbi' },
+                        { data: 'drama_tags' }
                     ],
-                    order: [[7, 'desc']], // Sort by NBI by default
+                    order: [[5, 'desc']], // Sort by NBI by default
                     pageLength: 25,
-                    lengthMenu: [[25], [25]], // Only allow 25 records per page
-                    dom: 'Bfrtip',
-                    buttons: ['copy', 'csv', 'excel'],
-                    initComplete: function(settings, json) {
-                        const api = this.api();
-                        
-                        // Show only finals by default and limit to top 25
-                        api.column(2).search('^F$', true, false).draw();
+                    lengthMenu: [[25], [25]]
+                });
 
-                        // Toggle button functionality
-                        $('#showAllMatches').click(function() {
-                            $(this).addClass('active');
-                            $('#showFinals').removeClass('active');
-                            // Show all matches but still limit to top 25
-                            api.column(2).search('').draw();
-                        });
-
-                        $('#showFinals').click(function() {
-                            $(this).addClass('active');
-                            $('#showAllMatches').removeClass('active');
-                            // Show only finals
-                            api.column(2).search('^F$', true, false).draw();
-                        });
+                // Add event listener for expanding/collapsing details
+                $('#matchesTable tbody').on('click', 'td.details-control', function() {
+                    const tr = $(this).closest('tr');
+                    const row = table.row(tr);
+                    
+                    if (row.child.isShown()) {
+                        row.child.hide();
+                        tr.removeClass('shown');
+                        $(this).find('.expand-btn').text('+');
+                    } else {
+                        row.child(formatDetails(row.data())).show();
+                        tr.addClass('shown');
+                        $(this).find('.expand-btn').text('−');
                     }
+                });
+
+                // Show only finals by default
+                table.column(3).search('^F$', true, false).draw();
+
+                // Toggle button functionality
+                $('#showAllMatches').click(function() {
+                    $(this).addClass('active');
+                    $('#showFinals').removeClass('active');
+                    table.column(3).search('').draw();
+                });
+
+                $('#showFinals').click(function() {
+                    $(this).addClass('active');
+                    $('#showAllMatches').removeClass('active');
+                    table.column(3).search('^F$', true, false).draw();
+                });
+
+                // Download functionality
+                $('#downloadData').click(function() {
+                    const csvContent = "data:text/csv;charset=utf-8," + 
+                        table.data().toArray().map(row => 
+                            Object.values(row).join(",")
+                        ).join("\n");
+                    
+                    const encodedUri = encodeURI(csvContent);
+                    const link = document.createElement("a");
+                    link.setAttribute("href", encodedUri);
+                    link.setAttribute("download", "nailbiters_data.csv");
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
                 });
             })
             .catch(error => {
@@ -154,6 +253,14 @@
                 document.querySelector('.chart-container').innerHTML = 
                     '<p class="error">Error loading data. Please try again later.</p>';
             });
+
+        // Methodology button click handler
+        document.getElementById('showMethodology').addEventListener('click', function() {
+            document.querySelector('.nbi-breakdown').scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
     </script>
 </body>
 </html>
