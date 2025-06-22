@@ -11,14 +11,18 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             // Replace relative paths based on current location
             if (inSubfolder) {
-                // Already has correct paths for subfolders
-                document.body.insertAdjacentHTML('afterbegin', data);
+                // For subfolder pages, ensure all root-level links are correctly prefixed
+                const adjustedData = data
+                    .replace(/href="\.\.\/([^"]+)"/g, (match, p1) => `href="../${p1}"`)
+                    .replace(/href="summercamp\.html"/g, 'href="../summercamp.html"');
+                document.body.insertAdjacentHTML('afterbegin', adjustedData);
             } else {
                 // For root level, adjust paths
                 const adjustedData = data
                     .replace(/href="\.\.\/tennis_analytics\.css"/g, 'href="tennis_analytics.css"')
                     .replace(/href="\.\.\/image\/favicon\.ico"/g, 'href="image/favicon.ico"')
-                    .replace(/href="\.\.\/index\.html/g, 'href="index.html');
+                    .replace(/href="\.\.\/index\.html/g, 'href="index.html"')
+                    .replace(/href="\.\.\/summercamp\.html"/g, 'href="summercamp.html"');
                 document.body.insertAdjacentHTML('afterbegin', adjustedData);
             }
             
