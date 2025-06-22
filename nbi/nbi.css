@@ -121,30 +121,6 @@ table.dataTable tbody tr:hover {
     background-color: rgba(30, 86, 49, 0.05);
 }
 
-/* DataTable expand/collapse controls */
-td.details-control {
-    cursor: pointer;
-    width: 30px;
-}
-
-.expand-btn {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 50%;
-    background-color: rgba(30, 86, 49, 0.1);
-    color: var(--primary-color);
-    font-weight: bold;
-    transition: all 0.2s ease;
-}
-
-tr.shown .expand-btn {
-    background-color: var(--primary-color);
-    color: white;
-}
-
 /* NBI Components Grid */
 .nbi-components-grid {
     background: var(--card-bg);
@@ -257,6 +233,97 @@ tr.shown .expand-btn {
 /* Add smooth scrolling to body */
 html {
     scroll-behavior: smooth;
+}
+
+/* Tooltip and Modal Styles */
+.tooltip-content {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 300px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+/* Enhanced Tooltip Styles */
+.tooltip {
+    position: absolute;
+    z-index: 1070;
+    font-size: 0.85rem;
+}
+
+.tooltip-inner {
+    max-width: 300px;
+    padding: 12px;
+    background-color: #fff;
+    color: #333;
+    text-align: left;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    line-height: 1.4;
+}
+
+.tooltip-inner strong {
+    color: #1e5631;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.tooltip-inner em {
+    color: #666;
+    font-style: italic;
+    display: block;
+    margin-top: 6px;
+}
+
+.tooltip-inner br {
+    margin-bottom: 6px;
+}
+
+.iconic-star {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.iconic-star .fa-star {
+    color: #ffd700;
 }
 
 /* Responsive adjustments */

@@ -11,6 +11,9 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     
+    <!-- Add Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
     <!-- Project CSS -->
     <link rel="stylesheet" href="../tennis_analytics.css">
     <link rel="stylesheet" href="nbi.css">
@@ -21,8 +24,23 @@
     
     <!-- Favicon -->
     <link rel="icon" href="../image/favicon.ico">
+
+    <!-- Bootstrap JS for tooltips -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+    <!-- Add modal HTML before main content -->
+    <div id="matchModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalSignificance"></p>
+            <p id="modalCommentary"></p>
+            <p id="modalCareerImpact"></p>
+            <p id="modalCulturalResonance"></p>
+        </div>
+    </div>
+
     <main class="main-content">
         <div class="container">
             <h1 class="section-title">Nail-Biting Index: A data-driven measure of tennis match drama</h1>
@@ -42,7 +60,7 @@
                 <table id="matchesTable" class="display" style="width:100%">
                     <thead>
                         <tr>
-                            <th></th>
+                            <th>Rank</th>
                             <th>Match</th>
                             <th>Tournament</th>
                             <th>Round</th>
@@ -52,66 +70,58 @@
                         </tr>
                     </thead>
                 </table>
-                
-                <div class="download-section">
-                    <button id="downloadData" class="btn btn-primary">Download Data</button>
-                </div>
             </div>
 
             <div class="nbi-breakdown">
                 <div class="nbi-formula">
                     <h3>The NBI Formula</h3>
-                    <div class="formula-text">NBI = 
-    0.22 × (Avg Set Margin) +
-    0.18 × (Tiebreak Count) + 
-    0.12 × (Lead Changes) +
-    0.08 × (Momentum Volatility) + 
-    0.25 × (Comeback Score) + 
-    0.05 × (Final Set Thriller) +
-    0.10 × (Break Point Drama) + 
-    0.11 × (Normalized Duration)</div>
-                </div>
-
-                <div class="nbi-components">
-                    <div class="nbi-component" data-component="sets" data-weight="0.22">
-                        <h4>Set Closeness</h4>
-                        <p>Tighter sets = More tension</p>
-                        <div class="weight">22%</div>
+                    <div class="formula-text">
+                        NBI = 
+                        0.25 × (Set Closeness) +
+                        0.22 × (Comeback Factor) +
+                        0.18 × (Lead Changes) +
+                        0.12 × (Tiebreak Count) +
+                        0.10 × (Match Duration) +
+                        0.07 × (Break Point Drama) +
+                        0.06 × (Final Set Tiebreak)
                     </div>
-                    <div class="nbi-component" data-component="tiebreaks" data-weight="0.18">
-                        <h4>Tiebreak Drama</h4>
-                        <p>More tiebreaks = Higher stakes</p>
-                        <div class="weight">18%</div>
-                    </div>
-                    <div class="nbi-component" data-component="momentum" data-weight="0.12">
-                        <h4>Lead Changes</h4>
-                        <p>Back and forth battles</p>
-                        <div class="weight">12%</div>
-                    </div>
-                    <div class="nbi-component" data-component="volatility" data-weight="0.08">
-                        <h4>Momentum Shifts</h4>
-                        <p>Score volatility & swings</p>
-                        <div class="weight">8%</div>
-                    </div>
-                    <div class="nbi-component" data-component="comeback" data-weight="0.25">
-                        <h4>Epic Comebacks</h4>
-                        <p>Victories from behind</p>
-                        <div class="weight">25%</div>
-                    </div>
-                    <div class="nbi-component" data-component="final" data-weight="0.05">
-                        <h4>Final Set Thriller</h4>
-                        <p>Decisive set intensity</p>
-                        <div class="weight">5%</div>
-                    </div>
-                    <div class="nbi-component" data-component="breakpoints" data-weight="0.10">
-                        <h4>Break Point Drama</h4>
-                        <p>Crucial points saved</p>
-                        <div class="weight">10%</div>
-                    </div>
-                    <div class="nbi-component" data-component="duration" data-weight="0.11">
-                        <h4>Match Duration</h4>
-                        <p>Length of battle</p>
-                        <div class="weight">11%</div>
+            
+                    <div class="nbi-components">
+                        <div class="nbi-component" data-component="sets" data-weight="0.25">
+                            <h4>Set Closeness</h4>
+                            <p>Measures how close each set was—smaller average margins mean tighter, more competitive sets.</p>
+                            <div class="weight">25%</div>
+                        </div>
+                        <div class="nbi-component" data-component="comeback" data-weight="0.22">
+                            <h4>Comeback Factor</h4>
+                            <p>Rewards matches where a player comes back from a significant deficit, especially from two sets down.</p>
+                            <div class="weight">22%</div>
+                        </div>
+                        <div class="nbi-component" data-component="lead_changes" data-weight="0.18">
+                            <h4>Lead Changes</h4>
+                            <p>Counts how often the match momentum shifted, showing back-and-forth battles.</p>
+                            <div class="weight">18%</div>
+                        </div>
+                        <div class="nbi-component" data-component="tiebreaks" data-weight="0.12">
+                            <h4>Tiebreak Count</h4>
+                            <p>Number of sets decided by a tiebreak, highlighting high-pressure moments.</p>
+                            <div class="weight">12%</div>
+                        </div>
+                        <div class="nbi-component" data-component="duration" data-weight="0.10">
+                            <h4>Match Duration</h4>
+                            <p>Normalizes match length per set—longer, drawn-out battles score higher.</p>
+                            <div class="weight">10%</div>
+                        </div>
+                        <div class="nbi-component" data-component="breakpoints" data-weight="0.07">
+                            <h4>Break Point Drama</h4>
+                            <p>Reflects the share of break points saved, emphasizing clutch play under pressure.</p>
+                            <div class="weight">7%</div>
+                        </div>
+                        <div class="nbi-component" data-component="final_set_tiebreak" data-weight="0.06">
+                            <h4>Final Set Tiebreak</h4>
+                            <p>Indicates if the match was decided by a tiebreak in the final set.</p>
+                            <div class="weight">6%</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,140 +135,118 @@
     <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
     
     <script>
-        function formatDate(dateStr) {
-            if (!dateStr) return '';
-            const year = dateStr.substring(0, 4);
-            const month = dateStr.substring(4, 6);
-            const day = dateStr.substring(6, 8);
-            return `${year}-${month}-${day}`;
-        }
-
-        function formatDetails(data) {
-            if (!data.components) return '<div class="details-container">No component data available</div>';
-            
-            const components = data.components;
-            const totalNBI = Object.values(components).reduce((a, b) => a + b, 0);
-            
-            const rows = Object.entries(components)
-                .map(([name, value]) => {
-                    const percentage = ((value / totalNBI) * 100).toFixed(1);
-                    return `
-                        <div class="component-row">
-                            <div class="component-name">${name}</div>
-                            <div class="component-bar-container">
-                                <div class="component-bar" style="width: ${percentage}%"></div>
-                            </div>
-                            <div class="component-value">${percentage}%</div>
-                        </div>
-                    `;
+        // Load both data files
+        Promise.all([
+            fetch('data/gs_nailbiters.json').then(response => response.json()),
+            fetch('data/iconic_gs_matches.json').then(response => response.json())
+        ]).then(([nailbitersData, iconicMatches]) => {
+            // Create a map of iconic matches with unique key including tournament and date
+            const iconicMatchesMap = new Map(
+                iconicMatches.map(match => {
+                    const tourneyYear = match.tourney_date.substring(0, 4);
+                    const key = `${match.winner_name} def. ${match.loser_name}|${match.tourney_name}|${tourneyYear}`;
+                    return [key, match];
                 })
-                .join('');
+            );
 
-            return `
-                <div class="details-container">
-                    <div class="components-breakdown">
-                        ${rows}
-                    </div>
-                </div>
-            `;
-        }
-
-        // Load and display data
-        fetch('data/gs_nailbiters.json')
-            .then(response => response.json())
-            .then(data => {
-                const matchesData = data.map(match => ({
+            const matchesData = nailbitersData.map(match => {
+                const tourneyYear = match.date.substring(0, 4);
+                const matchKey = `${match.match}|${match.tourney}|${tourneyYear}`;
+                return {
                     match: match.match || '',
-                    tournament: match.tourney || '',
-                    date: formatDate(match.date),
+                    tournament: match.date ? `${match.tourney} ${tourneyYear}` : match.tourney,
                     round: match.round || '',
                     score: match.score || '',
-                    nbi: match.NBI ? match.NBI.toFixed(2) : '',
+                    nbi: match.NBI ? Math.round(match.NBI * 100) : '',
                     drama_tags: match.drama_tags || '',
-                    components: match.components || {}
-                }));
-
-                // Initialize DataTable
-                const table = $('#matchesTable').DataTable({
-                    data: matchesData,
-                    columns: [
-                        {
-                            className: 'details-control',
-                            orderable: false,
-                            data: null,
-                            defaultContent: '<div class="expand-btn">+</div>'
-                        },
-                        { data: 'match' },
-                        { data: 'tournament' },
-                        { data: 'round' },
-                        { data: 'score' },
-                        { data: 'nbi' },
-                        { data: 'drama_tags' }
-                    ],
-                    order: [[5, 'desc']], // Sort by NBI by default
-                    pageLength: 25,
-                    lengthMenu: [[25], [25]]
-                });
-
-                // Add event listener for expanding/collapsing details
-                $('#matchesTable tbody').on('click', 'td.details-control', function() {
-                    const tr = $(this).closest('tr');
-                    const row = table.row(tr);
-                    
-                    if (row.child.isShown()) {
-                        row.child.hide();
-                        tr.removeClass('shown');
-                        $(this).find('.expand-btn').text('+');
-                    } else {
-                        row.child(formatDetails(row.data())).show();
-                        tr.addClass('shown');
-                        $(this).find('.expand-btn').text('−');
-                    }
-                });
-
-                // Show only finals by default
-                table.column(3).search('^F$', true, false).draw();
-
-                // Toggle button functionality
-                $('#showAllMatches').click(function() {
-                    $(this).addClass('active');
-                    $('#showFinals').removeClass('active');
-                    table.column(3).search('').draw();
-                });
-
-                $('#showFinals').click(function() {
-                    $(this).addClass('active');
-                    $('#showAllMatches').removeClass('active');
-                    table.column(3).search('^F$', true, false).draw();
-                });
-
-                // Download functionality
-                $('#downloadData').click(function() {
-                    const csvContent = "data:text/csv;charset=utf-8," + 
-                        table.data().toArray().map(row => 
-                            Object.values(row).join(",")
-                        ).join("\n");
-                    
-                    const encodedUri = encodeURI(csvContent);
-                    const link = document.createElement("a");
-                    link.setAttribute("href", encodedUri);
-                    link.setAttribute("download", "nailbiters_data.csv");
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                });
-            })
-            .catch(error => {
-                console.error('Error loading data:', error);
-                document.querySelector('.chart-container').innerHTML = 
-                    '<p class="error">Error loading data. Please try again later.</p>';
+                    iconicMatch: iconicMatchesMap.get(matchKey)
+                };
             });
 
-        // Methodology button click handler
-        document.getElementById('showMethodology').addEventListener('click', function() {
-            document.querySelector('.nbi-breakdown').scrollIntoView({ 
-                behavior: 'smooth',
-                block: 'start'
+            // Initialize DataTable
+            const table = $('#matchesTable').DataTable({
+                data: matchesData,
+                dom: 'frtip',
+                columns: [
+                    { 
+                        title: "Rank",
+                        data: null,
+                        render: function (data, type, row, meta) {
+                            return meta.row + 1;
+                        }
+                    },
+                    { 
+                        data: 'match',
+                        render: function(data, type, row) {
+                            if (type === 'display' && row.iconicMatch) {
+                                const tooltipContent = `
+                                    <strong>${row.iconicMatch.historical_significance}</strong>
+                                    ${row.iconicMatch.short_commentary}<br>
+                                    <em>Career Impact:</em> ${row.iconicMatch.career_impact}<br>
+                                    <em>Cultural Impact:</em> ${row.iconicMatch.cultural_resonance}
+                                `;
+                                return `${data}<span class="iconic-star" data-match="${data}">
+                                    <i class="fas fa-star" data-bs-toggle="tooltip" 
+                                       data-bs-html="true" 
+                                       data-bs-placement="right"
+                                       title="${tooltipContent}"></i>
+                                </span>`;
+                            }
+                            return data;
+                        }
+                    },
+                    { data: 'tournament' },
+                    { data: 'round' },
+                    { data: 'score' },
+                    { data: 'nbi' },
+                    { data: 'drama_tags' }
+                ],
+                order: [[5, 'desc']],
+                pageLength: 25,
+                lengthMenu: [[25], [25]],
+                drawCallback: function() {
+                    const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+                    tooltipTriggerList.map(function (tooltipTriggerEl) {
+                        return new bootstrap.Tooltip(tooltipTriggerEl, {
+                            html: true,
+                            boundary: 'window',
+                            placement: 'right'
+                        });
+                    });
+                }
+            });
+
+            // Set initial state to show all matches and highlight the correct button
+            $('#showAllMatches').addClass('active');
+            $('#showFinals').removeClass('active');
+            table.column(3).search('').draw();
+
+            // Toggle button functionality
+            $('#showAllMatches').click(function() {
+                $(this).addClass('active');
+                $('#showFinals').removeClass('active');
+                table.column(3).search('').draw();
+            });
+
+            $('#showFinals').click(function() {
+                $(this).addClass('active');
+                $('#showAllMatches').removeClass('active');
+                table.column(3).search('^F$', true, false).draw();
+            });
+
+            // Download functionality
+            $('#downloadData').click(function() {
+                const csvContent = "data:text/csv;charset=utf-8," + 
+                    table.data().toArray().map(row => 
+                        Object.values(row).join(",")
+                    ).join("\n");
+                
+                const encodedUri = encodeURI(csvContent);
+                const link = document.createElement("a");
+                link.setAttribute("href", encodedUri);
+                link.setAttribute("download", "tennis_matches.csv");
+                document.body.appendChild(link);
+                link.click();
             });
         });
     </script>

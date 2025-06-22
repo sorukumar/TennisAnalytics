@@ -2,11 +2,11 @@
 
 /* Base Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: var(--background-light);
+    color: var(--text-dark);
 }
 
 /* Container */
@@ -18,59 +18,70 @@ body {
 
 /* Header */
 h1 {
-    color: #006400;
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
     text-align: center;
     margin-bottom: 30px;
-    font-weight: bold;
+    font-size: 2rem;
 }
 
-h2 {
-    color: #006400;
-    margin-top: 30px;
+/* Chart sections */
+.chart-section {
+    background: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: var(--shadow-soft);
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+/* Explanation sections */
+.chart-explanation {
+    margin-bottom: 30px;
+    background-color: rgba(30, 86, 49, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.chart-explanation h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    margin-top: 0;
     margin-bottom: 15px;
-    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.chart-explanation p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.chart-explanation p:last-child {
+    margin-bottom: 0;
 }
 
 /* Chart containers */
 .chart-container {
     width: 100%;
     height: 600px;
-    margin-bottom: 40px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin: 0;
+    overflow: visible; /* Changed from hidden to visible to show axis labels */
 }
 
 .chart-title {
-    font-size: 20px;
-    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: var(--primary-color);
     margin-bottom: 20px;
     text-align: center;
-    color: #006400;
-}
-
-/* Explanation sections */
-.chart-explanation {
-    margin-bottom: 20px;
-    background-color: #f0f8f0;
-    padding: 15px;
-    border-radius: 8px;
-    border-left: 4px solid #006400;
-}
-
-.chart-explanation h2 {
-    margin-top: 0;
-    color: #006400;
-}
-
-.chart-explanation p {
-    line-height: 1.6;
-    margin-bottom: 10px;
 }
 
 /* Tooltip */
-.tooltip {
+#shared-tooltip.tooltip {
     position: absolute;
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
@@ -80,12 +91,25 @@ h2 {
     font-size: 12px;
     z-index: 10;
     opacity: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 /* Axis labels */
 .axis-label {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 12px;
+    fill: #555;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Make sure axis ticks and domain lines are visible */
+.axis path,
+.axis line {
+    stroke: #ccc;
+}
+
+.axis text {
+    fill: #555;
+    font-size: 11px;
 }
 
 /* Legend */
@@ -120,17 +144,49 @@ h2 {
 }
 
 /* Responsive adjustments */
+@media (max-width: 992px) {
+    .container {
+        padding: 15px;
+    }
+
+    .chart-section {
+        padding: 20px;
+    }
+}
+
 @media (max-width: 768px) {
     .chart-container {
         height: 400px;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 1.8rem;
     }
 
-    h2 {
-        font-size: 20px;
+    .chart-explanation h2 {
+        font-size: 1.3rem;
+    }
+
+    .chart-title {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .chart-section {
+        padding: 15px;
+    }
+
+    .chart-explanation {
+        padding: 15px;
+    }
+
+    .chart-container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
     }
 }
 

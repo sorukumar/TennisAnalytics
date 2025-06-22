@@ -1,23 +1,5 @@
 // D3.js Timeline Chart for Years on Tour Before First Grand Slam
 document.addEventListener('DOMContentLoaded', function() {
-    // Check if the timeline-chart container exists
-    if (!document.getElementById('timeline-chart')) {
-        // Create the container if it doesn't exist
-        const container = document.createElement('div');
-        container.className = 'chart-container';
-        container.id = 'timeline-chart';
-
-        const title = document.createElement('div');
-        title.className = 'chart-title';
-        title.textContent = 'Years on Tour Before First Grand Slam Win';
-
-        container.appendChild(title);
-
-        // Insert after the bubble chart
-        const bubbleChart = document.getElementById('bubble-chart');
-        bubbleChart.parentNode.insertBefore(container, bubbleChart.nextSibling);
-    }
-    
     createTimelineChart();
     
     // Add resize listener
@@ -31,10 +13,10 @@ function createTimelineChart() {
     // Get container dimensions
     const chartContainer = document.getElementById('timeline-chart');
     const containerWidth = chartContainer.clientWidth;
-    const containerHeight = chartContainer.clientHeight || 600; // Fallback if height not set by CSS
+    const containerHeight = chartContainer.clientHeight || 600;
     
-    // Chart dimensions and margins
-    const margin = {top: 50, right: 150, bottom: 100, left: 200};
+    // Chart dimensions and margins - increased bottom margin for x-axis label
+    const margin = {top: 50, right: 150, bottom: 120, left: 200};
     const width = containerWidth - margin.left - margin.right;
     const height = containerHeight - margin.top - margin.bottom;
 
