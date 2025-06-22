@@ -234,6 +234,11 @@
                 table.column(3).search('^F$', true, false).draw();
             });
 
+            // Update What is NBI? button to scroll to section
+            $('#showMethodology').click(function() {
+                $('.nbi-breakdown')[0].scrollIntoView({ behavior: 'smooth' });
+            });
+
             // Download functionality
             $('#downloadData').click(function() {
                 const csvContent = "data:text/csv;charset=utf-8," + 
