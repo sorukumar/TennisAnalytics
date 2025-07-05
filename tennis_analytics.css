@@ -863,3 +863,142 @@ body {
   font-size: 12px;
   fill: #555;
 }
+
+/* Social Share FAB (Floating Action Button) */
+.social-share-fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.fab-trigger {
+  background: var(--primary-color);
+  border: none;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.fab-trigger:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  background: #164525;
+}
+
+.fab-trigger i {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.fab-options {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.fab-options.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.fab-options .share-btn {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fab-options .share-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.fab-options .share-btn i {
+  font-size: 1rem;
+  color: #666;
+  transition: color 0.2s ease;
+}
+
+.fab-options .twitter:hover {
+  background: #000000;
+  border-color: #000000;
+}
+
+.fab-options .twitter:hover i {
+  color: white;
+}
+
+.fab-options .linkedin:hover {
+  background: #0077b5;
+  border-color: #0077b5;
+}
+
+.fab-options .linkedin:hover i {
+  color: white;
+}
+
+.fab-options .facebook:hover {
+  background: #4267B2;
+  border-color: #4267B2;
+}
+
+.fab-options .facebook:hover i {
+  color: white;
+}
+
+.fab-options .reddit:hover {
+  background: #ff4500;
+  border-color: #ff4500;
+}
+
+.fab-options .reddit:hover i {
+  color: white;
+}
+
+/* Mobile adjustments for FAB */
+@media (max-width: 768px) {
+  .social-share-fab {
+    bottom: 80px; /* Move up to avoid mobile browser controls */
+    right: 16px;
+  }
+  
+  .fab-trigger {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .fab-trigger i {
+    font-size: 1.1rem;
+  }
+  
+  .fab-options .share-btn {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .fab-options .share-btn i {
+    font-size: 0.9rem;
+  }
+}
