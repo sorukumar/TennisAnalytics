@@ -1,0 +1,268 @@
+/* Grand Slam Dominance Index (GSDI) Specific Styles */
+
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Page Title and Controls Styling */
+.section-title {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+/* Article header and intro styles consistent with other pages */
+.article-header {
+    margin-bottom: 1.8rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.intro-text {
+    max-width: 800px;
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.intro-text p:first-child {
+    margin-bottom: 0.8rem;
+}
+
+.intro-text p:last-child {
+    margin-bottom: 0;
+}
+
+/* Controls container layout */
+.controls-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 0 20px;
+}
+
+/* Methodology button styling */
+.methodology-btn {
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: var(--text-dark);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition-standard);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.methodology-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Chart Container */
+.chart-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-soft);
+}
+
+/* DataTables customization */
+.dataTables_wrapper {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table.dataTable {
+    border-collapse: collapse !important;
+    margin-bottom: 1rem;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table.dataTable thead th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 12px 15px;
+}
+
+table.dataTable tbody td {
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    color: var(--text-dark);
+}
+
+table.dataTable tbody tr:hover {
+    background-color: rgba(30, 86, 49, 0.05);
+}
+
+/* GSDI Components Styles */
+.gsdi-breakdown {
+    margin-top: 60px;
+}
+
+.gsdi-formula {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-soft);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.gsdi-formula h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.formula-text {
+    font-family: 'Montserrat', monospace;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    padding: 15px;
+    background: rgba(30, 86, 49, 0.05);
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin-bottom: 25px;
+}
+
+.gsdi-components {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.gsdi-component {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: left;
+    border: 1px solid rgba(0,0,0,0.05);
+    position: relative;
+}
+
+.gsdi-component:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-color: var(--primary-color);
+}
+
+.gsdi-component h4 {
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+.gsdi-component p {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0 0 15px 0;
+    line-height: 1.4;
+}
+
+.weight {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: rgba(30, 86, 49, 0.1);
+    display: inline-block;
+}
+
+/* Bonus components styling */
+.bonus-components {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.bonus-component {
+    background: #f8f9fa;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.bonus-component h4 {
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+.bonus-component p {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Add smooth scrolling to body */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .gsdi-components {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .formula-text {
+        font-size: 0.95rem;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gsdi-formula {
+        padding: 20px;
+    }
+
+    .gsdi-component {
+        padding: 20px;
+    }
+
+    .formula-text {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    table.dataTable {
+        font-size: 0.85rem;
+    }
+
+    .gsdi-components {
+        grid-template-columns: 1fr;
+    }
+
+    .bonus-components {
+        grid-template-columns: 1fr;
+    }
+
+    .formula-text {
+        font-size: 0.85rem;
+    }
+}

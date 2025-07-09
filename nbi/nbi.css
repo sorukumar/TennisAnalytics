@@ -17,7 +17,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
     padding: 0 20px;
 }
 
@@ -442,4 +444,29 @@ html {
     font-weight: 500;
     text-align: right;
     white-space: nowrap;
+}
+
+/* Nail-Biters Index (NBI) Specific Styles */
+
+/* Article header and intro styles consistent with other pages */
+.article-header {
+    margin-bottom: 1.8rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.intro-text {
+    max-width: 800px;
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.intro-text p:first-child {
+    margin-bottom: 0.8rem;
+}
+
+.intro-text p:last-child {
+    margin-bottom: 0;
 }

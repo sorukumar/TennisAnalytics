@@ -1,5 +1,101 @@
 [
   {
+    "winner_name": "Björn Borg",
+    "loser_name": "John McEnroe",
+    "tourney_name": "Wimbledon",
+    "tourney_date": "19800705",
+    "round": "F",
+    "score": "1-6 7-5 6-3 6-7(16) 8-6",
+    "historical_significance": "The Fire and Ice Classic",
+    "short_commentary": "Borg survives McEnroe in a 5-set epic, including the legendary 18-16 tiebreak.",
+    "career_impact": "Borg's fifth straight Wimbledon; McEnroe's arrival as a superstar.",
+    "cultural_resonance": "Defined the Borg McEnroe rivalry; the tiebreak became tennis folklore."
+  },
+  {
+    "winner_name": "Pat Cash",
+    "loser_name": "Ivan Lendl",
+    "tourney_name": "Wimbledon",
+    "tourney_date": "19870705",
+    "round": "F",
+    "score": "7-6(5) 6-2 7-5",
+    "historical_significance": "The Climb into the Stands",
+    "short_commentary": "Cash wins his only Slam, climbing into the stands to celebrate with family.",
+    "career_impact": "Cash's crowning moment; Lendl's grass-court frustration.",
+    "cultural_resonance": "First player to climb into the box; started a Wimbledon tradition."
+  },
+  {
+    "winner_name": "Mats Wilander",
+    "loser_name": "Ivan Lendl",
+    "tourney_name": "US Open",
+    "tourney_date": "19880911",
+    "round": "F",
+    "score": "6-4 4-6 6-3 5-7 6-4",
+    "historical_significance": "Wilander Completes the Triple",
+    "short_commentary": "Wilander wins his third Slam of 1988, outlasting Lendl in a 4h54m battle.",
+    "career_impact": "Wilander becomes world No. 1; peak of his career.",
+    "cultural_resonance": "First man since Connors to win three Slams in a year; marked the end of Lendl's US Open reign."
+  },
+  {
+    "winner_name": "Michael Chang",
+    "loser_name": "Ivan Lendl",
+    "tourney_name": "Roland Garros",
+    "tourney_date": "19890605",
+    "round": "4R",
+    "score": "4-6 4-6 6-3 6-3 6-3",
+    "historical_significance": "The Underhand Serve and the Miracle Run",
+    "short_commentary": "17-year-old Chang stuns Lendl with gutsy tactics and the famous underhand serve.",
+    "career_impact": "Chang becomes youngest male Slam winner; Lendl's clay dominance shaken.",
+    "cultural_resonance": "Chang's faith and fight inspired millions; the underhand serve became legend."
+  },
+  {
+    "winner_name": "Stefan Edberg",
+    "loser_name": "Michael Chang",
+    "tourney_name": "US Open",
+    "tourney_date": "19920913",
+    "round": "F",
+    "score": "6-2 6-4 7-6(5)",
+    "historical_significance": "Edberg's Marathon Run",
+    "short_commentary": "Edberg wins after back-to-back 5-setters; classic serve-and-volley display.",
+    "career_impact": "Edberg's last Slam; cemented his legacy as a US Open great.",
+    "cultural_resonance": "End of an era for classic net play; Edberg's sportsmanship celebrated."
+  },
+  {
+    "winner_name": "Pete Sampras",
+    "loser_name": "Jim Courier",
+    "tourney_name": "Australian Open",
+    "tourney_date": "19950129",
+    "round": "QF",
+    "score": "6-7(4) 6-7(3) 6-3 6-4 6-3",
+    "historical_significance": "Tears and Triumph",
+    "short_commentary": "Sampras, emotionally spent after coach's illness, rallies from two sets down.",
+    "career_impact": "Sampras's mental strength mythologized; inspired a generation.",
+    "cultural_resonance": "Sampras's tears on court became an iconic image of vulnerability in sport."
+  },
+  {
+    "winner_name": "Pete Sampras",
+    "loser_name": "Andre Agassi",
+    "tourney_name": "US Open",
+    "tourney_date": "19950910",
+    "round": "F",
+    "score": "6-4 6-3 4-6 7-5",
+    "historical_significance": "The Rivalry's Peak",
+    "short_commentary": "Sampras and Agassi, both at their best, deliver a classic under the lights.",
+    "career_impact": "Sampras's US Open dominance; Agassi's resurgence.",
+    "cultural_resonance": "Prime-time tennis; the match that defined a generation."
+  },
+  {
+    "winner_name": "Andre Agassi",
+    "loser_name": "Andrei Medvedev",
+    "tourney_name": "Roland Garros",
+    "tourney_date": "19990606",
+    "round": "F",
+    "score": "1-6 2-6 6-4 6-3 6-4",
+    "historical_significance": "Career Grand Slam Completed",
+    "short_commentary": "Agassi comes back from two sets down to win his only French Open.",
+    "career_impact": "Agassi becomes the fifth man to complete the Career Grand Slam.",
+    "cultural_resonance": "Agassi's redemption story; inspired late-career comebacks."
+  },
+  {
     "winner_name": "Goran Ivanisevic",
     "loser_name": "Patrick Rafter",
     "tourney_name": "Wimbledon",
@@ -22,6 +118,18 @@
     "short_commentary": "Nadal dethrones Federer in epic Wimbledon final; widely considered the best.",
     "career_impact": "Nadal proved he was more than just a clay-court specialist; Federer's aura shattered.",
     "cultural_resonance": "Made tennis mainstream; a cultural moment beyond sport."
+  },
+  {
+    "winner_name": "Rafael Nadal",
+    "loser_name": "Fernando Verdasco",
+    "tourney_name": "Australian Open",
+    "tourney_date": "20090130",
+    "round": "SF",
+    "score": "6-7(4) 6-4 7-6(2) 6-7(1) 6-4",
+    "historical_significance": "Epic All-Lefty Battle",
+    "short_commentary": "Nadal outlasts Verdasco in 5h14m; one of the greatest matches ever.",
+    "career_impact": "Nadal's confidence for final; Verdasco's career highlight.",
+    "cultural_resonance": "Set new standards for physical and mental endurance."
   },
   {
     "winner_name": "Rafael Nadal",
@@ -48,18 +156,6 @@
     "cultural_resonance": "Argentina's tennis renaissance; a 'what-if' story due to injuries."
   },
   {
-    "winner_name": "Rafael Nadal",
-    "loser_name": "Fernando Verdasco",
-    "tourney_name": "Australian Open",
-    "tourney_date": "20090130",
-    "round": "SF",
-    "score": "6-7(4) 6-4 7-6(2) 6-7(1) 6-4",
-    "historical_significance": "Epic All-Lefty Battle",
-    "short_commentary": "Nadal outlasts Verdasco in 5h14m; one of the greatest matches ever.",
-    "career_impact": "Nadal's confidence for final; Verdasco's career highlight.",
-    "cultural_resonance": "Set new standards for physical and mental endurance."
-  },
-  {
     "winner_name": "Novak Djokovic",
     "loser_name": "Roger Federer",
     "tourney_name": "US Open",
@@ -70,6 +166,30 @@
     "short_commentary": "Djokovic saves match points with iconic return vs Federer.",
     "career_impact": "Djokovic's psychological breakthrough; Federer's US Open confidence shaken.",
     "cultural_resonance": "The shot heard 'round the tennis world; defined clutch tennis."
+  },
+  {
+    "winner_name": "Novak Djokovic",
+    "loser_name": "Rafael Nadal",
+    "tourney_name": "Australian Open",
+    "tourney_date": "20120129",
+    "round": "F",
+    "score": "5-7 6-4 6-2 6-7(5) 7-5",
+    "historical_significance": "The Ultimate Endurance Test",
+    "short_commentary": "Longest Slam final; Djokovic outlasts Nadal in 5 hours, 53 minutes.",
+    "career_impact": "Djokovic's hard-court dominance established; Nadal's confidence shaken.",
+    "cultural_resonance": "Redefined tennis endurance; iconic trophy ceremony with chairs."
+  },
+  {
+    "winner_name": "Andy Murray",
+    "loser_name": "Novak Djokovic",
+    "tourney_name": "US Open",
+    "tourney_date": "20120910",
+    "round": "F",
+    "score": "7-6(10) 7-5 2-6 3-6 6-2",
+    "historical_significance": "Britain's 76-Year Wait Ends",
+    "short_commentary": "Murray ends Britain's 76-year Slam drought.",
+    "career_impact": "Murray's breakthrough; validated his place in Big 4.",
+    "cultural_resonance": "National celebration; Murray became a British icon."
   },
   {
     "winner_name": "Novak Djokovic",
@@ -84,28 +204,28 @@
     "cultural_resonance": "Set the stage for future Slam classics between the two."
   },
   {
-    "winner_name": "Kevin Anderson",
-    "loser_name": "John Isner",
-    "tourney_name": "Wimbledon",
-    "tourney_date": "20180713",
-    "round": "SF",
-    "score": "7-6(6) 6-7(5) 6-7(9) 6-4 26-24",
-    "historical_significance": "Marathon Semi Changes Rules",
-    "short_commentary": "Anderson wins 26-24 in the fifth; longest Wimbledon semi ever.",
-    "career_impact": "Led to final set tiebreak rule; Anderson reached first Wimbledon final.",
-    "cultural_resonance": "Endurance test; changed how Slams are played."
-  },
-  {
-    "winner_name": "Novak Djokovic",
+    "winner_name": "Stan Wawrinka",
     "loser_name": "Rafael Nadal",
     "tourney_name": "Australian Open",
-    "tourney_date": "20120129",
+    "tourney_date": "20140126",
     "round": "F",
-    "score": "5-7 6-4 6-2 6-7(5) 7-5",
-    "historical_significance": "The Ultimate Endurance Test",
-    "short_commentary": "Longest Slam final; Djokovic outlasts Nadal in 5 hours, 53 minutes.",
-    "career_impact": "Djokovic's hard-court dominance established; Nadal's confidence shaken.",
-    "cultural_resonance": "Redefined tennis endurance; iconic trophy ceremony with chairs."
+    "score": "6-3 6-2 3-6 6-3",
+    "historical_significance": "The Swiss Surprise",
+    "short_commentary": "Wawrinka wins first Slam; defeats injured Nadal.",
+    "career_impact": "Launched Wawrinka's late-career surge.",
+    "cultural_resonance": "Journeyman's dream; Wawrinka's tattoo became iconic."
+  },
+  {
+    "winner_name": "Stan Wawrinka",
+    "loser_name": "Novak Djokovic",
+    "tourney_name": "Roland Garros",
+    "tourney_date": "20150607",
+    "round": "F",
+    "score": "4-6 6-4 6-3 6-4",
+    "historical_significance": "Denying the Career Grand Slam",
+    "short_commentary": "Wawrinka denies Djokovic Career Grand Slam.",
+    "career_impact": "Delayed Djokovic's Career Grand Slam; Wawrinka proved his first Slam wasn't a fluke.",
+    "cultural_resonance": "David vs. Goliath; Wawrinka's backhand was poetry."
   },
   {
     "winner_name": "Roger Federer",
@@ -132,18 +252,6 @@
     "cultural_resonance": "Heartbreak for Federer fans; defined clutch tennis."
   },
   {
-    "winner_name": "Dominic Thiem",
-    "loser_name": "Alexander Zverev",
-    "tourney_name": "US Open",
-    "tourney_date": "20200913",
-    "round": "F",
-    "score": "2-6 4-6 6-4 6-3 7-6(6)",
-    "historical_significance": "New Generation's First Breakthrough",
-    "short_commentary": "Thiem wins first Slam; new champ after years of Big 3 dominance.",
-    "career_impact": "Thiem's only Slam; Zverev's heartbreak; opened door for Next Gen.",
-    "cultural_resonance": "Changing of the guard; surreal pandemic final."
-  },
-  {
     "winner_name": "Rafael Nadal",
     "loser_name": "Daniil Medvedev",
     "tourney_name": "Australian Open",
@@ -166,53 +274,5 @@
     "short_commentary": "Alcaraz ends Djokovic's Wimbledon reign; new era begins.",
     "career_impact": "Alcaraz established as Djokovic's rival; new superstar.",
     "cultural_resonance": "Torch-passing moment; Alcaraz's maturity impressed."
-  },
-  {
-    "winner_name": "Jannik Sinner",
-    "loser_name": "Daniil Medvedev",
-    "tourney_name": "Australian Open",
-    "tourney_date": "20240128",
-    "round": "F",
-    "score": "3-6 3-6 6-4 6-3 6-3",
-    "historical_significance": "Italy's First Australian Open Champion",
-    "short_commentary": "Sinner wins first Slam; Italy's first Australian Open champ.",
-    "career_impact": "Launched Sinner's rise to No. 1; Medvedev's final struggles.",
-    "cultural_resonance": "Italy's tennis boom; Sinner's calm impressed."
-  },
-  {
-    "winner_name": "Andy Murray",
-    "loser_name": "Novak Djokovic",
-    "tourney_name": "US Open",
-    "tourney_date": "20120910",
-    "round": "F",
-    "score": "7-6(10) 7-5 2-6 3-6 6-2",
-    "historical_significance": "Britain's 76-Year Wait Ends",
-    "short_commentary": "Murray ends Britain's 76-year Slam drought.",
-    "career_impact": "Murray's breakthrough; validated his place in Big 4.",
-    "cultural_resonance": "National celebration; Murray became a British icon."
-  },
-  {
-    "winner_name": "Stan Wawrinka",
-    "loser_name": "Rafael Nadal",
-    "tourney_name": "Australian Open",
-    "tourney_date": "20140126",
-    "round": "F",
-    "score": "6-3 6-2 3-6 6-3",
-    "historical_significance": "The Swiss Surprise",
-    "short_commentary": "Wawrinka wins first Slam; defeats injured Nadal.",
-    "career_impact": "Launched Wawrinka's late-career surge.",
-    "cultural_resonance": "Journeyman's dream; Wawrinka's tattoo became iconic."
-  },
-  {
-    "winner_name": "Stan Wawrinka",
-    "loser_name": "Novak Djokovic",
-    "tourney_name": "Roland Garros",
-    "tourney_date": "20150607",
-    "round": "F",
-    "score": "4-6 6-4 6-3 6-4",
-    "historical_significance": "Denying the Career Grand Slam",
-    "short_commentary": "Wawrinka denies Djokovic Career Grand Slam.",
-    "career_impact": "Delayed Djokovic's Career Grand Slam; Wawrinka proved his first Slam wasn't a fluke.",
-    "cultural_resonance": "David vs. Goliath; Wawrinka's backhand was poetry."
   }
 ]

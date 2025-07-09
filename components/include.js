@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Get the current page path to determine relative path to root
     const currentPath = window.location.pathname;
-    const inSubfolder = currentPath.includes('/viz/') || currentPath.includes('/stantheman/') || currentPath.includes('/bigthree/') || currentPath.includes('/summercamp/') || currentPath.includes('/nbi/');
+    const inSubfolder = currentPath.includes('/viz/') || currentPath.includes('/stantheman/') || currentPath.includes('/bigthree/') || currentPath.includes('/summercamp/') || currentPath.includes('/nbi/') || currentPath.includes('/gsdi/');
     const pathPrefix = inSubfolder ? '../' : '';
     
     // Load header
