@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Global Tennis Top 100 Evolution</title>
+    
+    <!-- Open Graph meta tags for Facebook, LinkedIn, etc. -->
+    <meta property="og:title" content="The Evolving Geography of Tennis Talent">
+    <meta property="og:description" content="See how the global map of top 100 and top 10 ATP tennis players has shifted over the last five decades">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sorukumar.github.io/TennisAnalytics/globaltop100evolution/">
+    <meta property="og:image" content="https://sorukumar.github.io/TennisAnalytics/image/claytennis.jpeg">
+    
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Evolving Geography of Tennis Talent">
+    <meta name="twitter:description" content="Explore the shifting global map of ATP Top 100 and Top 10 tennis talent over five decades.">
+    <meta name="twitter:image" content="https://sorukumar.github.io/TennisAnalytics/image/claytennis.jpeg">
+
+
+ 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../tennis_analytics.css">
+    <link rel="stylesheet" href="gte.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../image/favicon.png">
+    
+    <!-- Scripts -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script src="../components/include.js"></script>
+       
+    <!-- Bootstrap JS for tooltips -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../components/social-share.js"></script>
+</head>
+<body>
+            
+    <main class="main-content">
+        <div class="container-body">
+            <div class="intro-text">
+                <h1 class="section-title">Tennis Top 100 Evolution (1970-2024)</h1>
+                <p class="section-description">Explore how the geographic distribution of top tennis talent has evolved over the past five decades. This visualization shows the number of players each country has had in the ATP Top 100 and Top 10.</p>
+            </div>
+
+            <div id="map-container" class="chart-container">
+                <div class="controls-panel">
+                    <div class="play-controls">
+                        <button id="play-pause" class="btn btn-primary">Play</button>
+                        <span id="year-label" class="year-display"></span>
+                    </div>
+                    <input type="range" id="year-slider" min="0" max="14" value="0">
+                </div>
+                
+                <div class="visualization-area">
+                    <svg id="world-map"></svg>
+                    <div id="legend"></div>
+                </div>
+
+                <!-- Trends chart moved up -->
+                <div id="trends-chart" class="trends-panel">
+                    <h3>Historical Trends of Major Tennis Nations</h3>
+                    <p class="chart-description">Evolution of top tennis nations' representation in ATP Top 100 over time.</p>
+                </div>
+            </div>
+
+            <div id="country-details" class="info-panel">
+                <h2 id="country-name"></h2>
+                <div id="country-stats"></div>
+            </div>
+        </div>
+    </main>
+        <!-- Social Share FAB -->
+    <social-share></social-share>
+
+    <!-- Scripts -->
+    <script src="js/tennis_map.js"></script>
+    <script src="js/tennis_trends.js"></script>
+    <script>
+        // Initialize components
+        includeHTML();
+    </script>
+</body>
+</html>

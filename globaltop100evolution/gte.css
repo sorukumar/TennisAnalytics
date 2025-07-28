@@ -1,0 +1,239 @@
+#map-container {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.controls-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.play-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.year-display {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+#year-slider {
+    width: 100%;
+    height: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--secondary-color);
+    border-radius: 3px;
+    outline: none;
+}
+
+#year-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#year-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.visualization-area {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: 20px 0;
+}
+
+#world-map {
+    width: 100%;
+    height: 100%;
+}
+
+/* Country Labels */
+.country-labels {
+    pointer-events: none;
+}
+
+.label-country {
+    font-size: 12px;
+    font-weight: 600;
+    fill: #333;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.9;
+}
+
+.label-count {
+    font-size: 11px;
+    fill: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    opacity: 0.85;
+}
+
+/* Map Styles */
+.country {
+    fill: #e0e0e0;
+    stroke: rgba(255, 255, 255, 0.6);
+    stroke-width: 0.5;
+    transition: all 0.3s ease;
+}
+
+.country:hover {
+    stroke-width: 1;
+    stroke: var(--primary-color);
+    cursor: pointer;
+}
+
+/* Tooltip */
+.tooltip {
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: var(--shadow-soft);
+    pointer-events: none;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1000;
+}
+
+.tooltip .country-name {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.tooltip .stat-item {
+    margin: 3px 0;
+    font-size: 0.9em;
+}
+
+.tooltip .stat-label {
+    color: #666;
+}
+
+.tooltip .stat-value {
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+/* Trends Chart */
+.trends-panel {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-soft);
+    margin-top: 20px;
+}
+
+.trends-panel h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.trends-panel .chart-description {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.layer {
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.layer:hover {
+    opacity: 1;
+}
+
+.axis-label {
+    font-size: 12px;
+    fill: #555;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Legend and Controls */
+#legend {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.controls-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.play-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.year-display {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+/* Slider Styles */
+#year-slider {
+    width: 100%;
+    height: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--secondary-color);
+    border-radius: 3px;
+    outline: none;
+}
+
+#year-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#year-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .label-country {
+        font-size: 10px;
+    }
+    
+    .label-count {
+        font-size: 9px;
+    }
+    
+    .trends-panel {
+        padding: 15px;
+    }
+}

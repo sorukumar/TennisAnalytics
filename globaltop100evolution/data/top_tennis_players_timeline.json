@@ -1,0 +1,5598 @@
+[
+  {
+    "year": 1975,
+    "countries": {
+      "ITA": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Adriano Panatta",
+        "top_rank": 28
+      },
+      "RUS": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Alex Metreveli",
+        "top_rank": 13
+      },
+      "AUS": {
+        "ever_in_top100": 19,
+        "ever_in_top10": 3,
+        "top_player": "John Newcombe",
+        "top_rank": 2
+      },
+      "COL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ivan Molina",
+        "top_rank": 77
+      },
+      "EGY": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ismail El Shafei",
+        "top_rank": 34
+      },
+      "IND": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Vijay Amritraj",
+        "top_rank": 31
+      },
+      "USA": {
+        "ever_in_top100": 31,
+        "ever_in_top10": 3,
+        "top_player": "Jimmy Connors",
+        "top_rank": 1
+      },
+      "ESP": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 1,
+        "top_player": "Manuel Orantes",
+        "top_rank": 7
+      },
+      "GER": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 0,
+        "top_player": "Karl Meiler",
+        "top_rank": 38
+      },
+      "HUN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Balazs Taroczy",
+        "top_rank": 38
+      },
+      "CHI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Jaime Fillol",
+        "top_rank": 23
+      },
+      "BEL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Bernard Mignot",
+        "top_rank": 108
+      },
+      "RSA": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 0,
+        "top_player": "Cliff Drysdale",
+        "top_rank": 18
+      },
+      "SWE": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Bjorn Borg",
+        "top_rank": 2
+      },
+      "CRO": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Nikola Pilic",
+        "top_rank": 33
+      },
+      "NZL": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Onny Parun",
+        "top_rank": 19
+      },
+      "GBR": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 0,
+        "top_player": "Mark Cox",
+        "top_rank": 25
+      },
+      "BRA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Thomaz Koch",
+        "top_rank": 24
+      },
+      "FRA": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 0,
+        "top_player": "Francois Jauffret",
+        "top_rank": 26
+      },
+      "SUI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Peter Kanderal",
+        "top_rank": 156
+      },
+      "PHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Eddie Cruz",
+        "top_rank": 373
+      },
+      "CZE": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Jan Kodes",
+        "top_rank": 17
+      },
+      "AUT": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Hans Kary",
+        "top_rank": 79
+      },
+      "ARG": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 1,
+        "top_player": "Guillermo Vilas",
+        "top_rank": 2
+      },
+      "PAK": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Haroon Rahim",
+        "top_rank": 95
+      },
+      "VEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Humphrey Hose",
+        "top_rank": 133
+      },
+      "ROU": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Ilie Nastase",
+        "top_rank": 6
+      },
+      "POL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Wojtek Fibak",
+        "top_rank": 64
+      },
+      "NED": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Tom Okker",
+        "top_rank": 6
+      },
+      "MEX": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Raul Ramirez",
+        "top_rank": 13
+      },
+      "JPN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Jun Kamiwazumi",
+        "top_rank": 78
+      },
+      "DEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Torben Ulrich",
+        "top_rank": 153
+      },
+      "FIN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Matti Timonen",
+        "top_rank": 274
+      },
+      "CAN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Tony Bardsley",
+        "top_rank": 231
+      },
+      "SRB": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nicola Spear",
+        "top_rank": 95
+      },
+      "GRE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Nicolas Kelaidis",
+        "top_rank": 286
+      },
+      "BOL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ramiro Benavides",
+        "top_rank": 140
+      },
+      "JAM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Richard Russell",
+        "top_rank": 257
+      },
+      "ZIM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Roger Dowdeswell",
+        "top_rank": 115
+      },
+      "URS": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Teimuraz Kakulia",
+        "top_rank": 91
+      },
+      "PAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Victor Pecci",
+        "top_rank": 131
+      }
+    }
+  },
+  {
+    "year": 1980,
+    "countries": {
+      "ITA": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Corrado Barazzutti",
+        "top_rank": 19
+      },
+      "CHI": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Hans Gildemeister",
+        "top_rank": 12
+      },
+      "COL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Alvaro Betancur",
+        "top_rank": 89
+      },
+      "IND": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Vijay Amritraj",
+        "top_rank": 18
+      },
+      "ECU": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Andres Gomez",
+        "top_rank": 45
+      },
+      "USA": {
+        "ever_in_top100": 53,
+        "ever_in_top10": 11,
+        "top_player": "John Mcenroe",
+        "top_rank": 1
+      },
+      "ESP": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 1,
+        "top_player": "Jose Higueras",
+        "top_rank": 7
+      },
+      "HUN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Balazs Taroczy",
+        "top_rank": 17
+      },
+      "BEL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Bernard Boileau",
+        "top_rank": 100
+      },
+      "RSA": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 0,
+        "top_player": "Bernard Mitton",
+        "top_rank": 42
+      },
+      "AUS": {
+        "ever_in_top100": 16,
+        "ever_in_top10": 0,
+        "top_player": "John Alexander",
+        "top_rank": 18
+      },
+      "SWE": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 1,
+        "top_player": "Bjorn Borg",
+        "top_rank": 1
+      },
+      "NZL": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Chris Lewis",
+        "top_rank": 55
+      },
+      "GBR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Buster C Mottram",
+        "top_rank": 32
+      },
+      "ARG": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 2,
+        "top_player": "Guillermo Vilas",
+        "top_rank": 4
+      },
+      "BRA": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Carlos Kirmayr",
+        "top_rank": 45
+      },
+      "FRA": {
+        "ever_in_top100": 11,
+        "ever_in_top10": 0,
+        "top_player": "Yannick Noah",
+        "top_rank": 13
+      },
+      "MEX": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Raul Ramirez",
+        "top_rank": 25
+      },
+      "AUT": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Peter Feigl",
+        "top_rank": 47
+      },
+      "PAR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Victor Pecci",
+        "top_rank": 9
+      },
+      "ZIM": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Haroon Ismail",
+        "top_rank": 87
+      },
+      "SUI": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Heinz Gunthardt",
+        "top_rank": 24
+      },
+      "ROU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ilie Nastase",
+        "top_rank": 50
+      },
+      "CZE": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 0,
+        "top_player": "Tomas Smid",
+        "top_rank": 23
+      },
+      "URU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jose Luis Damiani",
+        "top_rank": 71
+      },
+      "GER": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 0,
+        "top_player": "Ulrich Pinner",
+        "top_rank": 23
+      },
+      "NED": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Tom Okker",
+        "top_rank": 53
+      },
+      "BOL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Mario Martinez",
+        "top_rank": 33
+      },
+      "ISR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Shlomo Glickstein",
+        "top_rank": 57
+      },
+      "POL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Wojtek Fibak",
+        "top_rank": 11
+      },
+      "CRO": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Zeljko Franulovic",
+        "top_rank": 64
+      }
+    }
+  },
+  {
+    "year": 1985,
+    "countries": {
+      "USA": {
+        "ever_in_top100": 53,
+        "ever_in_top10": 7,
+        "top_player": "Ivan Lendl",
+        "top_rank": 1
+      },
+      "ROU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Florin Segarceanu",
+        "top_rank": 100
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ahmed El Mehelmy",
+        "top_rank": 183
+      },
+      "ESP": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 0,
+        "top_player": "Juan Aguilera",
+        "top_rank": 20
+      },
+      "ARG": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 0,
+        "top_player": "Martin Jaite",
+        "top_rank": 19
+      },
+      "ITA": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Francesco Cancellotti",
+        "top_rank": 21
+      },
+      "AUT": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Thomas Muster",
+        "top_rank": 95
+      },
+      "RUS": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Andrei Chesnokov",
+        "top_rank": 131
+      },
+      "CHI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Ricardo Acuna",
+        "top_rank": 51
+      },
+      "COL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alvaro Jordan",
+        "top_rank": 579
+      },
+      "ISR": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Shahar Perkiss",
+        "top_rank": 53
+      },
+      "SWE": {
+        "ever_in_top100": 11,
+        "ever_in_top10": 5,
+        "top_player": "Mats Wilander",
+        "top_rank": 3
+      },
+      "GER": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 1,
+        "top_player": "Boris Becker",
+        "top_rank": 5
+      },
+      "ECU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Andres Gomez",
+        "top_rank": 5
+      },
+      "AUS": {
+        "ever_in_top100": 9,
+        "ever_in_top10": 1,
+        "top_player": "Pat Cash",
+        "top_rank": 7
+      },
+      "MAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Houcine Saber",
+        "top_rank": 542
+      },
+      "HUN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Balazs Taroczy",
+        "top_rank": 43
+      },
+      "RSA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Christo Steyn",
+        "top_rank": 68
+      },
+      "MON": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Bernard Balleret",
+        "top_rank": 737
+      },
+      "BEL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Libor Pimek",
+        "top_rank": 21
+      },
+      "NZL": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Chris Lewis",
+        "top_rank": 81
+      },
+      "FRA": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 1,
+        "top_player": "Yannick Noah",
+        "top_rank": 5
+      },
+      "CRO": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Bruno Oresar",
+        "top_rank": 80
+      },
+      "PER": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Pablo Arraya",
+        "top_rank": 60
+      },
+      "BRA": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Julio Goes",
+        "top_rank": 71
+      },
+      "CAN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Martin Wostenholme",
+        "top_rank": 97
+      },
+      "NED": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Michiel Schapers",
+        "top_rank": 79
+      },
+      "SUI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Heinz Gunthardt",
+        "top_rank": 26
+      },
+      "GBR": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "John Lloyd",
+        "top_rank": 31
+      },
+      "URU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Diego Perez",
+        "top_rank": 44
+      },
+      "JAM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Doug Burke",
+        "top_rank": 552
+      },
+      "JPN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Tsuyoshi Fukui",
+        "top_rank": 336
+      },
+      "PUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ernie Fernandez",
+        "top_rank": 228
+      },
+      "GRE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "George Kalovelonis",
+        "top_rank": 301
+      },
+      "PAR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Victor Pecci",
+        "top_rank": 32
+      },
+      "MEX": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Leonardo Lavalle",
+        "top_rank": 89
+      },
+      "KOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Gap Taik Ro",
+        "top_rank": 389
+      },
+      "ZIM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Haroon Ismail",
+        "top_rank": 511
+      },
+      "CZE": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Tomas Smid",
+        "top_rank": 12
+      },
+      "LUX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Johnny Goudenbour",
+        "top_rank": 335
+      },
+      "BUL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Julian Stamatov",
+        "top_rank": 703
+      },
+      "FIN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Leo Palin",
+        "top_rank": 211
+      },
+      "IRI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mansour Bahrami",
+        "top_rank": 343
+      },
+      "SVK": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Miloslav Mecir",
+        "top_rank": 10
+      },
+      "BOL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mario Martinez",
+        "top_rank": 233
+      },
+      "DEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Peter Bastiansen",
+        "top_rank": 263
+      },
+      "NOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Morten Ronneberg",
+        "top_rank": 469
+      },
+      "NGR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nduka Odizor",
+        "top_rank": 76
+      },
+      "TUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Necvet Demir",
+        "top_rank": 774
+      },
+      "IND": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Ramesh Krishnan",
+        "top_rank": 23
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sean Sorensen",
+        "top_rank": 415
+      },
+      "YUG": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Slobodan Zivojinovic",
+        "top_rank": 66
+      },
+      "POL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Wojtek Fibak",
+        "top_rank": 45
+      }
+    }
+  },
+  {
+    "year": 1990,
+    "countries": {
+      "USA": {
+        "ever_in_top100": 39,
+        "ever_in_top10": 9,
+        "top_player": "Ivan Lendl",
+        "top_rank": 1
+      },
+      "MAS": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Adam Malik",
+        "top_rank": 776
+      },
+      "ROU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Florin Segarceanu",
+        "top_rank": 293
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ahmed El Mehelmy",
+        "top_rank": 1085
+      },
+      "FIN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Veli Paloheimo",
+        "top_rank": 48
+      },
+      "ARG": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 1,
+        "top_player": "Martin Jaite",
+        "top_rank": 10
+      },
+      "PER": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jaime Yzaga",
+        "top_rank": 24
+      },
+      "ITA": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Paolo Cane",
+        "top_rank": 33
+      },
+      "AUT": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Thomas Muster",
+        "top_rank": 6
+      },
+      "GER": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 1,
+        "top_player": "Boris Becker",
+        "top_rank": 2
+      },
+      "RUS": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Andrei Chesnokov",
+        "top_rank": 10
+      },
+      "BRA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Luiz Mattar",
+        "top_rank": 39
+      },
+      "CYP": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alkis Papamichael",
+        "top_rank": 933
+      },
+      "ISR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Amos Mansdorf",
+        "top_rank": 32
+      },
+      "SWE": {
+        "ever_in_top100": 15,
+        "ever_in_top10": 2,
+        "top_player": "Stefan Edberg",
+        "top_rank": 1
+      },
+      "HUN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sandor Noszaly",
+        "top_rank": 607
+      },
+      "ECU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Andres Gomez",
+        "top_rank": 4
+      },
+      "GBR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jeremy Bates",
+        "top_rank": 72
+      },
+      "CAN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Andrew Sznajder",
+        "top_rank": 60
+      },
+      "FRA": {
+        "ever_in_top100": 11,
+        "ever_in_top10": 1,
+        "top_player": "Yannick Noah",
+        "top_rank": 9
+      },
+      "BEL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Eduardo Masso",
+        "top_rank": 122
+      },
+      "NOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Bent Ove Pedersen",
+        "top_rank": 987
+      },
+      "HAI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Bertrand Lacombe",
+        "top_rank": 760
+      },
+      "CHN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jia Ping Xia",
+        "top_rank": 612
+      },
+      "KOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Bong Soo Kim",
+        "top_rank": 168
+      },
+      "AUS": {
+        "ever_in_top100": 10,
+        "ever_in_top10": 0,
+        "top_player": "Richard Fromberg",
+        "top_rank": 24
+      },
+      "SVK": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Miloslav Mecir",
+        "top_rank": 25
+      },
+      "NZL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Kelly Evernden",
+        "top_rank": 37
+      },
+      "CRO": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Goran Ivanisevic",
+        "top_rank": 9
+      },
+      "VEN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nicolas Pereira",
+        "top_rank": 90
+      },
+      "ESP": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 1,
+        "top_player": "Emilio Sanchez",
+        "top_rank": 7
+      },
+      "RSA": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Christo Van Rensburg",
+        "top_rank": 25
+      },
+      "SUI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Marc Rosset",
+        "top_rank": 21
+      },
+      "CIV": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Clement Ngoran",
+        "top_rank": 482
+      },
+      "HKG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mark Bailey",
+        "top_rank": 795
+      },
+      "CZE": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Petr Korda",
+        "top_rank": 23
+      },
+      "INA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Suharyadi Suharyadi",
+        "top_rank": 433
+      },
+      "PHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Danilo Pila",
+        "top_rank": 834
+      },
+      "URU": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Marcelo Filippini",
+        "top_rank": 30
+      },
+      "UKR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Dimitri Poliakov",
+        "top_rank": 172
+      },
+      "JAM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Doug Burke",
+        "top_rank": 329
+      },
+      "JPN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Shuzo Matsuoka",
+        "top_rank": 133
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Luis Herrera",
+        "top_rank": 103
+      },
+      "KEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Paul Wekesa",
+        "top_rank": 268
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Michael Nugent",
+        "top_rank": 844
+      },
+      "CHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Pedro Rebolledo",
+        "top_rank": 130
+      },
+      "MON": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Gilles Ganancia",
+        "top_rank": 793
+      },
+      "PAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hugo Chapacu",
+        "top_rank": 933
+      },
+      "BUL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Milen Velev",
+        "top_rank": 660
+      },
+      "NED": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Paul Haarhuis",
+        "top_rank": 36
+      },
+      "POR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Nuno Marques",
+        "top_rank": 109
+      },
+      "LUX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Johnny Goudenbour",
+        "top_rank": 697
+      },
+      "CUB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mario Tabares",
+        "top_rank": 133
+      },
+      "MAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Karim Alami",
+        "top_rank": 438
+      },
+      "IRI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mansour Bahrami",
+        "top_rank": 372
+      },
+      "COL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mauricio Hadad",
+        "top_rank": 333
+      },
+      "DEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Michael Tauson",
+        "top_rank": 112
+      },
+      "PUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Miguel Nido",
+        "top_rank": 128
+      },
+      "ALG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Moncef Zehar",
+        "top_rank": 1091
+      },
+      "NGR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Nduka Odizor",
+        "top_rank": 170
+      },
+      "IND": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ramesh Krishnan",
+        "top_rank": 62
+      },
+      "BAH": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Roger Smith",
+        "top_rank": 259
+      },
+      "YUG": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Slobodan Zivojinovic",
+        "top_rank": 82
+      },
+      "THA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Worapol Thongkamcho",
+        "top_rank": 677
+      },
+      "GRE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Tasos Bavelas",
+        "top_rank": 975
+      },
+      "POL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Wojtek Kowalski",
+        "top_rank": 337
+      },
+      "SEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yahiya Doumbia",
+        "top_rank": 662
+      }
+    }
+  },
+  {
+    "year": 1995,
+    "countries": {
+      "USA": {
+        "ever_in_top100": 22,
+        "ever_in_top10": 5,
+        "top_player": "Andre Agassi",
+        "top_rank": 1
+      },
+      "MAS": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Selvam Veerasingam",
+        "top_rank": 437
+      },
+      "LUX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Adrian Graimprey",
+        "top_rank": 1224
+      },
+      "ROU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Adrian Voinea",
+        "top_rank": 53
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Oscar Ortiz",
+        "top_rank": 177
+      },
+      "CAN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Sebastien Lareau",
+        "top_rank": 76
+      },
+      "ESP": {
+        "ever_in_top100": 13,
+        "ever_in_top10": 2,
+        "top_player": "Sergi Bruguera",
+        "top_rank": 4
+      },
+      "PER": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jaime Yzaga",
+        "top_rank": 29
+      },
+      "MKD": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Aleksandar Kitinov",
+        "top_rank": 542
+      },
+      "AUT": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Thomas Muster",
+        "top_rank": 3
+      },
+      "GER": {
+        "ever_in_top100": 14,
+        "ever_in_top10": 2,
+        "top_player": "Boris Becker",
+        "top_rank": 3
+      },
+      "BLR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alexander Shvec",
+        "top_rank": 577
+      },
+      "CUB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Juan Pino",
+        "top_rank": 620
+      },
+      "RUS": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 1,
+        "top_player": "Yevgeny Kafelnikov",
+        "top_rank": 4
+      },
+      "NZL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Brett Steven",
+        "top_rank": 33
+      },
+      "EST": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Rene Busch",
+        "top_rank": 920
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Tamer El Sawy",
+        "top_rank": 167
+      },
+      "SWE": {
+        "ever_in_top100": 11,
+        "ever_in_top10": 3,
+        "top_player": "Stefan Edberg",
+        "top_rank": 7
+      },
+      "ITA": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 0,
+        "top_player": "Andrea Gaudenzi",
+        "top_rank": 18
+      },
+      "UKR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Andrei Medvedev",
+        "top_rank": 14
+      },
+      "AUS": {
+        "ever_in_top100": 9,
+        "ever_in_top10": 0,
+        "top_player": "Jason Stoltenberg",
+        "top_rank": 20
+      },
+      "GBR": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Greg Rusedski",
+        "top_rank": 35
+      },
+      "LAT": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Girts Dzelde",
+        "top_rank": 560
+      },
+      "FRA": {
+        "ever_in_top100": 10,
+        "ever_in_top10": 0,
+        "top_player": "Arnaud Boetsch",
+        "top_rank": 16
+      },
+      "POL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Wojtek Kowalski",
+        "top_rank": 152
+      },
+      "POR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nuno Marques",
+        "top_rank": 86
+      },
+      "TPE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Bing Chao Lin",
+        "top_rank": 294
+      },
+      "CHN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Bing Pan",
+        "top_rank": 181
+      },
+      "CZE": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 0,
+        "top_player": "Petr Korda",
+        "top_rank": 19
+      },
+      "INA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Suwandi Suwandi",
+        "top_rank": 466
+      },
+      "SLO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Iztok Bozic",
+        "top_rank": 318
+      },
+      "SVK": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Karol Kucera",
+        "top_rank": 39
+      },
+      "ZIM": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Byron Black",
+        "top_rank": 37
+      },
+      "COL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Mauricio Hadad",
+        "top_rank": 78
+      },
+      "ARG": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Javier Frana",
+        "top_rank": 31
+      },
+      "NOR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Christian Ruud",
+        "top_rank": 40
+      },
+      "RSA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Wayne Ferreira",
+        "top_rank": 6
+      },
+      "CIV": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Claude Ngoran",
+        "top_rank": 228
+      },
+      "BEL": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Filip Dewulf",
+        "top_rank": 64
+      },
+      "URU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Marcelo Filippini",
+        "top_rank": 51
+      },
+      "UZB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Oleg Ogorodov",
+        "top_rank": 120
+      },
+      "CRO": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Goran Ivanisevic",
+        "top_rank": 4
+      },
+      "KOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yong Il Yoon",
+        "top_rank": 289
+      },
+      "ISR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Eyal Ran",
+        "top_rank": 196
+      },
+      "BRA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Fernando Meligeni",
+        "top_rank": 54
+      },
+      "NED": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 1,
+        "top_player": "Richard Krajicek",
+        "top_rank": 10
+      },
+      "GHA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Frank Ofori",
+        "top_rank": 361
+      },
+      "DEN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Kenneth Carlsen",
+        "top_rank": 65
+      },
+      "CHI": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Marcelo Rios",
+        "top_rank": 24
+      },
+      "JPN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Shuzo Matsuoka",
+        "top_rank": 64
+      },
+      "MAR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Karim Alami",
+        "top_rank": 68
+      },
+      "SUI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Marc Rosset",
+        "top_rank": 9
+      },
+      "VEN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nicolas Pereira",
+        "top_rank": 96
+      },
+      "PHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Robert Angelo",
+        "top_rank": 771
+      },
+      "HUN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Sandor Noszaly",
+        "top_rank": 95
+      },
+      "FIN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Kim Tiilikainen",
+        "top_rank": 224
+      },
+      "IND": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Leander Paes",
+        "top_rank": 123
+      },
+      "ECU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Nicolas Lapentti",
+        "top_rank": 150
+      },
+      "BAH": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Roger Smith",
+        "top_rank": 164
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Owen Casey",
+        "top_rank": 489
+      },
+      "KEN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Paul Wekesa",
+        "top_rank": 100
+      },
+      "PAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ricardo Mena",
+        "top_rank": 285
+      },
+      "LTU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Rolandas Murashka",
+        "top_rank": 590
+      },
+      "ARM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sargis Sargsian",
+        "top_rank": 392
+      },
+      "MON": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sebastien Graeff",
+        "top_rank": 920
+      },
+      "NGR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sule Ladipo",
+        "top_rank": 278
+      },
+      "SEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yahiya Doumbia",
+        "top_rank": 282
+      }
+    }
+  },
+  {
+    "year": 2000,
+    "countries": {
+      "CHI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Marcelo Rios",
+        "top_rank": 7
+      },
+      "ROU": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Andrei Pavel",
+        "top_rank": 25
+      },
+      "ARG": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 0,
+        "top_player": "Franco Squillari",
+        "top_rank": 11
+      },
+      "PAK": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Aisam Ul Haq Qureshi",
+        "top_rank": 289
+      },
+      "LTU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Aivaras Balzekas",
+        "top_rank": 1304
+      },
+      "ESP": {
+        "ever_in_top100": 16,
+        "ever_in_top10": 1,
+        "top_player": "Alex Corretja",
+        "top_rank": 7
+      },
+      "URU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Federico Dondo",
+        "top_rank": 292
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alejandro Hernandez",
+        "top_rank": 172
+      },
+      "USA": {
+        "ever_in_top100": 12,
+        "ever_in_top10": 3,
+        "top_player": "Andre Agassi",
+        "top_rank": 1
+      },
+      "GER": {
+        "ever_in_top100": 9,
+        "ever_in_top10": 1,
+        "top_player": "Nicolas Kiefer",
+        "top_rank": 4
+      },
+      "BLR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Max Mirnyi",
+        "top_rank": 38
+      },
+      "BRA": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Gustavo Kuerten",
+        "top_rank": 2
+      },
+      "KAZ": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alexey Kedryuk",
+        "top_rank": 1207
+      },
+      "NZL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mark Nielsen",
+        "top_rank": 216
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Amro Ghoneim",
+        "top_rank": 439
+      },
+      "ITA": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Gianluca Pozzi",
+        "top_rank": 42
+      },
+      "AUT": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Stefan Koubek",
+        "top_rank": 20
+      },
+      "SWE": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 2,
+        "top_player": "Magnus Norman",
+        "top_rank": 2
+      },
+      "RUS": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 2,
+        "top_player": "Marat Safin",
+        "top_rank": 1
+      },
+      "UKR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Andrei Medvedev",
+        "top_rank": 20
+      },
+      "SLO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marko Tkalec",
+        "top_rank": 325
+      },
+      "AUS": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 1,
+        "top_player": "Lleyton Hewitt",
+        "top_rank": 6
+      },
+      "ISR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Harel Levy",
+        "top_rank": 59
+      },
+      "FRA": {
+        "ever_in_top100": 10,
+        "ever_in_top10": 1,
+        "top_player": "Cedric Pioline",
+        "top_rank": 5
+      },
+      "GBR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Tim Henman",
+        "top_rank": 9
+      },
+      "HUN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Attila Savolt",
+        "top_rank": 108
+      },
+      "TUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Efe Ustundag",
+        "top_rank": 611
+      },
+      "POL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Bartlomiej Dabrowski",
+        "top_rank": 344
+      },
+      "CHN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ben Qiang Zhu",
+        "top_rank": 427
+      },
+      "POR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Joao Cunha Silva",
+        "top_rank": 288
+      },
+      "TPE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Wei Jen Cheng",
+        "top_rank": 835
+      },
+      "DEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Kristian Pless",
+        "top_rank": 219
+      },
+      "CZE": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 0,
+        "top_player": "Jiri Novak",
+        "top_rank": 37
+      },
+      "ZIM": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Byron Black",
+        "top_rank": 27
+      },
+      "PHI": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Cecil Mamiit",
+        "top_rank": 97
+      },
+      "NOR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Christian Ruud",
+        "top_rank": 86
+      },
+      "BEL": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Christophe Rochus",
+        "top_rank": 65
+      },
+      "CIV": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Valentin Sanon",
+        "top_rank": 596
+      },
+      "THA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Paradorn Srichaphan",
+        "top_rank": 85
+      },
+      "CAN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sebastien Lareau",
+        "top_rank": 103
+      },
+      "SRB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Dejan Petrovic",
+        "top_rank": 169
+      },
+      "NED": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 1,
+        "top_player": "Richard Krajicek",
+        "top_rank": 10
+      },
+      "UZB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Oleg Ogorodov",
+        "top_rank": 132
+      },
+      "SVK": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Dominik Hrbaty",
+        "top_rank": 13
+      },
+      "COL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Eduardo Rincon",
+        "top_rank": 654
+      },
+      "PAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ramon Delgado",
+        "top_rank": 216
+      },
+      "IND": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Leander Paes",
+        "top_rank": 116
+      },
+      "INA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Suwandi Suwandi",
+        "top_rank": 490
+      },
+      "SUI": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Roger Federer",
+        "top_rank": 24
+      },
+      "ECU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Nicolas Lapentti",
+        "top_rank": 6
+      },
+      "CRO": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Goran Ivanisevic",
+        "top_rank": 60
+      },
+      "JPN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Gouichi Motomura",
+        "top_rank": 143
+      },
+      "RSA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Wayne Ferreira",
+        "top_rank": 11
+      },
+      "KOR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Hyung Taik Lee",
+        "top_rank": 99
+      },
+      "MAR": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Younes El Aynaoui",
+        "top_rank": 15
+      },
+      "PER": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Luis Horna",
+        "top_rank": 186
+      },
+      "BUL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Orlin Stanoytchev",
+        "top_rank": 96
+      },
+      "GUA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jacobo Chavez",
+        "top_rank": 1078
+      },
+      "FIN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Tuomas Ketola",
+        "top_rank": 145
+      },
+      "MON": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jean Rene Lisnard",
+        "top_rank": 127
+      },
+      "LIB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jicham Zaatini",
+        "top_rank": 573
+      },
+      "VEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jimy Szymanski",
+        "top_rank": 167
+      },
+      "ESA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jose Baires",
+        "top_rank": 1162
+      },
+      "CRC": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Juan Antonio Marin",
+        "top_rank": 68
+      },
+      "CUB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Kerlin Leon Zamora",
+        "top_rank": 1312
+      },
+      "GRE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Solon Peppas",
+        "top_rank": 174
+      },
+      "EST": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mait Kunnap",
+        "top_rank": 1304
+      },
+      "BAH": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mark Knowles",
+        "top_rank": 221
+      },
+      "HKG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Melvin Tong",
+        "top_rank": 1245
+      },
+      "LUX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mike Scheidweiler",
+        "top_rank": 838
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Scott Barron",
+        "top_rank": 346
+      },
+      "ARM": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Sargis Sargsian",
+        "top_rank": 51
+      }
+    }
+  },
+  {
+    "year": 2003,
+    "countries": {
+      "AUS": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 2,
+        "top_player": "Lleyton Hewitt",
+        "top_rank": 1
+      },
+      "CHI": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Fernando Gonzalez",
+        "top_rank": 13
+      },
+      "ROU": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Andrei Pavel",
+        "top_rank": 25
+      },
+      "ARG": {
+        "ever_in_top100": 10,
+        "ever_in_top10": 2,
+        "top_player": "Guillermo Coria",
+        "top_rank": 4
+      },
+      "PAK": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Aisam Ul Haq Qureshi",
+        "top_rank": 360
+      },
+      "GBR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Tim Henman",
+        "top_rank": 11
+      },
+      "ESP": {
+        "ever_in_top100": 18,
+        "ever_in_top10": 3,
+        "top_player": "Juan Carlos Ferrero",
+        "top_rank": 1
+      },
+      "ITA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Davide Sanguinetti",
+        "top_rank": 44
+      },
+      "RUS": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 1,
+        "top_player": "Marat Safin",
+        "top_rank": 3
+      },
+      "USA": {
+        "ever_in_top100": 12,
+        "ever_in_top10": 2,
+        "top_player": "Andre Agassi",
+        "top_rank": 1
+      },
+      "AUT": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Stefan Koubek",
+        "top_rank": 35
+      },
+      "GER": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 1,
+        "top_player": "Rainer Schuettler",
+        "top_rank": 6
+      },
+      "BLR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Max Mirnyi",
+        "top_rank": 18
+      },
+      "GRE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Vasilis Mazarakis",
+        "top_rank": 135
+      },
+      "KAZ": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alexey Kedryuk",
+        "top_rank": 809
+      },
+      "NZL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mark Nielsen",
+        "top_rank": 302
+      },
+      "BIH": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Amer Delic",
+        "top_rank": 511
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Karim Maamoun",
+        "top_rank": 430
+      },
+      "BRA": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Gustavo Kuerten",
+        "top_rank": 13
+      },
+      "SWE": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 0,
+        "top_player": "Jonas Bjorkman",
+        "top_rank": 41
+      },
+      "SLO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marko Tkalec",
+        "top_rank": 351
+      },
+      "UKR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Orest Tereshchuk",
+        "top_rank": 327
+      },
+      "ISR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Noam Okun",
+        "top_rank": 128
+      },
+      "FRA": {
+        "ever_in_top100": 12,
+        "ever_in_top10": 1,
+        "top_player": "Sebastien Grosjean",
+        "top_rank": 9
+      },
+      "HUN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Attila Savolt",
+        "top_rank": 97
+      },
+      "POL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lukasz Kubot",
+        "top_rank": 341
+      },
+      "CHN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ben Qiang Zhu",
+        "top_rank": 308
+      },
+      "POR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Bernardo Mota",
+        "top_rank": 312
+      },
+      "CZE": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Jiri Novak",
+        "top_rank": 7
+      },
+      "SRB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Janko Tipsarevic",
+        "top_rank": 136
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Miguel Gallardo Valles",
+        "top_rank": 274
+      },
+      "ECU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nicolas Lapentti",
+        "top_rank": 29
+      },
+      "COL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Michael Quintero",
+        "top_rank": 310
+      },
+      "PHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Cecil Mamiit",
+        "top_rank": 105
+      },
+      "BEL": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Xavier Malisse",
+        "top_rank": 23
+      },
+      "CIV": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Claude Ngoran",
+        "top_rank": 456
+      },
+      "THA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Paradorn Srichaphan",
+        "top_rank": 9
+      },
+      "CAN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Frank Dancevic",
+        "top_rank": 198
+      },
+      "NED": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 0,
+        "top_player": "Sjeng Schalken",
+        "top_rank": 11
+      },
+      "SVK": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Karol Kucera",
+        "top_rank": 31
+      },
+      "KOR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Hyung Taik Lee",
+        "top_rank": 53
+      },
+      "INA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Peter Handoyo",
+        "top_rank": 539
+      },
+      "URU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Federico Dondo",
+        "top_rank": 823
+      },
+      "PAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ramon Delgado",
+        "top_rank": 158
+      },
+      "DEN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Kenneth Carlsen",
+        "top_rank": 59
+      },
+      "NOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jan Frode Andersen",
+        "top_rank": 184
+      },
+      "ZIM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Wayne Black",
+        "top_rank": 374
+      },
+      "SUI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Roger Federer",
+        "top_rank": 2
+      },
+      "LUX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Gilles Muller",
+        "top_rank": 195
+      },
+      "CRO": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Ivan Ljubicic",
+        "top_rank": 38
+      },
+      "JPN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Takao Suzuki",
+        "top_rank": 132
+      },
+      "MON": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jean Rene Lisnard",
+        "top_rank": 85
+      },
+      "GHA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Gunther Darkey",
+        "top_rank": 693
+      },
+      "IND": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Prakash Amritraj",
+        "top_rank": 324
+      },
+      "MAR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Younes El Aynaoui",
+        "top_rank": 15
+      },
+      "HKG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hiu Tung Yu",
+        "top_rank": 1155
+      },
+      "BUL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Radoslav Lukaev",
+        "top_rank": 258
+      },
+      "HAI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Iphton Louis",
+        "top_rank": 1278
+      },
+      "GEO": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Irakli Labadze",
+        "top_rank": 83
+      },
+      "PER": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Luis Horna",
+        "top_rank": 72
+      },
+      "FIN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jarkko Nieminen",
+        "top_rank": 27
+      },
+      "AHO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jean Julien Rojer",
+        "top_rank": 256
+      },
+      "DOM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Victor Estrella",
+        "top_rank": 884
+      },
+      "TPE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yen Hsun Lu",
+        "top_rank": 171
+      },
+      "AND": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Joan Jimenez Guerra",
+        "top_rank": 673
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Peter Clarke",
+        "top_rank": 295
+      },
+      "VEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jose De Armas",
+        "top_rank": 246
+      },
+      "CRC": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Juan Antonio Marin",
+        "top_rank": 137
+      },
+      "TUN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Walid Jallali",
+        "top_rank": 689
+      },
+      "UZB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Oleg Ogorodov",
+        "top_rank": 189
+      },
+      "UAE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Omar Awadhy",
+        "top_rank": 1001
+      },
+      "CUB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ricardo Chile Fonte",
+        "top_rank": 1095
+      },
+      "RSA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Wayne Ferreira",
+        "top_rank": 20
+      },
+      "ARM": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Sargis Sargsian",
+        "top_rank": 46
+      }
+    }
+  },
+  {
+    "year": 2006,
+    "countries": {
+      "ALG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Slimane Saoudi",
+        "top_rank": 272
+      },
+      "KUW": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mohammad Ghareeb",
+        "top_rank": 352
+      },
+      "NZL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mark Nielsen",
+        "top_rank": 305
+      },
+      "CHI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Fernando Gonzalez",
+        "top_rank": 7
+      },
+      "ARG": {
+        "ever_in_top100": 10,
+        "ever_in_top10": 3,
+        "top_player": "David Nalbandian",
+        "top_rank": 3
+      },
+      "PAK": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Aisam Ul Haq Qureshi",
+        "top_rank": 416
+      },
+      "GBR": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Andy Murray",
+        "top_rank": 16
+      },
+      "ESP": {
+        "ever_in_top100": 14,
+        "ever_in_top10": 3,
+        "top_player": "Rafael Nadal",
+        "top_rank": 2
+      },
+      "COL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Alejandro Falla",
+        "top_rank": 99
+      },
+      "ITA": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 0,
+        "top_player": "Filippo Volandri",
+        "top_rank": 31
+      },
+      "RUS": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 1,
+        "top_player": "Nikolay Davydenko",
+        "top_rank": 3
+      },
+      "USA": {
+        "ever_in_top100": 11,
+        "ever_in_top10": 3,
+        "top_player": "Andy Roddick",
+        "top_rank": 3
+      },
+      "AUT": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Jurgen Melzer",
+        "top_rank": 39
+      },
+      "GER": {
+        "ever_in_top100": 11,
+        "ever_in_top10": 0,
+        "top_player": "Nicolas Kiefer",
+        "top_rank": 11
+      },
+      "UKR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sergiy Stakhovsky",
+        "top_rank": 180
+      },
+      "FRA": {
+        "ever_in_top100": 14,
+        "ever_in_top10": 0,
+        "top_player": "Richard Gasquet",
+        "top_rank": 12
+      },
+      "GRE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Vasilis Mazarakis",
+        "top_rank": 120
+      },
+      "KAZ": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Evgeny Korolev",
+        "top_rank": 88
+      },
+      "BIH": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Amer Delic",
+        "top_rank": 161
+      },
+      "LAT": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ernests Gulbis",
+        "top_rank": 204
+      },
+      "BRA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Marcos Daniel",
+        "top_rank": 80
+      },
+      "SWE": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Thomas Johansson",
+        "top_rank": 13
+      },
+      "ROU": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Victor Hanescu",
+        "top_rank": 35
+      },
+      "ISR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Dudi Sela",
+        "top_rank": 170
+      },
+      "NED": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Raemon Sluiter",
+        "top_rank": 82
+      },
+      "MON": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jean Rene Lisnard",
+        "top_rank": 109
+      },
+      "SLO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Grega Zemlja",
+        "top_rank": 328
+      },
+      "CZE": {
+        "ever_in_top100": 10,
+        "ever_in_top10": 1,
+        "top_player": "Tomas Berdych",
+        "top_rank": 10
+      },
+      "SRB": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Novak Djokovic",
+        "top_rank": 16
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Santiago Gonzalez",
+        "top_rank": 168
+      },
+      "BOL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mauricio Estivariz",
+        "top_rank": 1069
+      },
+      "ECU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nicolas Lapentti",
+        "top_rank": 84
+      },
+      "AUS": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Lleyton Hewitt",
+        "top_rank": 4
+      },
+      "BEL": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 0,
+        "top_player": "Olivier Rochus",
+        "top_rank": 27
+      },
+      "TPE": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jimmy Wang",
+        "top_rank": 87
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Conor Niland",
+        "top_rank": 434
+      },
+      "GUA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Cristian Paiz",
+        "top_rank": 963
+      },
+      "THA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Paradorn Srichaphan",
+        "top_rank": 35
+      },
+      "VEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yohny Romero",
+        "top_rank": 280
+      },
+      "HUN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Kornel Bardoczky",
+        "top_rank": 406
+      },
+      "UZB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Denis Istomin",
+        "top_rank": 195
+      },
+      "SVK": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Dominik Hrbaty",
+        "top_rank": 15
+      },
+      "INA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Prima Simpatiaji",
+        "top_rank": 627
+      },
+      "NOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Stian Boretti",
+        "top_rank": 377
+      },
+      "URU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Pablo Cuevas",
+        "top_rank": 295
+      },
+      "PAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ramon Delgado",
+        "top_rank": 103
+      },
+      "CAN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Frank Dancevic",
+        "top_rank": 82
+      },
+      "POR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Frederico Gil",
+        "top_rank": 163
+      },
+      "RSA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Wesley Moodie",
+        "top_rank": 57
+      },
+      "ZIM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Genius Chidzikwe",
+        "top_rank": 668
+      },
+      "SUI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Roger Federer",
+        "top_rank": 1
+      },
+      "LUX": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Gilles Muller",
+        "top_rank": 64
+      },
+      "JPN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Go Soeda",
+        "top_rank": 186
+      },
+      "POL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lukasz Kubot",
+        "top_rank": 119
+      },
+      "KOR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Hyung Taik Lee",
+        "top_rank": 48
+      },
+      "HKG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hiu Tung Yu",
+        "top_rank": 929
+      },
+      "BUL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ilia Kushev",
+        "top_rank": 455
+      },
+      "GEO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Irakli Labadze",
+        "top_rank": 149
+      },
+      "CRO": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 2,
+        "top_player": "Ivan Ljubicic",
+        "top_rank": 3
+      },
+      "PER": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Luis Horna",
+        "top_rank": 43
+      },
+      "FIN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jarkko Nieminen",
+        "top_rank": 13
+      },
+      "AHO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jean Julien Rojer",
+        "top_rank": 248
+      },
+      "DOM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Victor Estrella",
+        "top_rank": 569
+      },
+      "CRC": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Juan Antonio Marin",
+        "top_rank": 97
+      },
+      "IND": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Prakash Amritraj",
+        "top_rank": 230
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Karim Maamoun",
+        "top_rank": 355
+      },
+      "DEN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Kenneth Carlsen",
+        "top_rank": 61
+      },
+      "MKD": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lazar Magdincev",
+        "top_rank": 411
+      },
+      "CYP": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Marcos Baghdatis",
+        "top_rank": 8
+      },
+      "BLR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Max Mirnyi",
+        "top_rank": 32
+      },
+      "MAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Younes El Aynaoui",
+        "top_rank": 211
+      },
+      "LIB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Patrick Chucri",
+        "top_rank": 1390
+      },
+      "CHN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yu Jr Wang",
+        "top_rank": 329
+      },
+      "JAM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ryan Russell",
+        "top_rank": 761
+      },
+      "ARM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sargis Sargsian",
+        "top_rank": 391
+      },
+      "QAT": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sultan Khalfan",
+        "top_rank": 1497
+      }
+    }
+  },
+  {
+    "year": 2009,
+    "countries": {
+      "HUN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Attila Balazs",
+        "top_rank": 307
+      },
+      "NZL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Daniel King Turner",
+        "top_rank": 325
+      },
+      "FRA": {
+        "ever_in_top100": 14,
+        "ever_in_top10": 3,
+        "top_player": "Jo-Wilfried Tsonga",
+        "top_rank": 6
+      },
+      "LAT": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ernests Gulbis",
+        "top_rank": 40
+      },
+      "ARG": {
+        "ever_in_top100": 14,
+        "ever_in_top10": 2,
+        "top_player": "Juan Martin Del Potro",
+        "top_rank": 5
+      },
+      "KUW": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mohammad Ghareeb",
+        "top_rank": 469
+      },
+      "PAK": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Aisam Ul Haq Qureshi",
+        "top_rank": 298
+      },
+      "ESP": {
+        "ever_in_top100": 16,
+        "ever_in_top10": 2,
+        "top_player": "Rafael Nadal",
+        "top_rank": 1
+      },
+      "COL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Alejandro Falla",
+        "top_rank": 87
+      },
+      "GBR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Andy Murray",
+        "top_rank": 2
+      },
+      "RUS": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 1,
+        "top_player": "Nikolay Davydenko",
+        "top_rank": 5
+      },
+      "AHO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alexander Blom",
+        "top_rank": 1121
+      },
+      "AUT": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Jurgen Melzer",
+        "top_rank": 26
+      },
+      "UKR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Sergiy Stakhovsky",
+        "top_rank": 75
+      },
+      "KAZ": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Evgeny Korolev",
+        "top_rank": 50
+      },
+      "BIH": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Amer Delic",
+        "top_rank": 127
+      },
+      "ITA": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 0,
+        "top_player": "Andreas Seppi",
+        "top_rank": 33
+      },
+      "GER": {
+        "ever_in_top100": 12,
+        "ever_in_top10": 0,
+        "top_player": "Tommy Haas",
+        "top_rank": 17
+      },
+      "SWE": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Robin Soderling",
+        "top_rank": 9
+      },
+      "MDA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Andrei Gorban",
+        "top_rank": 351
+      },
+      "BLR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Uladzimir Ignatik",
+        "top_rank": 461
+      },
+      "ROU": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Victor Hanescu",
+        "top_rank": 27
+      },
+      "RSA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Kevin Anderson",
+        "top_rank": 106
+      },
+      "USA": {
+        "ever_in_top100": 12,
+        "ever_in_top10": 2,
+        "top_player": "Andy Roddick",
+        "top_rank": 5
+      },
+      "CRO": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 0,
+        "top_player": "Marin Cilic",
+        "top_rank": 13
+      },
+      "URU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Pablo Cuevas",
+        "top_rank": 48
+      },
+      "SRB": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Novak Djokovic",
+        "top_rank": 3
+      },
+      "INA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Christopher Rungkat",
+        "top_rank": 1271
+      },
+      "MON": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jean Rene Lisnard",
+        "top_rank": 220
+      },
+      "AUS": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Lleyton Hewitt",
+        "top_rank": 23
+      },
+      "SLO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Blaz Kavcic",
+        "top_rank": 135
+      },
+      "CAN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Frank Dancevic",
+        "top_rank": 92
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Santiago Gonzalez",
+        "top_rank": 228
+      },
+      "BRA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Thomaz Bellucci",
+        "top_rank": 45
+      },
+      "ECU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nicolas Lapentti",
+        "top_rank": 74
+      },
+      "PHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Cecil Mamiit",
+        "top_rank": 412
+      },
+      "BEL": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Steve Darcis",
+        "top_rank": 49
+      },
+      "GUA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Christopher Diaz Figueroa",
+        "top_rank": 1059
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Conor Niland",
+        "top_rank": 278
+      },
+      "THA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Danai Udomchoke",
+        "top_rank": 110
+      },
+      "VEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jose De Armas",
+        "top_rank": 261
+      },
+      "UZB": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Denis Istomin",
+        "top_rank": 57
+      },
+      "BAH": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Devin Mullings",
+        "top_rank": 1006
+      },
+      "CHN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Shao Xuan Zeng",
+        "top_rank": 393
+      },
+      "MKD": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Predrag Rusevski",
+        "top_rank": 819
+      },
+      "SVK": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Karol Beck",
+        "top_rank": 81
+      },
+      "ISR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Dudi Sela",
+        "top_rank": 29
+      },
+      "ALG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lamine Ouahab",
+        "top_rank": 140
+      },
+      "CHI": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Fernando Gonzalez",
+        "top_rank": 10
+      },
+      "POR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Frederico Gil",
+        "top_rank": 66
+      },
+      "DEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Frederik Nielsen",
+        "top_rank": 290
+      },
+      "SUI": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Roger Federer",
+        "top_rank": 1
+      },
+      "LUX": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Gilles Muller",
+        "top_rank": 69
+      },
+      "JPN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Kei Nishikori",
+        "top_rank": 56
+      },
+      "MNE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Goran Tosic",
+        "top_rank": 499
+      },
+      "BUL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Grigor Dimitrov",
+        "top_rank": 310
+      },
+      "POL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lukasz Kubot",
+        "top_rank": 111
+      },
+      "LTU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ricardas Berankis",
+        "top_rank": 462
+      },
+      "FIN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jarkko Nieminen",
+        "top_rank": 38
+      },
+      "KOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hyung Taik Lee",
+        "top_rank": 113
+      },
+      "GEO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Irakli Labadze",
+        "top_rank": 523
+      },
+      "PER": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ivan Miranda",
+        "top_rank": 292
+      },
+      "CZE": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Radek Stepanek",
+        "top_rank": 12
+      },
+      "NED": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Thiemo De Bakker",
+        "top_rank": 122
+      },
+      "DOM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Victor Estrella",
+        "top_rank": 235
+      },
+      "PAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ramon Delgado",
+        "top_rank": 276
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Karim Maamoun",
+        "top_rank": 451
+      },
+      "CYP": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Marcos Baghdatis",
+        "top_rank": 66
+      },
+      "TUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marsel Ilhan",
+        "top_rank": 160
+      },
+      "MAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Rabie Chaki",
+        "top_rank": 482
+      },
+      "IND": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Somdev Devvarman",
+        "top_rank": 133
+      },
+      "TPE": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Yen Hsun Lu",
+        "top_rank": 57
+      },
+      "MAS": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yew Ming Si",
+        "top_rank": 1859
+      }
+    }
+  },
+  {
+    "year": 2012,
+    "countries": {
+      "HUN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Attila Balazs",
+        "top_rank": 259
+      },
+      "INA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Christopher Rungkat",
+        "top_rank": 292
+      },
+      "FRA": {
+        "ever_in_top100": 14,
+        "ever_in_top10": 2,
+        "top_player": "Jo-Wilfried Tsonga",
+        "top_rank": 5
+      },
+      "ESP": {
+        "ever_in_top100": 15,
+        "ever_in_top10": 3,
+        "top_player": "Rafael Nadal",
+        "top_rank": 2
+      },
+      "ROU": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Victor Hanescu",
+        "top_rank": 59
+      },
+      "COL": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Santiago Giraldo",
+        "top_rank": 39
+      },
+      "ITA": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 0,
+        "top_player": "Andreas Seppi",
+        "top_rank": 22
+      },
+      "RUS": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 0,
+        "top_player": "Mikhail Youzhny",
+        "top_rank": 25
+      },
+      "USA": {
+        "ever_in_top100": 11,
+        "ever_in_top10": 2,
+        "top_player": "Mardy Fish",
+        "top_rank": 8
+      },
+      "PUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alex Llompart",
+        "top_rank": 1097
+      },
+      "BLR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Uladzimir Ignatik",
+        "top_rank": 191
+      },
+      "AUT": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Jurgen Melzer",
+        "top_rank": 19
+      },
+      "UKR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Alexandr Dolgopolov",
+        "top_rank": 13
+      },
+      "SLO": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Grega Zemlja",
+        "top_rank": 55
+      },
+      "BIH": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Amer Delic",
+        "top_rank": 178
+      },
+      "ISR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Dudi Sela",
+        "top_rank": 61
+      },
+      "MAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mehdi Ziadi",
+        "top_rank": 613
+      },
+      "LAT": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ernests Gulbis",
+        "top_rank": 61
+      },
+      "GER": {
+        "ever_in_top100": 10,
+        "ever_in_top10": 0,
+        "top_player": "Philipp Kohlschreiber",
+        "top_rank": 17
+      },
+      "MDA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Radu Albot",
+        "top_rank": 233
+      },
+      "ARG": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 2,
+        "top_player": "Juan Martin Del Potro",
+        "top_rank": 7
+      },
+      "KAZ": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Mikhail Kukushkin",
+        "top_rank": 49
+      },
+      "GBR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Andy Murray",
+        "top_rank": 3
+      },
+      "CRO": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Marin Cilic",
+        "top_rank": 13
+      },
+      "MAD": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Antso Rakotondramanga",
+        "top_rank": 1606
+      },
+      "MAS": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ariez Elyaas Deen Heshaam",
+        "top_rank": 1557
+      },
+      "NZL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jose Rubin Statham",
+        "top_rank": 317
+      },
+      "TUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marsel Ilhan",
+        "top_rank": 108
+      },
+      "LIB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Bassam Beidas",
+        "top_rank": 521
+      },
+      "MON": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Benjamin Balleret",
+        "top_rank": 318
+      },
+      "AUS": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Bernard Tomic",
+        "top_rank": 27
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Daniel Garza",
+        "top_rank": 322
+      },
+      "SWE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Michael Ryderstedt",
+        "top_rank": 340
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Conor Niland",
+        "top_rank": 311
+      },
+      "CHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Paul Capdeville",
+        "top_rank": 119
+      },
+      "THA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Danai Udomchoke",
+        "top_rank": 145
+      },
+      "PAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Daniel Alejandro Lopez Cassaccia",
+        "top_rank": 702
+      },
+      "BAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Darian King",
+        "top_rank": 723
+      },
+      "BEL": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "David Goffin",
+        "top_rank": 45
+      },
+      "VEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "David Souto",
+        "top_rank": 433
+      },
+      "UZB": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Denis Istomin",
+        "top_rank": 33
+      },
+      "CHN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ze Zhang",
+        "top_rank": 154
+      },
+      "ECU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Julio Cesar Campozano",
+        "top_rank": 249
+      },
+      "BUL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Grigor Dimitrov",
+        "top_rank": 48
+      },
+      "PER": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Duilio Beretta",
+        "top_rank": 377
+      },
+      "SRB": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 2,
+        "top_player": "Novak Djokovic",
+        "top_rank": 1
+      },
+      "CAN": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Milos Raonic",
+        "top_rank": 13
+      },
+      "BOL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Federico Zeballos",
+        "top_rank": 751
+      },
+      "POR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Rui Machado",
+        "top_rank": 68
+      },
+      "DEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Frederik Nielsen",
+        "top_rank": 226
+      },
+      "LUX": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Gilles Muller",
+        "top_rank": 53
+      },
+      "JPN": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Kei Nishikori",
+        "top_rank": 15
+      },
+      "POL": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Lukasz Kubot",
+        "top_rank": 48
+      },
+      "FIN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jarkko Nieminen",
+        "top_rank": 35
+      },
+      "SUI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Roger Federer",
+        "top_rank": 1
+      },
+      "NED": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Robin Haase",
+        "top_rank": 39
+      },
+      "SVK": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Martin Klizan",
+        "top_rank": 29
+      },
+      "CZE": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 1,
+        "top_player": "Tomas Berdych",
+        "top_rank": 6
+      },
+      "RSA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Kevin Anderson",
+        "top_rank": 28
+      },
+      "EST": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jurgen Zopp",
+        "top_rank": 77
+      },
+      "PHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jeson Patrombon",
+        "top_rank": 874
+      },
+      "TPE": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Yen Hsun Lu",
+        "top_rank": 55
+      },
+      "BRA": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Thomaz Bellucci",
+        "top_rank": 34
+      },
+      "DOM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Victor Estrella",
+        "top_rank": 168
+      },
+      "KOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yong Kyu Lim",
+        "top_rank": 288
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mohamed Safwat",
+        "top_rank": 396
+      },
+      "ALG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lamine Ouahab",
+        "top_rank": 752
+      },
+      "TUN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Malek Jaziri",
+        "top_rank": 70
+      },
+      "URU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marcel Felder",
+        "top_rank": 239
+      },
+      "ESA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marcelo Arevalo",
+        "top_rank": 582
+      },
+      "CYP": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Marcos Baghdatis",
+        "top_rank": 32
+      },
+      "SOL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Michael Leong",
+        "top_rank": 1782
+      },
+      "QAT": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mousa Shanan Zayed",
+        "top_rank": 1851
+      },
+      "IND": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yuki Bhambri",
+        "top_rank": 179
+      },
+      "LTU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ricardas Berankis",
+        "top_rank": 89
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "countries": {
+      "KUW": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Abdullah Maqdas",
+        "top_rank": 1695
+      },
+      "INA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Christopher Rungkat",
+        "top_rank": 582
+      },
+      "FRA": {
+        "ever_in_top100": 13,
+        "ever_in_top10": 3,
+        "top_player": "Richard Gasquet",
+        "top_rank": 9
+      },
+      "ESP": {
+        "ever_in_top100": 14,
+        "ever_in_top10": 2,
+        "top_player": "Rafael Nadal",
+        "top_rank": 3
+      },
+      "ROU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Victor Hanescu",
+        "top_rank": 146
+      },
+      "SUI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 2,
+        "top_player": "Roger Federer",
+        "top_rank": 2
+      },
+      "PAK": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Aisam Ul Haq Qureshi",
+        "top_rank": 1177
+      },
+      "COL": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Santiago Giraldo",
+        "top_rank": 31
+      },
+      "KAZ": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Mikhail Kukushkin",
+        "top_rank": 48
+      },
+      "AUS": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 0,
+        "top_player": "Bernard Tomic",
+        "top_rank": 18
+      },
+      "PUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alex Llompart",
+        "top_rank": 1259
+      },
+      "BUL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Grigor Dimitrov",
+        "top_rank": 10
+      },
+      "RUS": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Mikhail Youzhny",
+        "top_rank": 47
+      },
+      "USA": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 0,
+        "top_player": "John Isner",
+        "top_rank": 12
+      },
+      "GER": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 0,
+        "top_player": "Philipp Kohlschreiber",
+        "top_rank": 22
+      },
+      "UKR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Alexandr Dolgopolov",
+        "top_rank": 23
+      },
+      "SLO": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Aljaz Bedene",
+        "top_rank": 48
+      },
+      "ISR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Dudi Sela",
+        "top_rank": 85
+      },
+      "BRA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Thomaz Bellucci",
+        "top_rank": 30
+      },
+      "ITA": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 0,
+        "top_player": "Fabio Fognini",
+        "top_rank": 18
+      },
+      "AUT": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Dominic Thiem",
+        "top_rank": 18
+      },
+      "MDA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Radu Albot",
+        "top_rank": 86
+      },
+      "ARG": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 0,
+        "top_player": "Leonardo Mayer",
+        "top_rank": 21
+      },
+      "GBR": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Andy Murray",
+        "top_rank": 2
+      },
+      "IRI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Anoosha Shahgholi",
+        "top_rank": 1394
+      },
+      "CRO": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 1,
+        "top_player": "Marin Cilic",
+        "top_rank": 8
+      },
+      "MAD": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Antso Rakotondramanga",
+        "top_rank": 1581
+      },
+      "BEL": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "David Goffin",
+        "top_rank": 14
+      },
+      "MON": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Benjamin Balleret",
+        "top_rank": 331
+      },
+      "ZIM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Takanyi Garanganga",
+        "top_rank": 324
+      },
+      "TUR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Marsel Ilhan",
+        "top_rank": 77
+      },
+      "TPE": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Yen Hsun Lu",
+        "top_rank": 38
+      },
+      "SWE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Elias Ymer",
+        "top_rank": 133
+      },
+      "CHN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ze Zhang",
+        "top_rank": 182
+      },
+      "CHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hans Podlipnik Castillo",
+        "top_rank": 162
+      },
+      "BIH": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Damir Dzumhur",
+        "top_rank": 86
+      },
+      "THA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Danai Udomchoke",
+        "top_rank": 320
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Daniel Garza",
+        "top_rank": 480
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "James Mcgee",
+        "top_rank": 150
+      },
+      "BAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Darian King",
+        "top_rank": 206
+      },
+      "VEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ricardo Rodriguez",
+        "top_rank": 341
+      },
+      "UZB": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Denis Istomin",
+        "top_rank": 48
+      },
+      "PER": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Duilio Beretta",
+        "top_rank": 409
+      },
+      "SRB": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 1,
+        "top_player": "Novak Djokovic",
+        "top_rank": 1
+      },
+      "BLR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Uladzimir Ignatik",
+        "top_rank": 209
+      },
+      "ECU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Gonzalo Escobar",
+        "top_rank": 291
+      },
+      "LAT": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ernests Gulbis",
+        "top_rank": 13
+      },
+      "BOL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hugo Dellien",
+        "top_rank": 249
+      },
+      "CAN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Milos Raonic",
+        "top_rank": 6
+      },
+      "POR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Joao Sousa",
+        "top_rank": 40
+      },
+      "DEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Frederik Nielsen",
+        "top_rank": 283
+      },
+      "RSA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Kevin Anderson",
+        "top_rank": 10
+      },
+      "HUN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marton Fucsovics",
+        "top_rank": 153
+      },
+      "LUX": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Gilles Muller",
+        "top_rank": 34
+      },
+      "LBN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Giovani Samaha",
+        "top_rank": 1573
+      },
+      "JPN": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Kei Nishikori",
+        "top_rank": 4
+      },
+      "FIN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jarkko Nieminen",
+        "top_rank": 66
+      },
+      "KOR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Hyeon Chung",
+        "top_rank": 58
+      },
+      "NED": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Robin Haase",
+        "top_rank": 56
+      },
+      "CZE": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Tomas Berdych",
+        "top_rank": 4
+      },
+      "POL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jerzy Janowicz",
+        "top_rank": 42
+      },
+      "PHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Patrick Tierro",
+        "top_rank": 1089
+      },
+      "DOM": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Victor Estrella",
+        "top_rank": 43
+      },
+      "NZL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jose Rubin Statham",
+        "top_rank": 345
+      },
+      "CRC": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Julian Saborio",
+        "top_rank": 1180
+      },
+      "EST": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jurgen Zopp",
+        "top_rank": 158
+      },
+      "ALG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lamine Ouahab",
+        "top_rank": 254
+      },
+      "LTU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ricardas Berankis",
+        "top_rank": 72
+      },
+      "SVK": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Martin Klizan",
+        "top_rank": 28
+      },
+      "TUN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Malek Jaziri",
+        "top_rank": 65
+      },
+      "ESA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marcelo Arevalo",
+        "top_rank": 280
+      },
+      "CYP": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Marcos Baghdatis",
+        "top_rank": 45
+      },
+      "URU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Pablo Cuevas",
+        "top_rank": 21
+      },
+      "MAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yassine Idmbarek",
+        "top_rank": 738
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mohamed Safwat",
+        "top_rank": 289
+      },
+      "IND": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yuki Bhambri",
+        "top_rank": 125
+      },
+      "GEO": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nikoloz Basilashvili",
+        "top_rank": 93
+      },
+      "SRI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sharmal Dissanayake",
+        "top_rank": 1969
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "countries": {
+      "CZE": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Tomas Berdych",
+        "top_rank": 13
+      },
+      "SUI": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 2,
+        "top_player": "Roger Federer",
+        "top_rank": 1
+      },
+      "FRA": {
+        "ever_in_top100": 12,
+        "ever_in_top10": 0,
+        "top_player": "Lucas Pouille",
+        "top_rank": 11
+      },
+      "ESP": {
+        "ever_in_top100": 12,
+        "ever_in_top10": 2,
+        "top_player": "Rafael Nadal",
+        "top_rank": 1
+      },
+      "ROU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Marius Copil",
+        "top_rank": 60
+      },
+      "PHI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alberto Lim",
+        "top_rank": 1371
+      },
+      "COL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Daniel Elahi Galan",
+        "top_rank": 176
+      },
+      "BOL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hugo Dellien",
+        "top_rank": 240
+      },
+      "AUS": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 0,
+        "top_player": "Nick Kyrgios",
+        "top_rank": 14
+      },
+      "ITA": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 0,
+        "top_player": "Fabio Fognini",
+        "top_rank": 13
+      },
+      "KAZ": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Mikhail Kukushkin",
+        "top_rank": 54
+      },
+      "CAN": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Milos Raonic",
+        "top_rank": 18
+      },
+      "GER": {
+        "ever_in_top100": 9,
+        "ever_in_top10": 1,
+        "top_player": "Alexander Zverev",
+        "top_rank": 3
+      },
+      "UKR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Alexandr Dolgopolov",
+        "top_rank": 37
+      },
+      "RUS": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 0,
+        "top_player": "Karen Khachanov",
+        "top_rank": 11
+      },
+      "SLO": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Aljaz Bedene",
+        "top_rank": 43
+      },
+      "TUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Cem Ilkel",
+        "top_rank": 247
+      },
+      "MAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Amine Ahouda",
+        "top_rank": 698
+      },
+      "AUT": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Dominic Thiem",
+        "top_rank": 5
+      },
+      "SVK": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Martin Klizan",
+        "top_rank": 47
+      },
+      "GBR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Kyle Edmund",
+        "top_rank": 14
+      },
+      "HKG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Chun Hun Wong",
+        "top_rank": 978
+      },
+      "INA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "David Agung Susanto",
+        "top_rank": 1402
+      },
+      "PAK": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Aqeel Khan",
+        "top_rank": 1753
+      },
+      "IND": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Yuki Bhambri",
+        "top_rank": 84
+      },
+      "HUN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Marton Fucsovics",
+        "top_rank": 36
+      },
+      "TUN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Malek Jaziri",
+        "top_rank": 45
+      },
+      "ZIM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Takanyi Garanganga",
+        "top_rank": 451
+      },
+      "USA": {
+        "ever_in_top100": 13,
+        "ever_in_top10": 2,
+        "top_player": "Jack Sock",
+        "top_rank": 8
+      },
+      "CRO": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Marin Cilic",
+        "top_rank": 3
+      },
+      "ARG": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 1,
+        "top_player": "Juan Martin Del Potro",
+        "top_rank": 3
+      },
+      "NOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Casper Ruud",
+        "top_rank": 120
+      },
+      "TPE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jason Jung",
+        "top_rank": 122
+      },
+      "GUA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Christopher Diaz Figueroa",
+        "top_rank": 630
+      },
+      "CHI": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nicolas Jarry",
+        "top_rank": 42
+      },
+      "BIH": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Damir Dzumhur",
+        "top_rank": 23
+      },
+      "POL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Hubert Hurkacz",
+        "top_rank": 85
+      },
+      "BAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Darian King",
+        "top_rank": 169
+      },
+      "BEL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "David Goffin",
+        "top_rank": 7
+      },
+      "VEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ricardo Rodriguez",
+        "top_rank": 834
+      },
+      "UZB": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Denis Istomin",
+        "top_rank": 60
+      },
+      "CHN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ze Zhang",
+        "top_rank": 194
+      },
+      "BUL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Grigor Dimitrov",
+        "top_rank": 3
+      },
+      "ISR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Dudi Sela",
+        "top_rank": 67
+      },
+      "PER": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Juan Pablo Varillas",
+        "top_rank": 411
+      },
+      "SRB": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 1,
+        "top_player": "Novak Djokovic",
+        "top_rank": 1
+      },
+      "BLR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ilya Ivashka",
+        "top_rank": 91
+      },
+      "SWE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Elias Ymer",
+        "top_rank": 108
+      },
+      "FIN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Harri Heliovaara",
+        "top_rank": 330
+      },
+      "LAT": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ernests Gulbis",
+        "top_rank": 95
+      },
+      "POR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Joao Sousa",
+        "top_rank": 41
+      },
+      "DEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Frederik Nielsen",
+        "top_rank": 549
+      },
+      "GEO": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nikoloz Basilashvili",
+        "top_rank": 21
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Manuel Sanchez",
+        "top_rank": 560
+      },
+      "LUX": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Gilles Muller",
+        "top_rank": 25
+      },
+      "BRA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Thiago Monteiro",
+        "top_rank": 96
+      },
+      "LBN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hady Habib",
+        "top_rank": 643
+      },
+      "KOR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Hyeon Chung",
+        "top_rank": 21
+      },
+      "ECU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Roberto Quiroz",
+        "top_rank": 244
+      },
+      "THA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Wishaya Trongcharoenchaikul",
+        "top_rank": 433
+      },
+      "DOM": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Victor Estrella",
+        "top_rank": 79
+      },
+      "NZL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jose Rubin Statham",
+        "top_rank": 308
+      },
+      "EST": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jurgen Zopp",
+        "top_rank": 96
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mohamed Safwat",
+        "top_rank": 173
+      },
+      "JPN": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 1,
+        "top_player": "Kei Nishikori",
+        "top_rank": 9
+      },
+      "RSA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Kevin Anderson",
+        "top_rank": 5
+      },
+      "ALG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lamine Ouahab",
+        "top_rank": 571
+      },
+      "LTU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ricardas Berankis",
+        "top_rank": 84
+      },
+      "MON": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lucas Catarina",
+        "top_rank": 365
+      },
+      "ESA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marcelo Arevalo",
+        "top_rank": 145
+      },
+      "CYP": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Marcos Baghdatis",
+        "top_rank": 80
+      },
+      "URU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Pablo Cuevas",
+        "top_rank": 31
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Peter Bothwell",
+        "top_rank": 840
+      },
+      "MDA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Radu Albot",
+        "top_rank": 86
+      },
+      "NED": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Robin Haase",
+        "top_rank": 38
+      },
+      "IRI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Shahin Khaledan",
+        "top_rank": 1331
+      },
+      "SRI": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sharmal Dissanayake",
+        "top_rank": 1455
+      },
+      "GRE": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Stefanos Tsitsipas",
+        "top_rank": 15
+      }
+    }
+  },
+  {
+    "year": 2021,
+    "countries": {
+      "BUL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Grigor Dimitrov",
+        "top_rank": 16
+      },
+      "FRA": {
+        "ever_in_top100": 14,
+        "ever_in_top10": 0,
+        "top_player": "Gael Monfils",
+        "top_rank": 11
+      },
+      "GBR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Cameron Norrie",
+        "top_rank": 12
+      },
+      "ESP": {
+        "ever_in_top100": 12,
+        "ever_in_top10": 2,
+        "top_player": "Rafael Nadal",
+        "top_rank": 2
+      },
+      "CHI": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Cristian Garin",
+        "top_rank": 17
+      },
+      "AUS": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 0,
+        "top_player": "Alex De Minaur",
+        "top_rank": 15
+      },
+      "ITA": {
+        "ever_in_top100": 10,
+        "ever_in_top10": 2,
+        "top_player": "Matteo Berrettini",
+        "top_rank": 7
+      },
+      "SVK": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Norbert Gombos",
+        "top_rank": 81
+      },
+      "KAZ": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Alexander Bublik",
+        "top_rank": 34
+      },
+      "AUT": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 1,
+        "top_player": "Dominic Thiem",
+        "top_rank": 3
+      },
+      "USA": {
+        "ever_in_top100": 14,
+        "ever_in_top10": 0,
+        "top_player": "Reilly Opelka",
+        "top_rank": 19
+      },
+      "BLR": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Ilya Ivashka",
+        "top_rank": 45
+      },
+      "GER": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 1,
+        "top_player": "Alexander Zverev",
+        "top_rank": 3
+      },
+      "GRE": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Stefanos Tsitsipas",
+        "top_rank": 3
+      },
+      "RUS": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 2,
+        "top_player": "Daniil Medvedev",
+        "top_rank": 2
+      },
+      "SLO": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Aljaz Bedene",
+        "top_rank": 54
+      },
+      "TUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Altug Celikbilek",
+        "top_rank": 170
+      },
+      "ARG": {
+        "ever_in_top100": 7,
+        "ever_in_top10": 1,
+        "top_player": "Diego Schwartzman",
+        "top_rank": 9
+      },
+      "HUN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Marton Fucsovics",
+        "top_rank": 37
+      },
+      "DEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Holger Rune",
+        "top_rank": 109
+      },
+      "TUN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Malek Jaziri",
+        "top_rank": 249
+      },
+      "ZIM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Benjamin Lock",
+        "top_rank": 490
+      },
+      "CRO": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Borna Coric",
+        "top_rank": 25
+      },
+      "NED": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Botic Van De Zandschulp",
+        "top_rank": 61
+      },
+      "VEN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ricardo Rodriguez",
+        "top_rank": 591
+      },
+      "CAN": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 1,
+        "top_player": "Denis Shapovalov",
+        "top_rank": 10
+      },
+      "NOR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Casper Ruud",
+        "top_rank": 8
+      },
+      "BIH": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Damir Dzumhur",
+        "top_rank": 120
+      },
+      "ISR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yshai Oliel",
+        "top_rank": 373
+      },
+      "COL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Daniel Elahi Galan",
+        "top_rank": 104
+      },
+      "EST": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Vladimir Ivanov",
+        "top_rank": 717
+      },
+      "SRB": {
+        "ever_in_top100": 5,
+        "ever_in_top10": 1,
+        "top_player": "Novak Djokovic",
+        "top_rank": 1
+      },
+      "BAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Darian King",
+        "top_rank": 351
+      },
+      "BEL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "David Goffin",
+        "top_rank": 12
+      },
+      "UZB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Denis Istomin",
+        "top_rank": 197
+      },
+      "SUI": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 1,
+        "top_player": "Roger Federer",
+        "top_rank": 6
+      },
+      "SWE": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Mikael Ymer",
+        "top_rank": 72
+      },
+      "FIN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Emil Ruusuvuori",
+        "top_rank": 66
+      },
+      "ECU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Emilio Gomez",
+        "top_rank": 149
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ernesto Escobedo",
+        "top_rank": 178
+      },
+      "LAT": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ernests Gulbis",
+        "top_rank": 186
+      },
+      "BRA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Thiago Monteiro",
+        "top_rank": 74
+      },
+      "ROU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marius Copil",
+        "top_rank": 250
+      },
+      "URU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Pablo Cuevas",
+        "top_rank": 70
+      },
+      "POR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Joao Sousa",
+        "top_rank": 98
+      },
+      "LBN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hady Habib",
+        "top_rank": 754
+      },
+      "POL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Hubert Hurkacz",
+        "top_rank": 9
+      },
+      "BOL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hugo Dellien",
+        "top_rank": 112
+      },
+      "UKR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Illya Marchenko",
+        "top_rank": 151
+      },
+      "TPE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Jason Jung",
+        "top_rank": 143
+      },
+      "KOR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Soon Woo Kwon",
+        "top_rank": 55
+      },
+      "CZE": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Jiri Vesely",
+        "top_rank": 67
+      },
+      "PER": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Juan Pablo Varillas",
+        "top_rank": 122
+      },
+      "JPN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Kei Nishikori",
+        "top_rank": 39
+      },
+      "THA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Wishaya Trongcharoenchaikul",
+        "top_rank": 767
+      },
+      "RSA": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Lloyd Harris",
+        "top_rank": 31
+      },
+      "LTU": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Ricardas Berankis",
+        "top_rank": 72
+      },
+      "MON": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lucas Catarina",
+        "top_rank": 388
+      },
+      "ESA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Marcelo Arevalo",
+        "top_rank": 457
+      },
+      "CYP": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Michail Pervolarakis",
+        "top_rank": 462
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mohamed Safwat",
+        "top_rank": 171
+      },
+      "DOM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Roberto Cid",
+        "top_rank": 281
+      },
+      "GEO": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nikoloz Basilashvili",
+        "top_rank": 21
+      },
+      "IND": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sumit Nagal",
+        "top_rank": 135
+      },
+      "MDA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Radu Albot",
+        "top_rank": 76
+      },
+      "CHN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Zhizhen Zhang",
+        "top_rank": 161
+      }
+    }
+  },
+  {
+    "year": 2024,
+    "countries": {
+      "JOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Abedallah Shelbayh",
+        "top_rank": 228
+      },
+      "USA": {
+        "ever_in_top100": 12,
+        "ever_in_top10": 1,
+        "top_player": "Taylor Fritz",
+        "top_rank": 9
+      },
+      "AUS": {
+        "ever_in_top100": 9,
+        "ever_in_top10": 1,
+        "top_player": "Alex De Minaur",
+        "top_rank": 9
+      },
+      "ESP": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 1,
+        "top_player": "Carlos Alcaraz",
+        "top_rank": 2
+      },
+      "FRA": {
+        "ever_in_top100": 15,
+        "ever_in_top10": 0,
+        "top_player": "Ugo Humbert",
+        "top_rank": 13
+      },
+      "NZL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ajeet Rai",
+        "top_rank": 538
+      },
+      "CHI": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Nicolas Jarry",
+        "top_rank": 18
+      },
+      "LUX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Alex Knaff",
+        "top_rank": 500
+      },
+      "SVK": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lukas Klein",
+        "top_rank": 120
+      },
+      "KAZ": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Alexander Bublik",
+        "top_rank": 17
+      },
+      "SUI": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Stan Wawrinka",
+        "top_rank": 56
+      },
+      "GER": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 1,
+        "top_player": "Alexander Zverev",
+        "top_rank": 5
+      },
+      "TUR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Cem Ilkel",
+        "top_rank": 284
+      },
+      "ECU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Emilio Gomez",
+        "top_rank": 307
+      },
+      "EGY": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Mohamed Safwat",
+        "top_rank": 358
+      },
+      "ITA": {
+        "ever_in_top100": 9,
+        "ever_in_top10": 1,
+        "top_player": "Jannik Sinner",
+        "top_rank": 2
+      },
+      "BIH": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Damir Dzumhur",
+        "top_rank": 147
+      },
+      "RUS": {
+        "ever_in_top100": 6,
+        "ever_in_top10": 2,
+        "top_player": "Daniil Medvedev",
+        "top_rank": 3
+      },
+      "GBR": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 0,
+        "top_player": "Cameron Norrie",
+        "top_rank": 18
+      },
+      "GRE": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Stefanos Tsitsipas",
+        "top_rank": 6
+      },
+      "DEN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Holger Rune",
+        "top_rank": 7
+      },
+      "TUN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Aziz Dougaz",
+        "top_rank": 219
+      },
+      "ZIM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Benjamin Lock",
+        "top_rank": 348
+      },
+      "CRO": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Borna Coric",
+        "top_rank": 31
+      },
+      "NED": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Tallon Griekspoor",
+        "top_rank": 23
+      },
+      "ARG": {
+        "ever_in_top100": 8,
+        "ever_in_top10": 0,
+        "top_player": "Sebastian Baez",
+        "top_rank": 19
+      },
+      "NOR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Casper Ruud",
+        "top_rank": 6
+      },
+      "TPE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yu Hsiou Hsu",
+        "top_rank": 230
+      },
+      "HKG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Coleman Wong",
+        "top_rank": 212
+      },
+      "CZE": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Jiri Lehecka",
+        "top_rank": 23
+      },
+      "ISR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yshai Oliel",
+        "top_rank": 415
+      },
+      "COL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Daniel Elahi Galan",
+        "top_rank": 78
+      },
+      "BAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Darian King",
+        "top_rank": 547
+      },
+      "BEL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "David Goffin",
+        "top_rank": 100
+      },
+      "CAN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Felix Auger Aliassime",
+        "top_rank": 20
+      },
+      "BUL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Grigor Dimitrov",
+        "top_rank": 9
+      },
+      "AUT": {
+        "ever_in_top100": 3,
+        "ever_in_top10": 0,
+        "top_player": "Sebastian Ofner",
+        "top_rank": 37
+      },
+      "SRB": {
+        "ever_in_top100": 4,
+        "ever_in_top10": 1,
+        "top_player": "Novak Djokovic",
+        "top_rank": 1
+      },
+      "FIN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Emil Ruusuvuori",
+        "top_rank": 43
+      },
+      "SWE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Elias Ymer",
+        "top_rank": 160
+      },
+      "MEX": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ernesto Escobedo",
+        "top_rank": 493
+      },
+      "HUN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Fabian Marozsan",
+        "top_rank": 36
+      },
+      "BRA": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Thiago Seyboth Wild",
+        "top_rank": 58
+      },
+      "INA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Fitriadi M Rifqi",
+        "top_rank": 569
+      },
+      "URU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Franco Roncadelli",
+        "top_rank": 616
+      },
+      "LBN": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hady Habib",
+        "top_rank": 304
+      },
+      "POR": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Nuno Borges",
+        "top_rank": 46
+      },
+      "POL": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 1,
+        "top_player": "Hubert Hurkacz",
+        "top_rank": 8
+      },
+      "BOL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Hugo Dellien",
+        "top_rank": 112
+      },
+      "PER": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Juan Pablo Varillas",
+        "top_rank": 81
+      },
+      "MDA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Radu Albot",
+        "top_rank": 136
+      },
+      "CHN": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Zhizhen Zhang",
+        "top_rank": 46
+      },
+      "JPN": {
+        "ever_in_top100": 2,
+        "ever_in_top10": 0,
+        "top_player": "Taro Daniel",
+        "top_rank": 58
+      },
+      "UZB": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Khumoun Sultanov",
+        "top_rank": 330
+      },
+      "RSA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Lloyd Harris",
+        "top_rank": 167
+      },
+      "ROU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Nicholas David Ionel",
+        "top_rank": 265
+      },
+      "LAT": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Martins Rocens",
+        "top_rank": 1763
+      },
+      "SLO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Sebastian Dominko",
+        "top_rank": 1107
+      },
+      "THA": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Maximus Jones",
+        "top_rank": 581
+      },
+      "CYP": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Stylianos Christodoulou",
+        "top_rank": 1114
+      },
+      "IRL": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Michael Agwi",
+        "top_rank": 935
+      },
+      "VIE": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Nam Hoang Ly",
+        "top_rank": 554
+      },
+      "DOM": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Nick Hardt",
+        "top_rank": 229
+      },
+      "IND": {
+        "ever_in_top100": 1,
+        "ever_in_top10": 0,
+        "top_player": "Sumit Nagal",
+        "top_rank": 93
+      },
+      "UKR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Vitaliy Sachko",
+        "top_rank": 169
+      },
+      "LTU": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Ricardas Berankis",
+        "top_rank": 248
+      },
+      "GEO": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Saba Purtseladze",
+        "top_rank": 450
+      },
+      "KOR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Seong Chan Hong",
+        "top_rank": 224
+      },
+      "TOG": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Thomas Yaka Kofi Setodji",
+        "top_rank": 819
+      },
+      "MAR": {
+        "ever_in_top100": 0,
+        "ever_in_top10": 0,
+        "top_player": "Yassine Dlimi",
+        "top_rank": 604
+      }
+    }
+  }
+]
