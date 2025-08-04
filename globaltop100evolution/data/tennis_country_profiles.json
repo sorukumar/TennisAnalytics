@@ -4,85 +4,99 @@
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Adriano Panatta",
-      "top_rank": 28
+      "top_rank": 28,
+      "unique_atp_player": 9
     },
     "1980": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Corrado Barazzutti",
-      "top_rank": 19
+      "top_rank": 19,
+      "unique_atp_player": 4
     },
     "1985": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Francesco Cancellotti",
-      "top_rank": 21
+      "top_rank": 21,
+      "unique_atp_player": 13
     },
     "1990": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Paolo Cane",
-      "top_rank": 33
+      "top_rank": 33,
+      "unique_atp_player": 19
     },
     "1995": {
       "ever_in_top100": 5,
       "ever_in_top10": 0,
       "top_player": "Andrea Gaudenzi",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 20
     },
     "2000": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Gianluca Pozzi",
-      "top_rank": 42
+      "top_rank": 42,
+      "unique_atp_player": 14
     },
     "2003": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Davide Sanguinetti",
-      "top_rank": 44
+      "top_rank": 44,
+      "unique_atp_player": 14
     },
     "2006": {
       "ever_in_top100": 6,
       "ever_in_top10": 0,
       "top_player": "Filippo Volandri",
-      "top_rank": 31
+      "top_rank": 31,
+      "unique_atp_player": 19
     },
     "2009": {
       "ever_in_top100": 6,
       "ever_in_top10": 0,
       "top_player": "Andreas Seppi",
-      "top_rank": 33
+      "top_rank": 33,
+      "unique_atp_player": 11
     },
     "2012": {
       "ever_in_top100": 7,
       "ever_in_top10": 0,
       "top_player": "Andreas Seppi",
-      "top_rank": 22
+      "top_rank": 22,
+      "unique_atp_player": 11
     },
     "2015": {
       "ever_in_top100": 5,
       "ever_in_top10": 0,
       "top_player": "Fabio Fognini",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 12
     },
     "2018": {
       "ever_in_top100": 6,
       "ever_in_top10": 0,
       "top_player": "Fabio Fognini",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 17
     },
     "2021": {
       "ever_in_top100": 10,
       "ever_in_top10": 2,
       "top_player": "Matteo Berrettini",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 21
     },
     "2024": {
       "ever_in_top100": 9,
       "ever_in_top10": 1,
       "top_player": "Jannik Sinner",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 14
     }
   },
   "RUS": {
@@ -90,79 +104,92 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Alex Metreveli",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Andrei Chesnokov",
-      "top_rank": 131
+      "top_rank": 131,
+      "unique_atp_player": 3
     },
     "1990": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Andrei Chesnokov",
-      "top_rank": 10
+      "top_rank": 10,
+      "unique_atp_player": 4
     },
     "1995": {
       "ever_in_top100": 4,
       "ever_in_top10": 1,
       "top_player": "Yevgeny Kafelnikov",
-      "top_rank": 4
+      "top_rank": 4,
+      "unique_atp_player": 6
     },
     "2000": {
       "ever_in_top100": 2,
       "ever_in_top10": 2,
       "top_player": "Marat Safin",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 9
     },
     "2003": {
       "ever_in_top100": 5,
       "ever_in_top10": 1,
       "top_player": "Marat Safin",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 13
     },
     "2006": {
       "ever_in_top100": 7,
       "ever_in_top10": 1,
       "top_player": "Nikolay Davydenko",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 10
     },
     "2009": {
       "ever_in_top100": 7,
       "ever_in_top10": 1,
       "top_player": "Nikolay Davydenko",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 13
     },
     "2012": {
       "ever_in_top100": 8,
       "ever_in_top10": 0,
       "top_player": "Mikhail Youzhny",
-      "top_rank": 25
+      "top_rank": 25,
+      "unique_atp_player": 17
     },
     "2015": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Mikhail Youzhny",
-      "top_rank": 47
+      "top_rank": 47,
+      "unique_atp_player": 10
     },
     "2018": {
       "ever_in_top100": 5,
       "ever_in_top10": 0,
       "top_player": "Karen Khachanov",
-      "top_rank": 11
+      "top_rank": 11,
+      "unique_atp_player": 7
     },
     "2021": {
       "ever_in_top100": 4,
       "ever_in_top10": 2,
       "top_player": "Daniil Medvedev",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 11
     },
     "2024": {
       "ever_in_top100": 6,
       "ever_in_top10": 2,
       "top_player": "Daniil Medvedev",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 8
     }
   },
   "AUS": {
@@ -170,85 +197,99 @@
       "ever_in_top100": 19,
       "ever_in_top10": 3,
       "top_player": "John Newcombe",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 48
     },
     "1980": {
       "ever_in_top100": 16,
       "ever_in_top10": 0,
       "top_player": "John Alexander",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 28
     },
     "1985": {
       "ever_in_top100": 9,
       "ever_in_top10": 1,
       "top_player": "Pat Cash",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 31
     },
     "1990": {
       "ever_in_top100": 10,
       "ever_in_top10": 0,
       "top_player": "Richard Fromberg",
-      "top_rank": 24
+      "top_rank": 24,
+      "unique_atp_player": 25
     },
     "1995": {
       "ever_in_top100": 9,
       "ever_in_top10": 0,
       "top_player": "Jason Stoltenberg",
-      "top_rank": 20
+      "top_rank": 20,
+      "unique_atp_player": 24
     },
     "2000": {
       "ever_in_top100": 7,
       "ever_in_top10": 1,
       "top_player": "Lleyton Hewitt",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 17
     },
     "2003": {
       "ever_in_top100": 3,
       "ever_in_top10": 2,
       "top_player": "Lleyton Hewitt",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 16
     },
     "2006": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Lleyton Hewitt",
-      "top_rank": 4
+      "top_rank": 4,
+      "unique_atp_player": 9
     },
     "2009": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Lleyton Hewitt",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 9
     },
     "2012": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Bernard Tomic",
-      "top_rank": 27
+      "top_rank": 27,
+      "unique_atp_player": 9
     },
     "2015": {
       "ever_in_top100": 8,
       "ever_in_top10": 0,
       "top_player": "Bernard Tomic",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 14
     },
     "2018": {
       "ever_in_top100": 6,
       "ever_in_top10": 0,
       "top_player": "Nick Kyrgios",
-      "top_rank": 14
+      "top_rank": 14,
+      "unique_atp_player": 14
     },
     "2021": {
       "ever_in_top100": 6,
       "ever_in_top10": 0,
       "top_player": "Alex De Minaur",
-      "top_rank": 15
+      "top_rank": 15,
+      "unique_atp_player": 23
     },
     "2024": {
       "ever_in_top100": 9,
       "ever_in_top10": 1,
       "top_player": "Alex De Minaur",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 17
     }
   },
   "COL": {
@@ -256,85 +297,99 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ivan Molina",
-      "top_rank": 77
+      "top_rank": 77,
+      "unique_atp_player": 2
     },
     "1980": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Alvaro Betancur",
-      "top_rank": 89
+      "top_rank": 89,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alvaro Jordan",
-      "top_rank": 579
+      "top_rank": 579,
+      "unique_atp_player": 2
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mauricio Hadad",
-      "top_rank": 333
+      "top_rank": 333,
+      "unique_atp_player": 3
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Mauricio Hadad",
-      "top_rank": 78
+      "top_rank": 78,
+      "unique_atp_player": 5
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Eduardo Rincon",
-      "top_rank": 654
+      "top_rank": 654,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Michael Quintero",
-      "top_rank": 310
+      "top_rank": 310,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Alejandro Falla",
-      "top_rank": 99
+      "top_rank": 99,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Alejandro Falla",
-      "top_rank": 87
+      "top_rank": 87,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Santiago Giraldo",
-      "top_rank": 39
+      "top_rank": 39,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Santiago Giraldo",
-      "top_rank": 31
+      "top_rank": 31,
+      "unique_atp_player": 6
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Daniel Elahi Galan",
-      "top_rank": 176
+      "top_rank": 176,
+      "unique_atp_player": 5
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Daniel Elahi Galan",
-      "top_rank": 104
+      "top_rank": 104,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Daniel Elahi Galan",
-      "top_rank": 78
+      "top_rank": 78,
+      "unique_atp_player": 2
     }
   },
   "EGY": {
@@ -342,79 +397,92 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ismail El Shafei",
-      "top_rank": 34
+      "top_rank": 34,
+      "unique_atp_player": 2
     },
     "1985": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ahmed El Mehelmy",
-      "top_rank": 183
+      "top_rank": 183,
+      "unique_atp_player": 2
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ahmed El Mehelmy",
-      "top_rank": 1085
+      "top_rank": 1085,
+      "unique_atp_player": 1
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Tamer El Sawy",
-      "top_rank": 167
+      "top_rank": 167,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Amro Ghoneim",
-      "top_rank": 439
+      "top_rank": 439,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Karim Maamoun",
-      "top_rank": 430
+      "top_rank": 430,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Karim Maamoun",
-      "top_rank": 355
+      "top_rank": 355,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Karim Maamoun",
-      "top_rank": 451
+      "top_rank": 451,
+      "unique_atp_player": 6
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mohamed Safwat",
-      "top_rank": 396
+      "top_rank": 396,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mohamed Safwat",
-      "top_rank": 289
+      "top_rank": 289,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mohamed Safwat",
-      "top_rank": 173
+      "top_rank": 173,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mohamed Safwat",
-      "top_rank": 171
+      "top_rank": 171,
+      "unique_atp_player": 1
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mohamed Safwat",
-      "top_rank": 358
+      "top_rank": 358,
+      "unique_atp_player": 3
     }
   },
   "IND": {
@@ -422,85 +490,99 @@
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Vijay Amritraj",
-      "top_rank": 31
+      "top_rank": 31,
+      "unique_atp_player": 5
     },
     "1980": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Vijay Amritraj",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 4
     },
     "1985": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Ramesh Krishnan",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 4
     },
     "1990": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ramesh Krishnan",
-      "top_rank": 62
+      "top_rank": 62,
+      "unique_atp_player": 5
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Leander Paes",
-      "top_rank": 123
+      "top_rank": 123,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Leander Paes",
-      "top_rank": 116
+      "top_rank": 116,
+      "unique_atp_player": 6
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Prakash Amritraj",
-      "top_rank": 324
+      "top_rank": 324,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Prakash Amritraj",
-      "top_rank": 230
+      "top_rank": 230,
+      "unique_atp_player": 5
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Somdev Devvarman",
-      "top_rank": 133
+      "top_rank": 133,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yuki Bhambri",
-      "top_rank": 179
+      "top_rank": 179,
+      "unique_atp_player": 5
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yuki Bhambri",
-      "top_rank": 125
+      "top_rank": 125,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Yuki Bhambri",
-      "top_rank": 84
+      "top_rank": 84,
+      "unique_atp_player": 6
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sumit Nagal",
-      "top_rank": 135
+      "top_rank": 135,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Sumit Nagal",
-      "top_rank": 93
+      "top_rank": 93,
+      "unique_atp_player": 3
     }
   },
   "USA": {
@@ -508,85 +590,99 @@
       "ever_in_top100": 31,
       "ever_in_top10": 3,
       "top_player": "Jimmy Connors",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 70
     },
     "1980": {
       "ever_in_top100": 53,
       "ever_in_top10": 11,
       "top_player": "John Mcenroe",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 62
     },
     "1985": {
       "ever_in_top100": 53,
       "ever_in_top10": 7,
       "top_player": "Ivan Lendl",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 126
     },
     "1990": {
       "ever_in_top100": 39,
       "ever_in_top10": 9,
       "top_player": "Ivan Lendl",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 84
     },
     "1995": {
       "ever_in_top100": 22,
       "ever_in_top10": 5,
       "top_player": "Andre Agassi",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 56
     },
     "2000": {
       "ever_in_top100": 12,
       "ever_in_top10": 3,
       "top_player": "Andre Agassi",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 41
     },
     "2003": {
       "ever_in_top100": 12,
       "ever_in_top10": 2,
       "top_player": "Andre Agassi",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 33
     },
     "2006": {
       "ever_in_top100": 11,
       "ever_in_top10": 3,
       "top_player": "Andy Roddick",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 36
     },
     "2009": {
       "ever_in_top100": 12,
       "ever_in_top10": 2,
       "top_player": "Andy Roddick",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 23
     },
     "2012": {
       "ever_in_top100": 11,
       "ever_in_top10": 2,
       "top_player": "Mardy Fish",
-      "top_rank": 8
+      "top_rank": 8,
+      "unique_atp_player": 29
     },
     "2015": {
       "ever_in_top100": 8,
       "ever_in_top10": 0,
       "top_player": "John Isner",
-      "top_rank": 12
+      "top_rank": 12,
+      "unique_atp_player": 24
     },
     "2018": {
       "ever_in_top100": 13,
       "ever_in_top10": 2,
       "top_player": "Jack Sock",
-      "top_rank": 8
+      "top_rank": 8,
+      "unique_atp_player": 34
     },
     "2021": {
       "ever_in_top100": 14,
       "ever_in_top10": 0,
       "top_player": "Reilly Opelka",
-      "top_rank": 19
+      "top_rank": 19,
+      "unique_atp_player": 35
     },
     "2024": {
       "ever_in_top100": 12,
       "ever_in_top10": 1,
       "top_player": "Taylor Fritz",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 28
     }
   },
   "ESP": {
@@ -594,85 +690,99 @@
       "ever_in_top100": 4,
       "ever_in_top10": 1,
       "top_player": "Manuel Orantes",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 11
     },
     "1980": {
       "ever_in_top100": 5,
       "ever_in_top10": 1,
       "top_player": "Jose Higueras",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 5
     },
     "1985": {
       "ever_in_top100": 6,
       "ever_in_top10": 0,
       "top_player": "Juan Aguilera",
-      "top_rank": 20
+      "top_rank": 20,
+      "unique_atp_player": 20
     },
     "1990": {
       "ever_in_top100": 8,
       "ever_in_top10": 1,
       "top_player": "Emilio Sanchez",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 23
     },
     "1995": {
       "ever_in_top100": 13,
       "ever_in_top10": 2,
       "top_player": "Sergi Bruguera",
-      "top_rank": 4
+      "top_rank": 4,
+      "unique_atp_player": 26
     },
     "2000": {
       "ever_in_top100": 16,
       "ever_in_top10": 1,
       "top_player": "Alex Corretja",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 29
     },
     "2003": {
       "ever_in_top100": 18,
       "ever_in_top10": 3,
       "top_player": "Juan Carlos Ferrero",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 29
     },
     "2006": {
       "ever_in_top100": 14,
       "ever_in_top10": 3,
       "top_player": "Rafael Nadal",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 28
     },
     "2009": {
       "ever_in_top100": 16,
       "ever_in_top10": 2,
       "top_player": "Rafael Nadal",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 22
     },
     "2012": {
       "ever_in_top100": 15,
       "ever_in_top10": 3,
       "top_player": "Rafael Nadal",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 26
     },
     "2015": {
       "ever_in_top100": 14,
       "ever_in_top10": 2,
       "top_player": "Rafael Nadal",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 20
     },
     "2018": {
       "ever_in_top100": 12,
       "ever_in_top10": 2,
       "top_player": "Rafael Nadal",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 24
     },
     "2021": {
       "ever_in_top100": 12,
       "ever_in_top10": 2,
       "top_player": "Rafael Nadal",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 16
     },
     "2024": {
       "ever_in_top100": 8,
       "ever_in_top10": 1,
       "top_player": "Carlos Alcaraz",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 18
     }
   },
   "GER": {
@@ -680,85 +790,99 @@
       "ever_in_top100": 6,
       "ever_in_top10": 0,
       "top_player": "Karl Meiler",
-      "top_rank": 38
+      "top_rank": 38,
+      "unique_atp_player": 11
     },
     "1980": {
       "ever_in_top100": 5,
       "ever_in_top10": 0,
       "top_player": "Ulrich Pinner",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 6
     },
     "1985": {
       "ever_in_top100": 7,
       "ever_in_top10": 1,
       "top_player": "Boris Becker",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 23
     },
     "1990": {
       "ever_in_top100": 8,
       "ever_in_top10": 1,
       "top_player": "Boris Becker",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 26
     },
     "1995": {
       "ever_in_top100": 14,
       "ever_in_top10": 2,
       "top_player": "Boris Becker",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 25
     },
     "2000": {
       "ever_in_top100": 9,
       "ever_in_top10": 1,
       "top_player": "Nicolas Kiefer",
-      "top_rank": 4
+      "top_rank": 4,
+      "unique_atp_player": 22
     },
     "2003": {
       "ever_in_top100": 6,
       "ever_in_top10": 1,
       "top_player": "Rainer Schuettler",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 22
     },
     "2006": {
       "ever_in_top100": 11,
       "ever_in_top10": 0,
       "top_player": "Nicolas Kiefer",
-      "top_rank": 11
+      "top_rank": 11,
+      "unique_atp_player": 25
     },
     "2009": {
       "ever_in_top100": 12,
       "ever_in_top10": 0,
       "top_player": "Tommy Haas",
-      "top_rank": 17
+      "top_rank": 17,
+      "unique_atp_player": 18
     },
     "2012": {
       "ever_in_top100": 10,
       "ever_in_top10": 0,
       "top_player": "Philipp Kohlschreiber",
-      "top_rank": 17
+      "top_rank": 17,
+      "unique_atp_player": 18
     },
     "2015": {
       "ever_in_top100": 7,
       "ever_in_top10": 0,
       "top_player": "Philipp Kohlschreiber",
-      "top_rank": 22
+      "top_rank": 22,
+      "unique_atp_player": 17
     },
     "2018": {
       "ever_in_top100": 9,
       "ever_in_top10": 1,
       "top_player": "Alexander Zverev",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 18
     },
     "2021": {
       "ever_in_top100": 5,
       "ever_in_top10": 1,
       "top_player": "Alexander Zverev",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 18
     },
     "2024": {
       "ever_in_top100": 6,
       "ever_in_top10": 1,
       "top_player": "Alexander Zverev",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 11
     }
   },
   "HUN": {
@@ -766,85 +890,99 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Balazs Taroczy",
-      "top_rank": 38
+      "top_rank": 38,
+      "unique_atp_player": 6
     },
     "1980": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Balazs Taroczy",
-      "top_rank": 17
+      "top_rank": 17,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Balazs Taroczy",
-      "top_rank": 43
+      "top_rank": 43,
+      "unique_atp_player": 2
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sandor Noszaly",
-      "top_rank": 607
+      "top_rank": 607,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Sandor Noszaly",
-      "top_rank": 95
+      "top_rank": 95,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Attila Savolt",
-      "top_rank": 108
+      "top_rank": 108,
+      "unique_atp_player": 2
     },
     "2003": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Attila Savolt",
-      "top_rank": 97
+      "top_rank": 97,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Kornel Bardoczky",
-      "top_rank": 406
+      "top_rank": 406,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Attila Balazs",
-      "top_rank": 307
+      "top_rank": 307,
+      "unique_atp_player": 3
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Attila Balazs",
-      "top_rank": 259
+      "top_rank": 259,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marton Fucsovics",
-      "top_rank": 153
+      "top_rank": 153,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Marton Fucsovics",
-      "top_rank": 36
+      "top_rank": 36,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Marton Fucsovics",
-      "top_rank": 37
+      "top_rank": 37,
+      "unique_atp_player": 4
     },
     "2024": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Fabian Marozsan",
-      "top_rank": 36
+      "top_rank": 36,
+      "unique_atp_player": 4
     }
   },
   "CHI": {
@@ -852,85 +990,99 @@
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Jaime Fillol",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 4
     },
     "1980": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Hans Gildemeister",
-      "top_rank": 12
+      "top_rank": 12,
+      "unique_atp_player": 4
     },
     "1985": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Ricardo Acuna",
-      "top_rank": 51
+      "top_rank": 51,
+      "unique_atp_player": 5
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Pedro Rebolledo",
-      "top_rank": 130
+      "top_rank": 130,
+      "unique_atp_player": 4
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Marcelo Rios",
-      "top_rank": 24
+      "top_rank": 24,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Marcelo Rios",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 5
     },
     "2003": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Fernando Gonzalez",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 7
     },
     "2006": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Fernando Gonzalez",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 7
     },
     "2009": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Fernando Gonzalez",
-      "top_rank": 10
+      "top_rank": 10,
+      "unique_atp_player": 5
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Paul Capdeville",
-      "top_rank": 119
+      "top_rank": 119,
+      "unique_atp_player": 6
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hans Podlipnik Castillo",
-      "top_rank": 162
+      "top_rank": 162,
+      "unique_atp_player": 5
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nicolas Jarry",
-      "top_rank": 42
+      "top_rank": 42,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Cristian Garin",
-      "top_rank": 17
+      "top_rank": 17,
+      "unique_atp_player": 5
     },
     "2024": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Nicolas Jarry",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 4
     }
   },
   "BEL": {
@@ -938,85 +1090,99 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Bernard Mignot",
-      "top_rank": 108
+      "top_rank": 108,
+      "unique_atp_player": 2
     },
     "1980": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Bernard Boileau",
-      "top_rank": 100
+      "top_rank": 100,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Libor Pimek",
-      "top_rank": 21
+      "top_rank": 21,
+      "unique_atp_player": 5
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Eduardo Masso",
-      "top_rank": 122
+      "top_rank": 122,
+      "unique_atp_player": 3
     },
     "1995": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Filip Dewulf",
-      "top_rank": 64
+      "top_rank": 64,
+      "unique_atp_player": 5
     },
     "2000": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Christophe Rochus",
-      "top_rank": 65
+      "top_rank": 65,
+      "unique_atp_player": 5
     },
     "2003": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Xavier Malisse",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 6
     },
     "2006": {
       "ever_in_top100": 5,
       "ever_in_top10": 0,
       "top_player": "Olivier Rochus",
-      "top_rank": 27
+      "top_rank": 27,
+      "unique_atp_player": 8
     },
     "2009": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Steve Darcis",
-      "top_rank": 49
+      "top_rank": 49,
+      "unique_atp_player": 6
     },
     "2012": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "David Goffin",
-      "top_rank": 45
+      "top_rank": 45,
+      "unique_atp_player": 7
     },
     "2015": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "David Goffin",
-      "top_rank": 14
+      "top_rank": 14,
+      "unique_atp_player": 7
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "David Goffin",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "David Goffin",
-      "top_rank": 12
+      "top_rank": 12,
+      "unique_atp_player": 5
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "David Goffin",
-      "top_rank": 100
+      "top_rank": 100,
+      "unique_atp_player": 3
     }
   },
   "RSA": {
@@ -1024,85 +1190,99 @@
       "ever_in_top100": 6,
       "ever_in_top10": 0,
       "top_player": "Cliff Drysdale",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 13
     },
     "1980": {
       "ever_in_top100": 6,
       "ever_in_top10": 0,
       "top_player": "Bernard Mitton",
-      "top_rank": 42
+      "top_rank": 42,
+      "unique_atp_player": 7
     },
     "1985": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Christo Steyn",
-      "top_rank": 68
+      "top_rank": 68,
+      "unique_atp_player": 14
     },
     "1990": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Christo Van Rensburg",
-      "top_rank": 25
+      "top_rank": 25,
+      "unique_atp_player": 12
     },
     "1995": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Wayne Ferreira",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 10
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Wayne Ferreira",
-      "top_rank": 11
+      "top_rank": 11,
+      "unique_atp_player": 6
     },
     "2003": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Wayne Ferreira",
-      "top_rank": 20
+      "top_rank": 20,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Wesley Moodie",
-      "top_rank": 57
+      "top_rank": 57,
+      "unique_atp_player": 5
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Kevin Anderson",
-      "top_rank": 106
+      "top_rank": 106,
+      "unique_atp_player": 5
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Kevin Anderson",
-      "top_rank": 28
+      "top_rank": 28,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Kevin Anderson",
-      "top_rank": 10
+      "top_rank": 10,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Kevin Anderson",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Lloyd Harris",
-      "top_rank": 31
+      "top_rank": 31,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lloyd Harris",
-      "top_rank": 167
+      "top_rank": 167,
+      "unique_atp_player": 3
     }
   },
   "SWE": {
@@ -1110,85 +1290,99 @@
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Bjorn Borg",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 10
     },
     "1980": {
       "ever_in_top100": 4,
       "ever_in_top10": 1,
       "top_player": "Bjorn Borg",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 4
     },
     "1985": {
       "ever_in_top100": 11,
       "ever_in_top10": 5,
       "top_player": "Mats Wilander",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 20
     },
     "1990": {
       "ever_in_top100": 15,
       "ever_in_top10": 2,
       "top_player": "Stefan Edberg",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 32
     },
     "1995": {
       "ever_in_top100": 11,
       "ever_in_top10": 3,
       "top_player": "Stefan Edberg",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 24
     },
     "2000": {
       "ever_in_top100": 8,
       "ever_in_top10": 2,
       "top_player": "Magnus Norman",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 17
     },
     "2003": {
       "ever_in_top100": 5,
       "ever_in_top10": 0,
       "top_player": "Jonas Bjorkman",
-      "top_rank": 41
+      "top_rank": 41,
+      "unique_atp_player": 11
     },
     "2006": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Thomas Johansson",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 10
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Robin Soderling",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 7
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Michael Ryderstedt",
-      "top_rank": 340
+      "top_rank": 340,
+      "unique_atp_player": 5
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Elias Ymer",
-      "top_rank": 133
+      "top_rank": 133,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Elias Ymer",
-      "top_rank": 108
+      "top_rank": 108,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Mikael Ymer",
-      "top_rank": 72
+      "top_rank": 72,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Elias Ymer",
-      "top_rank": 160
+      "top_rank": 160,
+      "unique_atp_player": 2
     }
   },
   "CRO": {
@@ -1196,85 +1390,99 @@
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Nikola Pilic",
-      "top_rank": 33
+      "top_rank": 33,
+      "unique_atp_player": 3
     },
     "1980": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Zeljko Franulovic",
-      "top_rank": 64
+      "top_rank": 64,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Bruno Oresar",
-      "top_rank": 80
+      "top_rank": 80,
+      "unique_atp_player": 3
     },
     "1990": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Goran Ivanisevic",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 6
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Goran Ivanisevic",
-      "top_rank": 4
+      "top_rank": 4,
+      "unique_atp_player": 5
     },
     "2000": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Goran Ivanisevic",
-      "top_rank": 60
+      "top_rank": 60,
+      "unique_atp_player": 6
     },
     "2003": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Ivan Ljubicic",
-      "top_rank": 38
+      "top_rank": 38,
+      "unique_atp_player": 9
     },
     "2006": {
       "ever_in_top100": 3,
       "ever_in_top10": 2,
       "top_player": "Ivan Ljubicic",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 9
     },
     "2009": {
       "ever_in_top100": 5,
       "ever_in_top10": 0,
       "top_player": "Marin Cilic",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 9
     },
     "2012": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Marin Cilic",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 8
     },
     "2015": {
       "ever_in_top100": 4,
       "ever_in_top10": 1,
       "top_player": "Marin Cilic",
-      "top_rank": 8
+      "top_rank": 8,
+      "unique_atp_player": 11
     },
     "2018": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Marin Cilic",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 6
     },
     "2021": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Borna Coric",
-      "top_rank": 25
+      "top_rank": 25,
+      "unique_atp_player": 6
     },
     "2024": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Borna Coric",
-      "top_rank": 31
+      "top_rank": 31,
+      "unique_atp_player": 5
     }
   },
   "NZL": {
@@ -1282,79 +1490,92 @@
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Onny Parun",
-      "top_rank": 19
+      "top_rank": 19,
+      "unique_atp_player": 7
     },
     "1980": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Chris Lewis",
-      "top_rank": 55
+      "top_rank": 55,
+      "unique_atp_player": 8
     },
     "1985": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Chris Lewis",
-      "top_rank": 81
+      "top_rank": 81,
+      "unique_atp_player": 8
     },
     "1990": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Kelly Evernden",
-      "top_rank": 37
+      "top_rank": 37,
+      "unique_atp_player": 5
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Brett Steven",
-      "top_rank": 33
+      "top_rank": 33,
+      "unique_atp_player": 5
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mark Nielsen",
-      "top_rank": 216
+      "top_rank": 216,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mark Nielsen",
-      "top_rank": 302
+      "top_rank": 302,
+      "unique_atp_player": 5
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mark Nielsen",
-      "top_rank": 305
+      "top_rank": 305,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Daniel King Turner",
-      "top_rank": 325
+      "top_rank": 325,
+      "unique_atp_player": 5
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jose Rubin Statham",
-      "top_rank": 317
+      "top_rank": 317,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jose Rubin Statham",
-      "top_rank": 345
+      "top_rank": 345,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jose Rubin Statham",
-      "top_rank": 308
+      "top_rank": 308,
+      "unique_atp_player": 1
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ajeet Rai",
-      "top_rank": 538
+      "top_rank": 538,
+      "unique_atp_player": 2
     }
   },
   "GBR": {
@@ -1362,85 +1583,99 @@
       "ever_in_top100": 5,
       "ever_in_top10": 0,
       "top_player": "Mark Cox",
-      "top_rank": 25
+      "top_rank": 25,
+      "unique_atp_player": 16
     },
     "1980": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Buster C Mottram",
-      "top_rank": 32
+      "top_rank": 32,
+      "unique_atp_player": 4
     },
     "1985": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "John Lloyd",
-      "top_rank": 31
+      "top_rank": 31,
+      "unique_atp_player": 9
     },
     "1990": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jeremy Bates",
-      "top_rank": 72
+      "top_rank": 72,
+      "unique_atp_player": 8
     },
     "1995": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Greg Rusedski",
-      "top_rank": 35
+      "top_rank": 35,
+      "unique_atp_player": 13
     },
     "2000": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Tim Henman",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 10
     },
     "2003": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Tim Henman",
-      "top_rank": 11
+      "top_rank": 11,
+      "unique_atp_player": 12
     },
     "2006": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Andy Murray",
-      "top_rank": 16
+      "top_rank": 16,
+      "unique_atp_player": 13
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Andy Murray",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 8
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Andy Murray",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 7
     },
     "2015": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Andy Murray",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 5
     },
     "2018": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Kyle Edmund",
-      "top_rank": 14
+      "top_rank": 14,
+      "unique_atp_player": 6
     },
     "2021": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Cameron Norrie",
-      "top_rank": 12
+      "top_rank": 12,
+      "unique_atp_player": 8
     },
     "2024": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Cameron Norrie",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 6
     }
   },
   "BRA": {
@@ -1448,85 +1683,99 @@
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Thomaz Koch",
-      "top_rank": 24
+      "top_rank": 24,
+      "unique_atp_player": 6
     },
     "1980": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Carlos Kirmayr",
-      "top_rank": 45
+      "top_rank": 45,
+      "unique_atp_player": 4
     },
     "1985": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Julio Goes",
-      "top_rank": 71
+      "top_rank": 71,
+      "unique_atp_player": 12
     },
     "1990": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Luiz Mattar",
-      "top_rank": 39
+      "top_rank": 39,
+      "unique_atp_player": 13
     },
     "1995": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Fernando Meligeni",
-      "top_rank": 54
+      "top_rank": 54,
+      "unique_atp_player": 6
     },
     "2000": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Gustavo Kuerten",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 5
     },
     "2003": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Gustavo Kuerten",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 8
     },
     "2006": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Marcos Daniel",
-      "top_rank": 80
+      "top_rank": 80,
+      "unique_atp_player": 8
     },
     "2009": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Thomaz Bellucci",
-      "top_rank": 45
+      "top_rank": 45,
+      "unique_atp_player": 10
     },
     "2012": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Thomaz Bellucci",
-      "top_rank": 34
+      "top_rank": 34,
+      "unique_atp_player": 5
     },
     "2015": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Thomaz Bellucci",
-      "top_rank": 30
+      "top_rank": 30,
+      "unique_atp_player": 6
     },
     "2018": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Thiago Monteiro",
-      "top_rank": 96
+      "top_rank": 96,
+      "unique_atp_player": 6
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Thiago Monteiro",
-      "top_rank": 74
+      "top_rank": 74,
+      "unique_atp_player": 7
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Thiago Seyboth Wild",
-      "top_rank": 58
+      "top_rank": 58,
+      "unique_atp_player": 5
     }
   },
   "FRA": {
@@ -1534,85 +1783,99 @@
       "ever_in_top100": 6,
       "ever_in_top10": 0,
       "top_player": "Francois Jauffret",
-      "top_rank": 26
+      "top_rank": 26,
+      "unique_atp_player": 15
     },
     "1980": {
       "ever_in_top100": 11,
       "ever_in_top10": 0,
       "top_player": "Yannick Noah",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 11
     },
     "1985": {
       "ever_in_top100": 5,
       "ever_in_top10": 1,
       "top_player": "Yannick Noah",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 16
     },
     "1990": {
       "ever_in_top100": 11,
       "ever_in_top10": 1,
       "top_player": "Yannick Noah",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 21
     },
     "1995": {
       "ever_in_top100": 10,
       "ever_in_top10": 0,
       "top_player": "Arnaud Boetsch",
-      "top_rank": 16
+      "top_rank": 16,
+      "unique_atp_player": 27
     },
     "2000": {
       "ever_in_top100": 10,
       "ever_in_top10": 1,
       "top_player": "Cedric Pioline",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 24
     },
     "2003": {
       "ever_in_top100": 12,
       "ever_in_top10": 1,
       "top_player": "Sebastien Grosjean",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 24
     },
     "2006": {
       "ever_in_top100": 14,
       "ever_in_top10": 0,
       "top_player": "Richard Gasquet",
-      "top_rank": 12
+      "top_rank": 12,
+      "unique_atp_player": 27
     },
     "2009": {
       "ever_in_top100": 14,
       "ever_in_top10": 3,
       "top_player": "Jo-Wilfried Tsonga",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 29
     },
     "2012": {
       "ever_in_top100": 14,
       "ever_in_top10": 2,
       "top_player": "Jo-Wilfried Tsonga",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 25
     },
     "2015": {
       "ever_in_top100": 13,
       "ever_in_top10": 3,
       "top_player": "Richard Gasquet",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 27
     },
     "2018": {
       "ever_in_top100": 12,
       "ever_in_top10": 0,
       "top_player": "Lucas Pouille",
-      "top_rank": 11
+      "top_rank": 11,
+      "unique_atp_player": 26
     },
     "2021": {
       "ever_in_top100": 14,
       "ever_in_top10": 0,
       "top_player": "Gael Monfils",
-      "top_rank": 11
+      "top_rank": 11,
+      "unique_atp_player": 25
     },
     "2024": {
       "ever_in_top100": 15,
       "ever_in_top10": 0,
       "top_player": "Ugo Humbert",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 25
     }
   },
   "SUI": {
@@ -1620,85 +1883,99 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Peter Kanderal",
-      "top_rank": 156
+      "top_rank": 156,
+      "unique_atp_player": 2
     },
     "1980": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Heinz Gunthardt",
-      "top_rank": 24
+      "top_rank": 24,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Heinz Gunthardt",
-      "top_rank": 26
+      "top_rank": 26,
+      "unique_atp_player": 7
     },
     "1990": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Marc Rosset",
-      "top_rank": 21
+      "top_rank": 21,
+      "unique_atp_player": 3
     },
     "1995": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Marc Rosset",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 4
     },
     "2000": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Roger Federer",
-      "top_rank": 24
+      "top_rank": 24,
+      "unique_atp_player": 6
     },
     "2003": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Roger Federer",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 10
     },
     "2006": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Roger Federer",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 6
     },
     "2009": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Roger Federer",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 8
     },
     "2012": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Roger Federer",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 7
     },
     "2015": {
       "ever_in_top100": 2,
       "ever_in_top10": 2,
       "top_player": "Roger Federer",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 6
     },
     "2018": {
       "ever_in_top100": 2,
       "ever_in_top10": 2,
       "top_player": "Roger Federer",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 6
     },
     "2021": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Roger Federer",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 9
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Stan Wawrinka",
-      "top_rank": 56
+      "top_rank": 56,
+      "unique_atp_player": 4
     }
   },
   "PHI": {
@@ -1706,55 +1983,64 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Eddie Cruz",
-      "top_rank": 373
+      "top_rank": 373,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Danilo Pila",
-      "top_rank": 834
+      "top_rank": 834,
+      "unique_atp_player": 1
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Robert Angelo",
-      "top_rank": 771
+      "top_rank": 771,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Cecil Mamiit",
-      "top_rank": 97
+      "top_rank": 97,
+      "unique_atp_player": 2
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Cecil Mamiit",
-      "top_rank": 105
+      "top_rank": 105,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Cecil Mamiit",
-      "top_rank": 412
+      "top_rank": 412,
+      "unique_atp_player": 3
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jeson Patrombon",
-      "top_rank": 874
+      "top_rank": 874,
+      "unique_atp_player": 2
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Patrick Tierro",
-      "top_rank": 1089
+      "top_rank": 1089,
+      "unique_atp_player": 2
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alberto Lim",
-      "top_rank": 1371
+      "top_rank": 1371,
+      "unique_atp_player": 2
     }
   },
   "CZE": {
@@ -1762,85 +2048,99 @@
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Jan Kodes",
-      "top_rank": 17
+      "top_rank": 17,
+      "unique_atp_player": 6
     },
     "1980": {
       "ever_in_top100": 5,
       "ever_in_top10": 0,
       "top_player": "Tomas Smid",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 5
     },
     "1985": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Tomas Smid",
-      "top_rank": 12
+      "top_rank": 12,
+      "unique_atp_player": 7
     },
     "1990": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Petr Korda",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 13
     },
     "1995": {
       "ever_in_top100": 8,
       "ever_in_top10": 0,
       "top_player": "Petr Korda",
-      "top_rank": 19
+      "top_rank": 19,
+      "unique_atp_player": 16
     },
     "2000": {
       "ever_in_top100": 7,
       "ever_in_top10": 0,
       "top_player": "Jiri Novak",
-      "top_rank": 37
+      "top_rank": 37,
+      "unique_atp_player": 13
     },
     "2003": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Jiri Novak",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 12
     },
     "2006": {
       "ever_in_top100": 10,
       "ever_in_top10": 1,
       "top_player": "Tomas Berdych",
-      "top_rank": 10
+      "top_rank": 10,
+      "unique_atp_player": 16
     },
     "2009": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Radek Stepanek",
-      "top_rank": 12
+      "top_rank": 12,
+      "unique_atp_player": 9
     },
     "2012": {
       "ever_in_top100": 4,
       "ever_in_top10": 1,
       "top_player": "Tomas Berdych",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 6
     },
     "2015": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Tomas Berdych",
-      "top_rank": 4
+      "top_rank": 4,
+      "unique_atp_player": 6
     },
     "2018": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Tomas Berdych",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 6
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jiri Vesely",
-      "top_rank": 67
+      "top_rank": 67,
+      "unique_atp_player": 5
     },
     "2024": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Jiri Lehecka",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 6
     }
   },
   "AUT": {
@@ -1848,85 +2148,99 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Hans Kary",
-      "top_rank": 79
+      "top_rank": 79,
+      "unique_atp_player": 2
     },
     "1980": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Peter Feigl",
-      "top_rank": 47
+      "top_rank": 47,
+      "unique_atp_player": 3
     },
     "1985": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Thomas Muster",
-      "top_rank": 95
+      "top_rank": 95,
+      "unique_atp_player": 7
     },
     "1990": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Thomas Muster",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 8
     },
     "1995": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Thomas Muster",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 9
     },
     "2000": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Stefan Koubek",
-      "top_rank": 20
+      "top_rank": 20,
+      "unique_atp_player": 10
     },
     "2003": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Stefan Koubek",
-      "top_rank": 35
+      "top_rank": 35,
+      "unique_atp_player": 10
     },
     "2006": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Jurgen Melzer",
-      "top_rank": 39
+      "top_rank": 39,
+      "unique_atp_player": 9
     },
     "2009": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Jurgen Melzer",
-      "top_rank": 26
+      "top_rank": 26,
+      "unique_atp_player": 6
     },
     "2012": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Jurgen Melzer",
-      "top_rank": 19
+      "top_rank": 19,
+      "unique_atp_player": 6
     },
     "2015": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Dominic Thiem",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 8
     },
     "2018": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Dominic Thiem",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 8
     },
     "2021": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Dominic Thiem",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 7
     },
     "2024": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Sebastian Ofner",
-      "top_rank": 37
+      "top_rank": 37,
+      "unique_atp_player": 4
     }
   },
   "ARG": {
@@ -1934,85 +2248,99 @@
       "ever_in_top100": 4,
       "ever_in_top10": 1,
       "top_player": "Guillermo Vilas",
-      "top_rank": 2
+      "top_rank": 2,
+      "unique_atp_player": 5
     },
     "1980": {
       "ever_in_top100": 5,
       "ever_in_top10": 2,
       "top_player": "Guillermo Vilas",
-      "top_rank": 4
+      "top_rank": 4,
+      "unique_atp_player": 5
     },
     "1985": {
       "ever_in_top100": 8,
       "ever_in_top10": 0,
       "top_player": "Martin Jaite",
-      "top_rank": 19
+      "top_rank": 19,
+      "unique_atp_player": 18
     },
     "1990": {
       "ever_in_top100": 7,
       "ever_in_top10": 1,
       "top_player": "Martin Jaite",
-      "top_rank": 10
+      "top_rank": 10,
+      "unique_atp_player": 16
     },
     "1995": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Javier Frana",
-      "top_rank": 31
+      "top_rank": 31,
+      "unique_atp_player": 11
     },
     "2000": {
       "ever_in_top100": 8,
       "ever_in_top10": 0,
       "top_player": "Franco Squillari",
-      "top_rank": 11
+      "top_rank": 11,
+      "unique_atp_player": 21
     },
     "2003": {
       "ever_in_top100": 10,
       "ever_in_top10": 2,
       "top_player": "Guillermo Coria",
-      "top_rank": 4
+      "top_rank": 4,
+      "unique_atp_player": 19
     },
     "2006": {
       "ever_in_top100": 10,
       "ever_in_top10": 3,
       "top_player": "David Nalbandian",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 20
     },
     "2009": {
       "ever_in_top100": 14,
       "ever_in_top10": 2,
       "top_player": "Juan Martin Del Potro",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 19
     },
     "2012": {
       "ever_in_top100": 6,
       "ever_in_top10": 2,
       "top_player": "Juan Martin Del Potro",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 16
     },
     "2015": {
       "ever_in_top100": 7,
       "ever_in_top10": 0,
       "top_player": "Leonardo Mayer",
-      "top_rank": 21
+      "top_rank": 21,
+      "unique_atp_player": 14
     },
     "2018": {
       "ever_in_top100": 7,
       "ever_in_top10": 1,
       "top_player": "Juan Martin Del Potro",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 15
     },
     "2021": {
       "ever_in_top100": 7,
       "ever_in_top10": 1,
       "top_player": "Diego Schwartzman",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 17
     },
     "2024": {
       "ever_in_top100": 8,
       "ever_in_top10": 0,
       "top_player": "Sebastian Baez",
-      "top_rank": 19
+      "top_rank": 19,
+      "unique_atp_player": 16
     }
   },
   "PAK": {
@@ -2020,43 +2348,50 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Haroon Rahim",
-      "top_rank": 95
+      "top_rank": 95,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Aisam Ul Haq Qureshi",
-      "top_rank": 289
+      "top_rank": 289,
+      "unique_atp_player": 1
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Aisam Ul Haq Qureshi",
-      "top_rank": 360
+      "top_rank": 360,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Aisam Ul Haq Qureshi",
-      "top_rank": 416
+      "top_rank": 416,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Aisam Ul Haq Qureshi",
-      "top_rank": 298
+      "top_rank": 298,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Aisam Ul Haq Qureshi",
-      "top_rank": 1177
+      "top_rank": 1177,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Aqeel Khan",
-      "top_rank": 1753
+      "top_rank": 1753,
+      "unique_atp_player": 3
     }
   },
   "VEN": {
@@ -2064,67 +2399,78 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Humphrey Hose",
-      "top_rank": 133
+      "top_rank": 133,
+      "unique_atp_player": 2
     },
     "1990": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nicolas Pereira",
-      "top_rank": 90
+      "top_rank": 90,
+      "unique_atp_player": 3
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nicolas Pereira",
-      "top_rank": 96
+      "top_rank": 96,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jimy Szymanski",
-      "top_rank": 167
+      "top_rank": 167,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jose De Armas",
-      "top_rank": 246
+      "top_rank": 246,
+      "unique_atp_player": 2
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yohny Romero",
-      "top_rank": 280
+      "top_rank": 280,
+      "unique_atp_player": 5
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jose De Armas",
-      "top_rank": 261
+      "top_rank": 261,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "David Souto",
-      "top_rank": 433
+      "top_rank": 433,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ricardo Rodriguez",
-      "top_rank": 341
+      "top_rank": 341,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ricardo Rodriguez",
-      "top_rank": 834
+      "top_rank": 834,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ricardo Rodriguez",
-      "top_rank": 591
+      "top_rank": 591,
+      "unique_atp_player": 2
     }
   },
   "ROU": {
@@ -2132,85 +2478,99 @@
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Ilie Nastase",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 3
     },
     "1980": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ilie Nastase",
-      "top_rank": 50
+      "top_rank": 50,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Florin Segarceanu",
-      "top_rank": 100
+      "top_rank": 100,
+      "unique_atp_player": 4
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Florin Segarceanu",
-      "top_rank": 293
+      "top_rank": 293,
+      "unique_atp_player": 5
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Adrian Voinea",
-      "top_rank": 53
+      "top_rank": 53,
+      "unique_atp_player": 6
     },
     "2000": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Andrei Pavel",
-      "top_rank": 25
+      "top_rank": 25,
+      "unique_atp_player": 6
     },
     "2003": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Andrei Pavel",
-      "top_rank": 25
+      "top_rank": 25,
+      "unique_atp_player": 8
     },
     "2006": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Victor Hanescu",
-      "top_rank": 35
+      "top_rank": 35,
+      "unique_atp_player": 7
     },
     "2009": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Victor Hanescu",
-      "top_rank": 27
+      "top_rank": 27,
+      "unique_atp_player": 5
     },
     "2012": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Victor Hanescu",
-      "top_rank": 59
+      "top_rank": 59,
+      "unique_atp_player": 8
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Victor Hanescu",
-      "top_rank": 146
+      "top_rank": 146,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Marius Copil",
-      "top_rank": 60
+      "top_rank": 60,
+      "unique_atp_player": 6
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marius Copil",
-      "top_rank": 250
+      "top_rank": 250,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Nicholas David Ionel",
-      "top_rank": 265
+      "top_rank": 265,
+      "unique_atp_player": 3
     }
   },
   "POL": {
@@ -2218,85 +2578,99 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Wojtek Fibak",
-      "top_rank": 64
+      "top_rank": 64,
+      "unique_atp_player": 3
     },
     "1980": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Wojtek Fibak",
-      "top_rank": 11
+      "top_rank": 11,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Wojtek Fibak",
-      "top_rank": 45
+      "top_rank": 45,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Wojtek Kowalski",
-      "top_rank": 337
+      "top_rank": 337,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Wojtek Kowalski",
-      "top_rank": 152
+      "top_rank": 152,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Bartlomiej Dabrowski",
-      "top_rank": 344
+      "top_rank": 344,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lukasz Kubot",
-      "top_rank": 341
+      "top_rank": 341,
+      "unique_atp_player": 6
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lukasz Kubot",
-      "top_rank": 119
+      "top_rank": 119,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lukasz Kubot",
-      "top_rank": 111
+      "top_rank": 111,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Lukasz Kubot",
-      "top_rank": 48
+      "top_rank": 48,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jerzy Janowicz",
-      "top_rank": 42
+      "top_rank": 42,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Hubert Hurkacz",
-      "top_rank": 85
+      "top_rank": 85,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Hubert Hurkacz",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 4
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Hubert Hurkacz",
-      "top_rank": 8
+      "top_rank": 8,
+      "unique_atp_player": 3
     }
   },
   "NED": {
@@ -2304,85 +2678,99 @@
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Tom Okker",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 4
     },
     "1980": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Tom Okker",
-      "top_rank": 53
+      "top_rank": 53,
+      "unique_atp_player": 2
     },
     "1985": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Michiel Schapers",
-      "top_rank": 79
+      "top_rank": 79,
+      "unique_atp_player": 4
     },
     "1990": {
       "ever_in_top100": 4,
       "ever_in_top10": 0,
       "top_player": "Paul Haarhuis",
-      "top_rank": 36
+      "top_rank": 36,
+      "unique_atp_player": 9
     },
     "1995": {
       "ever_in_top100": 5,
       "ever_in_top10": 1,
       "top_player": "Richard Krajicek",
-      "top_rank": 10
+      "top_rank": 10,
+      "unique_atp_player": 13
     },
     "2000": {
       "ever_in_top100": 6,
       "ever_in_top10": 1,
       "top_player": "Richard Krajicek",
-      "top_rank": 10
+      "top_rank": 10,
+      "unique_atp_player": 11
     },
     "2003": {
       "ever_in_top100": 5,
       "ever_in_top10": 0,
       "top_player": "Sjeng Schalken",
-      "top_rank": 11
+      "top_rank": 11,
+      "unique_atp_player": 10
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Raemon Sluiter",
-      "top_rank": 82
+      "top_rank": 82,
+      "unique_atp_player": 10
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Thiemo De Bakker",
-      "top_rank": 122
+      "top_rank": 122,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Robin Haase",
-      "top_rank": 39
+      "top_rank": 39,
+      "unique_atp_player": 5
     },
     "2015": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Robin Haase",
-      "top_rank": 56
+      "top_rank": 56,
+      "unique_atp_player": 5
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Robin Haase",
-      "top_rank": 38
+      "top_rank": 38,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Botic Van De Zandschulp",
-      "top_rank": 61
+      "top_rank": 61,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Tallon Griekspoor",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 4
     }
   },
   "MEX": {
@@ -2390,85 +2778,99 @@
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Raul Ramirez",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 4
     },
     "1980": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Raul Ramirez",
-      "top_rank": 25
+      "top_rank": 25,
+      "unique_atp_player": 2
     },
     "1985": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Leonardo Lavalle",
-      "top_rank": 89
+      "top_rank": 89,
+      "unique_atp_player": 2
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Luis Herrera",
-      "top_rank": 103
+      "top_rank": 103,
+      "unique_atp_player": 6
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Oscar Ortiz",
-      "top_rank": 177
+      "top_rank": 177,
+      "unique_atp_player": 6
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alejandro Hernandez",
-      "top_rank": 172
+      "top_rank": 172,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Miguel Gallardo Valles",
-      "top_rank": 274
+      "top_rank": 274,
+      "unique_atp_player": 5
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Santiago Gonzalez",
-      "top_rank": 168
+      "top_rank": 168,
+      "unique_atp_player": 5
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Santiago Gonzalez",
-      "top_rank": 228
+      "top_rank": 228,
+      "unique_atp_player": 5
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Daniel Garza",
-      "top_rank": 322
+      "top_rank": 322,
+      "unique_atp_player": 5
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Daniel Garza",
-      "top_rank": 480
+      "top_rank": 480,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Manuel Sanchez",
-      "top_rank": 560
+      "top_rank": 560,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ernesto Escobedo",
-      "top_rank": 178
+      "top_rank": 178,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ernesto Escobedo",
-      "top_rank": 493
+      "top_rank": 493,
+      "unique_atp_player": 2
     }
   },
   "JPN": {
@@ -2476,79 +2878,92 @@
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Jun Kamiwazumi",
-      "top_rank": 78
+      "top_rank": 78,
+      "unique_atp_player": 7
     },
     "1985": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Tsuyoshi Fukui",
-      "top_rank": 336
+      "top_rank": 336,
+      "unique_atp_player": 12
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Shuzo Matsuoka",
-      "top_rank": 133
+      "top_rank": 133,
+      "unique_atp_player": 6
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Shuzo Matsuoka",
-      "top_rank": 64
+      "top_rank": 64,
+      "unique_atp_player": 8
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Gouichi Motomura",
-      "top_rank": 143
+      "top_rank": 143,
+      "unique_atp_player": 6
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Takao Suzuki",
-      "top_rank": 132
+      "top_rank": 132,
+      "unique_atp_player": 7
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Go Soeda",
-      "top_rank": 186
+      "top_rank": 186,
+      "unique_atp_player": 6
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Kei Nishikori",
-      "top_rank": 56
+      "top_rank": 56,
+      "unique_atp_player": 5
     },
     "2012": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Kei Nishikori",
-      "top_rank": 15
+      "top_rank": 15,
+      "unique_atp_player": 5
     },
     "2015": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Kei Nishikori",
-      "top_rank": 4
+      "top_rank": 4,
+      "unique_atp_player": 9
     },
     "2018": {
       "ever_in_top100": 4,
       "ever_in_top10": 1,
       "top_player": "Kei Nishikori",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 7
     },
     "2021": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Kei Nishikori",
-      "top_rank": 39
+      "top_rank": 39,
+      "unique_atp_player": 9
     },
     "2024": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Taro Daniel",
-      "top_rank": 58
+      "top_rank": 58,
+      "unique_atp_player": 5
     }
   },
   "DEN": {
@@ -2556,79 +2971,92 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Torben Ulrich",
-      "top_rank": 153
+      "top_rank": 153,
+      "unique_atp_player": 3
     },
     "1985": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Peter Bastiansen",
-      "top_rank": 263
+      "top_rank": 263,
+      "unique_atp_player": 3
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Michael Tauson",
-      "top_rank": 112
+      "top_rank": 112,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Kenneth Carlsen",
-      "top_rank": 65
+      "top_rank": 65,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Kristian Pless",
-      "top_rank": 219
+      "top_rank": 219,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Kenneth Carlsen",
-      "top_rank": 59
+      "top_rank": 59,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Kenneth Carlsen",
-      "top_rank": 61
+      "top_rank": 61,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Frederik Nielsen",
-      "top_rank": 290
+      "top_rank": 290,
+      "unique_atp_player": 2
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Frederik Nielsen",
-      "top_rank": 226
+      "top_rank": 226,
+      "unique_atp_player": 1
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Frederik Nielsen",
-      "top_rank": 283
+      "top_rank": 283,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Frederik Nielsen",
-      "top_rank": 549
+      "top_rank": 549,
+      "unique_atp_player": 2
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Holger Rune",
-      "top_rank": 109
+      "top_rank": 109,
+      "unique_atp_player": 5
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Holger Rune",
-      "top_rank": 7
+      "top_rank": 7,
+      "unique_atp_player": 3
     }
   },
   "FIN": {
@@ -2636,79 +3064,92 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Matti Timonen",
-      "top_rank": 274
+      "top_rank": 274,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Leo Palin",
-      "top_rank": 211
+      "top_rank": 211,
+      "unique_atp_player": 2
     },
     "1990": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Veli Paloheimo",
-      "top_rank": 48
+      "top_rank": 48,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Kim Tiilikainen",
-      "top_rank": 224
+      "top_rank": 224,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Tuomas Ketola",
-      "top_rank": 145
+      "top_rank": 145,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jarkko Nieminen",
-      "top_rank": 27
+      "top_rank": 27,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jarkko Nieminen",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jarkko Nieminen",
-      "top_rank": 38
+      "top_rank": 38,
+      "unique_atp_player": 3
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jarkko Nieminen",
-      "top_rank": 35
+      "top_rank": 35,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jarkko Nieminen",
-      "top_rank": 66
+      "top_rank": 66,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Harri Heliovaara",
-      "top_rank": 330
+      "top_rank": 330,
+      "unique_atp_player": 2
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Emil Ruusuvuori",
-      "top_rank": 66
+      "top_rank": 66,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Emil Ruusuvuori",
-      "top_rank": 43
+      "top_rank": 43,
+      "unique_atp_player": 3
     }
   },
   "CAN": {
@@ -2716,79 +3157,92 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Tony Bardsley",
-      "top_rank": 231
+      "top_rank": 231,
+      "unique_atp_player": 2
     },
     "1985": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Martin Wostenholme",
-      "top_rank": 97
+      "top_rank": 97,
+      "unique_atp_player": 8
     },
     "1990": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Andrew Sznajder",
-      "top_rank": 60
+      "top_rank": 60,
+      "unique_atp_player": 7
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Sebastien Lareau",
-      "top_rank": 76
+      "top_rank": 76,
+      "unique_atp_player": 5
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sebastien Lareau",
-      "top_rank": 103
+      "top_rank": 103,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Frank Dancevic",
-      "top_rank": 198
+      "top_rank": 198,
+      "unique_atp_player": 5
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Frank Dancevic",
-      "top_rank": 82
+      "top_rank": 82,
+      "unique_atp_player": 5
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Frank Dancevic",
-      "top_rank": 92
+      "top_rank": 92,
+      "unique_atp_player": 6
     },
     "2012": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Milos Raonic",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 7
     },
     "2015": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Milos Raonic",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 5
     },
     "2018": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Milos Raonic",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 7
     },
     "2021": {
       "ever_in_top100": 4,
       "ever_in_top10": 1,
       "top_player": "Denis Shapovalov",
-      "top_rank": 10
+      "top_rank": 10,
+      "unique_atp_player": 6
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Felix Auger Aliassime",
-      "top_rank": 20
+      "top_rank": 20,
+      "unique_atp_player": 7
     }
   },
   "SRB": {
@@ -2796,61 +3250,71 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nicola Spear",
-      "top_rank": 95
+      "top_rank": 95,
+      "unique_atp_player": 1
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Dejan Petrovic",
-      "top_rank": 169
+      "top_rank": 169,
+      "unique_atp_player": 1
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Janko Tipsarevic",
-      "top_rank": 136
+      "top_rank": 136,
+      "unique_atp_player": 5
     },
     "2006": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Novak Djokovic",
-      "top_rank": 16
+      "top_rank": 16,
+      "unique_atp_player": 7
     },
     "2009": {
       "ever_in_top100": 3,
       "ever_in_top10": 1,
       "top_player": "Novak Djokovic",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 7
     },
     "2012": {
       "ever_in_top100": 3,
       "ever_in_top10": 2,
       "top_player": "Novak Djokovic",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 6
     },
     "2015": {
       "ever_in_top100": 4,
       "ever_in_top10": 1,
       "top_player": "Novak Djokovic",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 6
     },
     "2018": {
       "ever_in_top100": 5,
       "ever_in_top10": 1,
       "top_player": "Novak Djokovic",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 7
     },
     "2021": {
       "ever_in_top100": 5,
       "ever_in_top10": 1,
       "top_player": "Novak Djokovic",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 11
     },
     "2024": {
       "ever_in_top100": 4,
       "ever_in_top10": 1,
       "top_player": "Novak Djokovic",
-      "top_rank": 1
+      "top_rank": 1,
+      "unique_atp_player": 6
     }
   },
   "GRE": {
@@ -2858,55 +3322,64 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Nicolas Kelaidis",
-      "top_rank": 286
+      "top_rank": 286,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "George Kalovelonis",
-      "top_rank": 301
+      "top_rank": 301,
+      "unique_atp_player": 3
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Tasos Bavelas",
-      "top_rank": 975
+      "top_rank": 975,
+      "unique_atp_player": 1
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Solon Peppas",
-      "top_rank": 174
+      "top_rank": 174,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Vasilis Mazarakis",
-      "top_rank": 135
+      "top_rank": 135,
+      "unique_atp_player": 5
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Vasilis Mazarakis",
-      "top_rank": 120
+      "top_rank": 120,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Stefanos Tsitsipas",
-      "top_rank": 15
+      "top_rank": 15,
+      "unique_atp_player": 1
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Stefanos Tsitsipas",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Stefanos Tsitsipas",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 4
     }
   },
   "BOL": {
@@ -2914,55 +3387,64 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ramiro Benavides",
-      "top_rank": 140
+      "top_rank": 140,
+      "unique_atp_player": 1
     },
     "1980": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Mario Martinez",
-      "top_rank": 33
+      "top_rank": 33,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mario Martinez",
-      "top_rank": 233
+      "top_rank": 233,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mauricio Estivariz",
-      "top_rank": 1069
+      "top_rank": 1069,
+      "unique_atp_player": 3
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Federico Zeballos",
-      "top_rank": 751
+      "top_rank": 751,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hugo Dellien",
-      "top_rank": 249
+      "top_rank": 249,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hugo Dellien",
-      "top_rank": 240
+      "top_rank": 240,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hugo Dellien",
-      "top_rank": 112
+      "top_rank": 112,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hugo Dellien",
-      "top_rank": 112
+      "top_rank": 112,
+      "unique_atp_player": 3
     }
   },
   "JAM": {
@@ -2970,25 +3452,29 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Richard Russell",
-      "top_rank": 257
+      "top_rank": 257,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Doug Burke",
-      "top_rank": 552
+      "top_rank": 552,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Doug Burke",
-      "top_rank": 329
+      "top_rank": 329,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ryan Russell",
-      "top_rank": 761
+      "top_rank": 761,
+      "unique_atp_player": 1
     }
   },
   "ZIM": {
@@ -2996,67 +3482,78 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Roger Dowdeswell",
-      "top_rank": 115
+      "top_rank": 115,
+      "unique_atp_player": 1
     },
     "1980": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Haroon Ismail",
-      "top_rank": 87
+      "top_rank": 87,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Haroon Ismail",
-      "top_rank": 511
+      "top_rank": 511,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Byron Black",
-      "top_rank": 37
+      "top_rank": 37,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Byron Black",
-      "top_rank": 27
+      "top_rank": 27,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Wayne Black",
-      "top_rank": 374
+      "top_rank": 374,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Genius Chidzikwe",
-      "top_rank": 668
+      "top_rank": 668,
+      "unique_atp_player": 2
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Takanyi Garanganga",
-      "top_rank": 324
+      "top_rank": 324,
+      "unique_atp_player": 2
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Takanyi Garanganga",
-      "top_rank": 451
+      "top_rank": 451,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Benjamin Lock",
-      "top_rank": 490
+      "top_rank": 490,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Benjamin Lock",
-      "top_rank": 348
+      "top_rank": 348,
+      "unique_atp_player": 1
     }
   },
   "URS": {
@@ -3064,7 +3561,8 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Teimuraz Kakulia",
-      "top_rank": 91
+      "top_rank": 91,
+      "unique_atp_player": 1
     }
   },
   "PAR": {
@@ -3072,61 +3570,71 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Victor Pecci",
-      "top_rank": 131
+      "top_rank": 131,
+      "unique_atp_player": 1
     },
     "1980": {
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Victor Pecci",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 2
     },
     "1985": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Victor Pecci",
-      "top_rank": 32
+      "top_rank": 32,
+      "unique_atp_player": 2
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hugo Chapacu",
-      "top_rank": 933
+      "top_rank": 933,
+      "unique_atp_player": 1
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ricardo Mena",
-      "top_rank": 285
+      "top_rank": 285,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ramon Delgado",
-      "top_rank": 216
+      "top_rank": 216,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ramon Delgado",
-      "top_rank": 158
+      "top_rank": 158,
+      "unique_atp_player": 2
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ramon Delgado",
-      "top_rank": 103
+      "top_rank": 103,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ramon Delgado",
-      "top_rank": 276
+      "top_rank": 276,
+      "unique_atp_player": 2
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Daniel Alejandro Lopez Cassaccia",
-      "top_rank": 702
+      "top_rank": 702,
+      "unique_atp_player": 3
     }
   },
   "ECU": {
@@ -3134,79 +3642,92 @@
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Andres Gomez",
-      "top_rank": 45
+      "top_rank": 45,
+      "unique_atp_player": 2
     },
     "1985": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Andres Gomez",
-      "top_rank": 5
+      "top_rank": 5,
+      "unique_atp_player": 3
     },
     "1990": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Andres Gomez",
-      "top_rank": 4
+      "top_rank": 4,
+      "unique_atp_player": 5
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Nicolas Lapentti",
-      "top_rank": 150
+      "top_rank": 150,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Nicolas Lapentti",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nicolas Lapentti",
-      "top_rank": 29
+      "top_rank": 29,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nicolas Lapentti",
-      "top_rank": 84
+      "top_rank": 84,
+      "unique_atp_player": 6
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nicolas Lapentti",
-      "top_rank": 74
+      "top_rank": 74,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Julio Cesar Campozano",
-      "top_rank": 249
+      "top_rank": 249,
+      "unique_atp_player": 5
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Gonzalo Escobar",
-      "top_rank": 291
+      "top_rank": 291,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Roberto Quiroz",
-      "top_rank": 244
+      "top_rank": 244,
+      "unique_atp_player": 2
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Emilio Gomez",
-      "top_rank": 149
+      "top_rank": 149,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Emilio Gomez",
-      "top_rank": 307
+      "top_rank": 307,
+      "unique_atp_player": 3
     }
   },
   "URU": {
@@ -3214,79 +3735,92 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jose Luis Damiani",
-      "top_rank": 71
+      "top_rank": 71,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Diego Perez",
-      "top_rank": 44
+      "top_rank": 44,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Marcelo Filippini",
-      "top_rank": 30
+      "top_rank": 30,
+      "unique_atp_player": 3
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Marcelo Filippini",
-      "top_rank": 51
+      "top_rank": 51,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Federico Dondo",
-      "top_rank": 292
+      "top_rank": 292,
+      "unique_atp_player": 5
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Federico Dondo",
-      "top_rank": 823
+      "top_rank": 823,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Pablo Cuevas",
-      "top_rank": 295
+      "top_rank": 295,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Pablo Cuevas",
-      "top_rank": 48
+      "top_rank": 48,
+      "unique_atp_player": 5
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marcel Felder",
-      "top_rank": 239
+      "top_rank": 239,
+      "unique_atp_player": 2
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Pablo Cuevas",
-      "top_rank": 21
+      "top_rank": 21,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Pablo Cuevas",
-      "top_rank": 31
+      "top_rank": 31,
+      "unique_atp_player": 2
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Pablo Cuevas",
-      "top_rank": 70
+      "top_rank": 70,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Franco Roncadelli",
-      "top_rank": 616
+      "top_rank": 616,
+      "unique_atp_player": 2
     }
   },
   "ISR": {
@@ -3294,79 +3828,92 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Shlomo Glickstein",
-      "top_rank": 57
+      "top_rank": 57,
+      "unique_atp_player": 1
     },
     "1985": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Shahar Perkiss",
-      "top_rank": 53
+      "top_rank": 53,
+      "unique_atp_player": 5
     },
     "1990": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Amos Mansdorf",
-      "top_rank": 32
+      "top_rank": 32,
+      "unique_atp_player": 10
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Eyal Ran",
-      "top_rank": 196
+      "top_rank": 196,
+      "unique_atp_player": 5
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Harel Levy",
-      "top_rank": 59
+      "top_rank": 59,
+      "unique_atp_player": 6
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Noam Okun",
-      "top_rank": 128
+      "top_rank": 128,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Dudi Sela",
-      "top_rank": 170
+      "top_rank": 170,
+      "unique_atp_player": 5
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Dudi Sela",
-      "top_rank": 29
+      "top_rank": 29,
+      "unique_atp_player": 2
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Dudi Sela",
-      "top_rank": 61
+      "top_rank": 61,
+      "unique_atp_player": 2
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Dudi Sela",
-      "top_rank": 85
+      "top_rank": 85,
+      "unique_atp_player": 5
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Dudi Sela",
-      "top_rank": 67
+      "top_rank": 67,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yshai Oliel",
-      "top_rank": 373
+      "top_rank": 373,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yshai Oliel",
-      "top_rank": 415
+      "top_rank": 415,
+      "unique_atp_player": 3
     }
   },
   "MAR": {
@@ -3374,67 +3921,78 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Houcine Saber",
-      "top_rank": 542
+      "top_rank": 542,
+      "unique_atp_player": 2
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Karim Alami",
-      "top_rank": 438
+      "top_rank": 438,
+      "unique_atp_player": 3
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Karim Alami",
-      "top_rank": 68
+      "top_rank": 68,
+      "unique_atp_player": 4
     },
     "2000": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Younes El Aynaoui",
-      "top_rank": 15
+      "top_rank": 15,
+      "unique_atp_player": 5
     },
     "2003": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Younes El Aynaoui",
-      "top_rank": 15
+      "top_rank": 15,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Younes El Aynaoui",
-      "top_rank": 211
+      "top_rank": 211,
+      "unique_atp_player": 5
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Rabie Chaki",
-      "top_rank": 482
+      "top_rank": 482,
+      "unique_atp_player": 3
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mehdi Ziadi",
-      "top_rank": 613
+      "top_rank": 613,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yassine Idmbarek",
-      "top_rank": 738
+      "top_rank": 738,
+      "unique_atp_player": 2
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Amine Ahouda",
-      "top_rank": 698
+      "top_rank": 698,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yassine Dlimi",
-      "top_rank": 604
+      "top_rank": 604,
+      "unique_atp_player": 1
     }
   },
   "MON": {
@@ -3442,67 +4000,78 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Bernard Balleret",
-      "top_rank": 737
+      "top_rank": 737,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Gilles Ganancia",
-      "top_rank": 793
+      "top_rank": 793,
+      "unique_atp_player": 1
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sebastien Graeff",
-      "top_rank": 920
+      "top_rank": 920,
+      "unique_atp_player": 1
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jean Rene Lisnard",
-      "top_rank": 127
+      "top_rank": 127,
+      "unique_atp_player": 1
     },
     "2003": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jean Rene Lisnard",
-      "top_rank": 85
+      "top_rank": 85,
+      "unique_atp_player": 2
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jean Rene Lisnard",
-      "top_rank": 109
+      "top_rank": 109,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jean Rene Lisnard",
-      "top_rank": 220
+      "top_rank": 220,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Benjamin Balleret",
-      "top_rank": 318
+      "top_rank": 318,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Benjamin Balleret",
-      "top_rank": 331
+      "top_rank": 331,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lucas Catarina",
-      "top_rank": 365
+      "top_rank": 365,
+      "unique_atp_player": 1
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lucas Catarina",
-      "top_rank": 388
+      "top_rank": 388,
+      "unique_atp_player": 1
     }
   },
   "PER": {
@@ -3510,73 +4079,85 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Pablo Arraya",
-      "top_rank": 60
+      "top_rank": 60,
+      "unique_atp_player": 3
     },
     "1990": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jaime Yzaga",
-      "top_rank": 24
+      "top_rank": 24,
+      "unique_atp_player": 3
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jaime Yzaga",
-      "top_rank": 29
+      "top_rank": 29,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Luis Horna",
-      "top_rank": 186
+      "top_rank": 186,
+      "unique_atp_player": 2
     },
     "2003": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Luis Horna",
-      "top_rank": 72
+      "top_rank": 72,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Luis Horna",
-      "top_rank": 43
+      "top_rank": 43,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ivan Miranda",
-      "top_rank": 292
+      "top_rank": 292,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Duilio Beretta",
-      "top_rank": 377
+      "top_rank": 377,
+      "unique_atp_player": 2
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Duilio Beretta",
-      "top_rank": 409
+      "top_rank": 409,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Juan Pablo Varillas",
-      "top_rank": 411
+      "top_rank": 411,
+      "unique_atp_player": 5
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Juan Pablo Varillas",
-      "top_rank": 122
+      "top_rank": 122,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Juan Pablo Varillas",
-      "top_rank": 81
+      "top_rank": 81,
+      "unique_atp_player": 2
     }
   },
   "PUR": {
@@ -3584,25 +4165,29 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ernie Fernandez",
-      "top_rank": 228
+      "top_rank": 228,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Miguel Nido",
-      "top_rank": 128
+      "top_rank": 128,
+      "unique_atp_player": 1
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alex Llompart",
-      "top_rank": 1097
+      "top_rank": 1097,
+      "unique_atp_player": 1
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alex Llompart",
-      "top_rank": 1259
+      "top_rank": 1259,
+      "unique_atp_player": 1
     }
   },
   "KOR": {
@@ -3610,73 +4195,85 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Gap Taik Ro",
-      "top_rank": 389
+      "top_rank": 389,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Bong Soo Kim",
-      "top_rank": 168
+      "top_rank": 168,
+      "unique_atp_player": 4
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yong Il Yoon",
-      "top_rank": 289
+      "top_rank": 289,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Hyung Taik Lee",
-      "top_rank": 99
+      "top_rank": 99,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Hyung Taik Lee",
-      "top_rank": 53
+      "top_rank": 53,
+      "unique_atp_player": 5
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Hyung Taik Lee",
-      "top_rank": 48
+      "top_rank": 48,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hyung Taik Lee",
-      "top_rank": 113
+      "top_rank": 113,
+      "unique_atp_player": 3
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yong Kyu Lim",
-      "top_rank": 288
+      "top_rank": 288,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Hyeon Chung",
-      "top_rank": 58
+      "top_rank": 58,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Hyeon Chung",
-      "top_rank": 21
+      "top_rank": 21,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Soon Woo Kwon",
-      "top_rank": 55
+      "top_rank": 55,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Seong Chan Hong",
-      "top_rank": 224
+      "top_rank": 224,
+      "unique_atp_player": 2
     }
   },
   "LUX": {
@@ -3684,67 +4281,78 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Johnny Goudenbour",
-      "top_rank": 335
+      "top_rank": 335,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Johnny Goudenbour",
-      "top_rank": 697
+      "top_rank": 697,
+      "unique_atp_player": 1
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Adrian Graimprey",
-      "top_rank": 1224
+      "top_rank": 1224,
+      "unique_atp_player": 1
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mike Scheidweiler",
-      "top_rank": 838
+      "top_rank": 838,
+      "unique_atp_player": 1
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Gilles Muller",
-      "top_rank": 195
+      "top_rank": 195,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Gilles Muller",
-      "top_rank": 64
+      "top_rank": 64,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Gilles Muller",
-      "top_rank": 69
+      "top_rank": 69,
+      "unique_atp_player": 1
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Gilles Muller",
-      "top_rank": 53
+      "top_rank": 53,
+      "unique_atp_player": 2
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Gilles Muller",
-      "top_rank": 34
+      "top_rank": 34,
+      "unique_atp_player": 2
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Gilles Muller",
-      "top_rank": 25
+      "top_rank": 25,
+      "unique_atp_player": 1
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alex Knaff",
-      "top_rank": 500
+      "top_rank": 500,
+      "unique_atp_player": 2
     }
   },
   "BUL": {
@@ -3752,67 +4360,78 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Julian Stamatov",
-      "top_rank": 703
+      "top_rank": 703,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Milen Velev",
-      "top_rank": 660
+      "top_rank": 660,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Orlin Stanoytchev",
-      "top_rank": 96
+      "top_rank": 96,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Radoslav Lukaev",
-      "top_rank": 258
+      "top_rank": 258,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ilia Kushev",
-      "top_rank": 455
+      "top_rank": 455,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Grigor Dimitrov",
-      "top_rank": 310
+      "top_rank": 310,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Grigor Dimitrov",
-      "top_rank": 48
+      "top_rank": 48,
+      "unique_atp_player": 2
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Grigor Dimitrov",
-      "top_rank": 10
+      "top_rank": 10,
+      "unique_atp_player": 5
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Grigor Dimitrov",
-      "top_rank": 3
+      "top_rank": 3,
+      "unique_atp_player": 2
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Grigor Dimitrov",
-      "top_rank": 16
+      "top_rank": 16,
+      "unique_atp_player": 4
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Grigor Dimitrov",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 4
     }
   },
   "IRI": {
@@ -3820,25 +4439,29 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mansour Bahrami",
-      "top_rank": 343
+      "top_rank": 343,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mansour Bahrami",
-      "top_rank": 372
+      "top_rank": 372,
+      "unique_atp_player": 1
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Anoosha Shahgholi",
-      "top_rank": 1394
+      "top_rank": 1394,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Shahin Khaledan",
-      "top_rank": 1331
+      "top_rank": 1331,
+      "unique_atp_player": 1
     }
   },
   "SVK": {
@@ -3846,73 +4469,85 @@
       "ever_in_top100": 2,
       "ever_in_top10": 1,
       "top_player": "Miloslav Mecir",
-      "top_rank": 10
+      "top_rank": 10,
+      "unique_atp_player": 2
     },
     "1990": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Miloslav Mecir",
-      "top_rank": 25
+      "top_rank": 25,
+      "unique_atp_player": 3
     },
     "1995": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Karol Kucera",
-      "top_rank": 39
+      "top_rank": 39,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Dominik Hrbaty",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Karol Kucera",
-      "top_rank": 31
+      "top_rank": 31,
+      "unique_atp_player": 5
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Dominik Hrbaty",
-      "top_rank": 15
+      "top_rank": 15,
+      "unique_atp_player": 5
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Karol Beck",
-      "top_rank": 81
+      "top_rank": 81,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Martin Klizan",
-      "top_rank": 29
+      "top_rank": 29,
+      "unique_atp_player": 5
     },
     "2015": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Martin Klizan",
-      "top_rank": 28
+      "top_rank": 28,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Martin Klizan",
-      "top_rank": 47
+      "top_rank": 47,
+      "unique_atp_player": 6
     },
     "2021": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Norbert Gombos",
-      "top_rank": 81
+      "top_rank": 81,
+      "unique_atp_player": 7
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lukas Klein",
-      "top_rank": 120
+      "top_rank": 120,
+      "unique_atp_player": 3
     }
   },
   "NOR": {
@@ -3920,55 +4555,64 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Morten Ronneberg",
-      "top_rank": 469
+      "top_rank": 469,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Bent Ove Pedersen",
-      "top_rank": 987
+      "top_rank": 987,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Christian Ruud",
-      "top_rank": 40
+      "top_rank": 40,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Christian Ruud",
-      "top_rank": 86
+      "top_rank": 86,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jan Frode Andersen",
-      "top_rank": 184
+      "top_rank": 184,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Stian Boretti",
-      "top_rank": 377
+      "top_rank": 377,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Casper Ruud",
-      "top_rank": 120
+      "top_rank": 120,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Casper Ruud",
-      "top_rank": 8
+      "top_rank": 8,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Casper Ruud",
-      "top_rank": 6
+      "top_rank": 6,
+      "unique_atp_player": 2
     }
   },
   "NGR": {
@@ -3976,19 +4620,22 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nduka Odizor",
-      "top_rank": 76
+      "top_rank": 76,
+      "unique_atp_player": 2
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Nduka Odizor",
-      "top_rank": 170
+      "top_rank": 170,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sule Ladipo",
-      "top_rank": 278
+      "top_rank": 278,
+      "unique_atp_player": 1
     }
   },
   "TUR": {
@@ -3996,49 +4643,57 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Necvet Demir",
-      "top_rank": 774
+      "top_rank": 774,
+      "unique_atp_player": 1
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Efe Ustundag",
-      "top_rank": 611
+      "top_rank": 611,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marsel Ilhan",
-      "top_rank": 160
+      "top_rank": 160,
+      "unique_atp_player": 1
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marsel Ilhan",
-      "top_rank": 108
+      "top_rank": 108,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Marsel Ilhan",
-      "top_rank": 77
+      "top_rank": 77,
+      "unique_atp_player": 2
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Cem Ilkel",
-      "top_rank": 247
+      "top_rank": 247,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Altug Celikbilek",
-      "top_rank": 170
+      "top_rank": 170,
+      "unique_atp_player": 4
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Cem Ilkel",
-      "top_rank": 284
+      "top_rank": 284,
+      "unique_atp_player": 3
     }
   },
   "IRL": {
@@ -4046,67 +4701,78 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sean Sorensen",
-      "top_rank": 415
+      "top_rank": 415,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Michael Nugent",
-      "top_rank": 844
+      "top_rank": 844,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Owen Casey",
-      "top_rank": 489
+      "top_rank": 489,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Scott Barron",
-      "top_rank": 346
+      "top_rank": 346,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Peter Clarke",
-      "top_rank": 295
+      "top_rank": 295,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Conor Niland",
-      "top_rank": 434
+      "top_rank": 434,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Conor Niland",
-      "top_rank": 278
+      "top_rank": 278,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Conor Niland",
-      "top_rank": 311
+      "top_rank": 311,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "James Mcgee",
-      "top_rank": 150
+      "top_rank": 150,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Peter Bothwell",
-      "top_rank": 840
+      "top_rank": 840,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Michael Agwi",
-      "top_rank": 935
+      "top_rank": 935,
+      "unique_atp_player": 2
     }
   },
   "YUG": {
@@ -4114,13 +4780,15 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Slobodan Zivojinovic",
-      "top_rank": 66
+      "top_rank": 66,
+      "unique_atp_player": 1
     },
     "1990": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Slobodan Zivojinovic",
-      "top_rank": 82
+      "top_rank": 82,
+      "unique_atp_player": 1
     }
   },
   "MAS": {
@@ -4128,25 +4796,29 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Adam Malik",
-      "top_rank": 776
+      "top_rank": 776,
+      "unique_atp_player": 1
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Selvam Veerasingam",
-      "top_rank": 437
+      "top_rank": 437,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yew Ming Si",
-      "top_rank": 1859
+      "top_rank": 1859,
+      "unique_atp_player": 1
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ariez Elyaas Deen Heshaam",
-      "top_rank": 1557
+      "top_rank": 1557,
+      "unique_atp_player": 1
     }
   },
   "CYP": {
@@ -4154,49 +4826,57 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alkis Papamichael",
-      "top_rank": 933
+      "top_rank": 933,
+      "unique_atp_player": 2
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Marcos Baghdatis",
-      "top_rank": 8
+      "top_rank": 8,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Marcos Baghdatis",
-      "top_rank": 66
+      "top_rank": 66,
+      "unique_atp_player": 2
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Marcos Baghdatis",
-      "top_rank": 32
+      "top_rank": 32,
+      "unique_atp_player": 1
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Marcos Baghdatis",
-      "top_rank": 45
+      "top_rank": 45,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Marcos Baghdatis",
-      "top_rank": 80
+      "top_rank": 80,
+      "unique_atp_player": 1
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Michail Pervolarakis",
-      "top_rank": 462
+      "top_rank": 462,
+      "unique_atp_player": 1
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Stylianos Christodoulou",
-      "top_rank": 1114
+      "top_rank": 1114,
+      "unique_atp_player": 3
     }
   },
   "HAI": {
@@ -4204,13 +4884,15 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Bertrand Lacombe",
-      "top_rank": 760
+      "top_rank": 760,
+      "unique_atp_player": 1
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Iphton Louis",
-      "top_rank": 1278
+      "top_rank": 1278,
+      "unique_atp_player": 1
     }
   },
   "CHN": {
@@ -4218,67 +4900,78 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jia Ping Xia",
-      "top_rank": 612
+      "top_rank": 612,
+      "unique_atp_player": 3
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Bing Pan",
-      "top_rank": 181
+      "top_rank": 181,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ben Qiang Zhu",
-      "top_rank": 427
+      "top_rank": 427,
+      "unique_atp_player": 2
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ben Qiang Zhu",
-      "top_rank": 308
+      "top_rank": 308,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yu Jr Wang",
-      "top_rank": 329
+      "top_rank": 329,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Shao Xuan Zeng",
-      "top_rank": 393
+      "top_rank": 393,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ze Zhang",
-      "top_rank": 154
+      "top_rank": 154,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ze Zhang",
-      "top_rank": 182
+      "top_rank": 182,
+      "unique_atp_player": 6
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ze Zhang",
-      "top_rank": 194
+      "top_rank": 194,
+      "unique_atp_player": 5
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Zhizhen Zhang",
-      "top_rank": 161
+      "top_rank": 161,
+      "unique_atp_player": 1
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Zhizhen Zhang",
-      "top_rank": 46
+      "top_rank": 46,
+      "unique_atp_player": 4
     }
   },
   "CIV": {
@@ -4286,25 +4979,29 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Clement Ngoran",
-      "top_rank": 482
+      "top_rank": 482,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Claude Ngoran",
-      "top_rank": 228
+      "top_rank": 228,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Valentin Sanon",
-      "top_rank": 596
+      "top_rank": 596,
+      "unique_atp_player": 2
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Claude Ngoran",
-      "top_rank": 456
+      "top_rank": 456,
+      "unique_atp_player": 2
     }
   },
   "HKG": {
@@ -4312,37 +5009,43 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mark Bailey",
-      "top_rank": 795
+      "top_rank": 795,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Melvin Tong",
-      "top_rank": 1245
+      "top_rank": 1245,
+      "unique_atp_player": 2
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hiu Tung Yu",
-      "top_rank": 1155
+      "top_rank": 1155,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hiu Tung Yu",
-      "top_rank": 929
+      "top_rank": 929,
+      "unique_atp_player": 2
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Chun Hun Wong",
-      "top_rank": 978
+      "top_rank": 978,
+      "unique_atp_player": 4
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Coleman Wong",
-      "top_rank": 212
+      "top_rank": 212,
+      "unique_atp_player": 2
     }
   },
   "INA": {
@@ -4350,61 +5053,71 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Suharyadi Suharyadi",
-      "top_rank": 433
+      "top_rank": 433,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Suwandi Suwandi",
-      "top_rank": 466
+      "top_rank": 466,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Suwandi Suwandi",
-      "top_rank": 490
+      "top_rank": 490,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Peter Handoyo",
-      "top_rank": 539
+      "top_rank": 539,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Prima Simpatiaji",
-      "top_rank": 627
+      "top_rank": 627,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Christopher Rungkat",
-      "top_rank": 1271
+      "top_rank": 1271,
+      "unique_atp_player": 2
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Christopher Rungkat",
-      "top_rank": 292
+      "top_rank": 292,
+      "unique_atp_player": 6
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Christopher Rungkat",
-      "top_rank": 582
+      "top_rank": 582,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "David Agung Susanto",
-      "top_rank": 1402
+      "top_rank": 1402,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Fitriadi M Rifqi",
-      "top_rank": 569
+      "top_rank": 569,
+      "unique_atp_player": 1
     }
   },
   "UKR": {
@@ -4412,67 +5125,78 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Dimitri Poliakov",
-      "top_rank": 172
+      "top_rank": 172,
+      "unique_atp_player": 1
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Andrei Medvedev",
-      "top_rank": 14
+      "top_rank": 14,
+      "unique_atp_player": 4
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Andrei Medvedev",
-      "top_rank": 20
+      "top_rank": 20,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Orest Tereshchuk",
-      "top_rank": 327
+      "top_rank": 327,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sergiy Stakhovsky",
-      "top_rank": 180
+      "top_rank": 180,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Sergiy Stakhovsky",
-      "top_rank": 75
+      "top_rank": 75,
+      "unique_atp_player": 5
     },
     "2012": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Alexandr Dolgopolov",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 6
     },
     "2015": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Alexandr Dolgopolov",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 5
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Alexandr Dolgopolov",
-      "top_rank": 37
+      "top_rank": 37,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Illya Marchenko",
-      "top_rank": 151
+      "top_rank": 151,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Vitaliy Sachko",
-      "top_rank": 169
+      "top_rank": 169,
+      "unique_atp_player": 4
     }
   },
   "KEN": {
@@ -4480,13 +5204,15 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Paul Wekesa",
-      "top_rank": 268
+      "top_rank": 268,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Paul Wekesa",
-      "top_rank": 100
+      "top_rank": 100,
+      "unique_atp_player": 1
     }
   },
   "POR": {
@@ -4494,67 +5220,78 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Nuno Marques",
-      "top_rank": 109
+      "top_rank": 109,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nuno Marques",
-      "top_rank": 86
+      "top_rank": 86,
+      "unique_atp_player": 4
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Joao Cunha Silva",
-      "top_rank": 288
+      "top_rank": 288,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Bernardo Mota",
-      "top_rank": 312
+      "top_rank": 312,
+      "unique_atp_player": 6
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Frederico Gil",
-      "top_rank": 163
+      "top_rank": 163,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Frederico Gil",
-      "top_rank": 66
+      "top_rank": 66,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Rui Machado",
-      "top_rank": 68
+      "top_rank": 68,
+      "unique_atp_player": 5
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Joao Sousa",
-      "top_rank": 40
+      "top_rank": 40,
+      "unique_atp_player": 5
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Joao Sousa",
-      "top_rank": 41
+      "top_rank": 41,
+      "unique_atp_player": 5
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Joao Sousa",
-      "top_rank": 98
+      "top_rank": 98,
+      "unique_atp_player": 5
     },
     "2024": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nuno Borges",
-      "top_rank": 46
+      "top_rank": 46,
+      "unique_atp_player": 4
     }
   },
   "CUB": {
@@ -4562,25 +5299,29 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mario Tabares",
-      "top_rank": 133
+      "top_rank": 133,
+      "unique_atp_player": 2
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Juan Pino",
-      "top_rank": 620
+      "top_rank": 620,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Kerlin Leon Zamora",
-      "top_rank": 1312
+      "top_rank": 1312,
+      "unique_atp_player": 1
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ricardo Chile Fonte",
-      "top_rank": 1095
+      "top_rank": 1095,
+      "unique_atp_player": 1
     }
   },
   "ALG": {
@@ -4588,37 +5329,43 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Moncef Zehar",
-      "top_rank": 1091
+      "top_rank": 1091,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Slimane Saoudi",
-      "top_rank": 272
+      "top_rank": 272,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lamine Ouahab",
-      "top_rank": 140
+      "top_rank": 140,
+      "unique_atp_player": 2
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lamine Ouahab",
-      "top_rank": 752
+      "top_rank": 752,
+      "unique_atp_player": 1
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lamine Ouahab",
-      "top_rank": 254
+      "top_rank": 254,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lamine Ouahab",
-      "top_rank": 571
+      "top_rank": 571,
+      "unique_atp_player": 1
     }
   },
   "BAH": {
@@ -4626,25 +5373,29 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Roger Smith",
-      "top_rank": 259
+      "top_rank": 259,
+      "unique_atp_player": 1
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Roger Smith",
-      "top_rank": 164
+      "top_rank": 164,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mark Knowles",
-      "top_rank": 221
+      "top_rank": 221,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Devin Mullings",
-      "top_rank": 1006
+      "top_rank": 1006,
+      "unique_atp_player": 3
     }
   },
   "THA": {
@@ -4652,61 +5403,71 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Worapol Thongkamcho",
-      "top_rank": 677
+      "top_rank": 677,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Paradorn Srichaphan",
-      "top_rank": 85
+      "top_rank": 85,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 1,
       "ever_in_top10": 1,
       "top_player": "Paradorn Srichaphan",
-      "top_rank": 9
+      "top_rank": 9,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Paradorn Srichaphan",
-      "top_rank": 35
+      "top_rank": 35,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Danai Udomchoke",
-      "top_rank": 110
+      "top_rank": 110,
+      "unique_atp_player": 3
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Danai Udomchoke",
-      "top_rank": 145
+      "top_rank": 145,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Danai Udomchoke",
-      "top_rank": 320
+      "top_rank": 320,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Wishaya Trongcharoenchaikul",
-      "top_rank": 433
+      "top_rank": 433,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Wishaya Trongcharoenchaikul",
-      "top_rank": 767
+      "top_rank": 767,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Maximus Jones",
-      "top_rank": 581
+      "top_rank": 581,
+      "unique_atp_player": 3
     }
   },
   "SEN": {
@@ -4714,13 +5475,15 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yahiya Doumbia",
-      "top_rank": 662
+      "top_rank": 662,
+      "unique_atp_player": 1
     },
     "1995": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yahiya Doumbia",
-      "top_rank": 282
+      "top_rank": 282,
+      "unique_atp_player": 1
     }
   },
   "MKD": {
@@ -4728,19 +5491,22 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Aleksandar Kitinov",
-      "top_rank": 542
+      "top_rank": 542,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Lazar Magdincev",
-      "top_rank": 411
+      "top_rank": 411,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Predrag Rusevski",
-      "top_rank": 819
+      "top_rank": 819,
+      "unique_atp_player": 5
     }
   },
   "BLR": {
@@ -4748,55 +5514,64 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alexander Shvec",
-      "top_rank": 577
+      "top_rank": 577,
+      "unique_atp_player": 4
     },
     "2000": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Max Mirnyi",
-      "top_rank": 38
+      "top_rank": 38,
+      "unique_atp_player": 4
     },
     "2003": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Max Mirnyi",
-      "top_rank": 18
+      "top_rank": 18,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Max Mirnyi",
-      "top_rank": 32
+      "top_rank": 32,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Uladzimir Ignatik",
-      "top_rank": 461
+      "top_rank": 461,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Uladzimir Ignatik",
-      "top_rank": 191
+      "top_rank": 191,
+      "unique_atp_player": 6
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Uladzimir Ignatik",
-      "top_rank": 209
+      "top_rank": 209,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ilya Ivashka",
-      "top_rank": 91
+      "top_rank": 91,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Ilya Ivashka",
-      "top_rank": 45
+      "top_rank": 45,
+      "unique_atp_player": 3
     }
   },
   "EST": {
@@ -4804,37 +5579,43 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Rene Busch",
-      "top_rank": 920
+      "top_rank": 920,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mait Kunnap",
-      "top_rank": 1304
+      "top_rank": 1304,
+      "unique_atp_player": 1
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jurgen Zopp",
-      "top_rank": 77
+      "top_rank": 77,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jurgen Zopp",
-      "top_rank": 158
+      "top_rank": 158,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jurgen Zopp",
-      "top_rank": 96
+      "top_rank": 96,
+      "unique_atp_player": 2
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Vladimir Ivanov",
-      "top_rank": 717
+      "top_rank": 717,
+      "unique_atp_player": 4
     }
   },
   "LAT": {
@@ -4842,49 +5623,57 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Girts Dzelde",
-      "top_rank": 560
+      "top_rank": 560,
+      "unique_atp_player": 2
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ernests Gulbis",
-      "top_rank": 204
+      "top_rank": 204,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ernests Gulbis",
-      "top_rank": 40
+      "top_rank": 40,
+      "unique_atp_player": 5
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ernests Gulbis",
-      "top_rank": 61
+      "top_rank": 61,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ernests Gulbis",
-      "top_rank": 13
+      "top_rank": 13,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ernests Gulbis",
-      "top_rank": 95
+      "top_rank": 95,
+      "unique_atp_player": 1
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ernests Gulbis",
-      "top_rank": 186
+      "top_rank": 186,
+      "unique_atp_player": 1
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Martins Rocens",
-      "top_rank": 1763
+      "top_rank": 1763,
+      "unique_atp_player": 1
     }
   },
   "TPE": {
@@ -4892,61 +5681,71 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Bing Chao Lin",
-      "top_rank": 294
+      "top_rank": 294,
+      "unique_atp_player": 5
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Wei Jen Cheng",
-      "top_rank": 835
+      "top_rank": 835,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yen Hsun Lu",
-      "top_rank": 171
+      "top_rank": 171,
+      "unique_atp_player": 4
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Jimmy Wang",
-      "top_rank": 87
+      "top_rank": 87,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Yen Hsun Lu",
-      "top_rank": 57
+      "top_rank": 57,
+      "unique_atp_player": 3
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Yen Hsun Lu",
-      "top_rank": 55
+      "top_rank": 55,
+      "unique_atp_player": 5
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Yen Hsun Lu",
-      "top_rank": 38
+      "top_rank": 38,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jason Jung",
-      "top_rank": 122
+      "top_rank": 122,
+      "unique_atp_player": 5
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jason Jung",
-      "top_rank": 143
+      "top_rank": 143,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Yu Hsiou Hsu",
-      "top_rank": 230
+      "top_rank": 230,
+      "unique_atp_player": 3
     }
   },
   "SLO": {
@@ -4954,61 +5753,71 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Iztok Bozic",
-      "top_rank": 318
+      "top_rank": 318,
+      "unique_atp_player": 3
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marko Tkalec",
-      "top_rank": 325
+      "top_rank": 325,
+      "unique_atp_player": 3
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marko Tkalec",
-      "top_rank": 351
+      "top_rank": 351,
+      "unique_atp_player": 3
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Grega Zemlja",
-      "top_rank": 328
+      "top_rank": 328,
+      "unique_atp_player": 5
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Blaz Kavcic",
-      "top_rank": 135
+      "top_rank": 135,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Grega Zemlja",
-      "top_rank": 55
+      "top_rank": 55,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Aljaz Bedene",
-      "top_rank": 48
+      "top_rank": 48,
+      "unique_atp_player": 8
     },
     "2018": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Aljaz Bedene",
-      "top_rank": 43
+      "top_rank": 43,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Aljaz Bedene",
-      "top_rank": 54
+      "top_rank": 54,
+      "unique_atp_player": 4
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sebastian Dominko",
-      "top_rank": 1107
+      "top_rank": 1107,
+      "unique_atp_player": 2
     }
   },
   "UZB": {
@@ -5016,61 +5825,71 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Oleg Ogorodov",
-      "top_rank": 120
+      "top_rank": 120,
+      "unique_atp_player": 2
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Oleg Ogorodov",
-      "top_rank": 132
+      "top_rank": 132,
+      "unique_atp_player": 2
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Oleg Ogorodov",
-      "top_rank": 189
+      "top_rank": 189,
+      "unique_atp_player": 2
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Denis Istomin",
-      "top_rank": 195
+      "top_rank": 195,
+      "unique_atp_player": 3
     },
     "2009": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Denis Istomin",
-      "top_rank": 57
+      "top_rank": 57,
+      "unique_atp_player": 4
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Denis Istomin",
-      "top_rank": 33
+      "top_rank": 33,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Denis Istomin",
-      "top_rank": 48
+      "top_rank": 48,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Denis Istomin",
-      "top_rank": 60
+      "top_rank": 60,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Denis Istomin",
-      "top_rank": 197
+      "top_rank": 197,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Khumoun Sultanov",
-      "top_rank": 330
+      "top_rank": 330,
+      "unique_atp_player": 3
     }
   },
   "GHA": {
@@ -5078,13 +5897,15 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Frank Ofori",
-      "top_rank": 361
+      "top_rank": 361,
+      "unique_atp_player": 1
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Gunther Darkey",
-      "top_rank": 693
+      "top_rank": 693,
+      "unique_atp_player": 1
     }
   },
   "LTU": {
@@ -5092,49 +5913,57 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Rolandas Murashka",
-      "top_rank": 590
+      "top_rank": 590,
+      "unique_atp_player": 1
     },
     "2000": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Aivaras Balzekas",
-      "top_rank": 1304
+      "top_rank": 1304,
+      "unique_atp_player": 1
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ricardas Berankis",
-      "top_rank": 462
+      "top_rank": 462,
+      "unique_atp_player": 2
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ricardas Berankis",
-      "top_rank": 89
+      "top_rank": 89,
+      "unique_atp_player": 1
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ricardas Berankis",
-      "top_rank": 72
+      "top_rank": 72,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ricardas Berankis",
-      "top_rank": 84
+      "top_rank": 84,
+      "unique_atp_player": 2
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Ricardas Berankis",
-      "top_rank": 72
+      "top_rank": 72,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Ricardas Berankis",
-      "top_rank": 248
+      "top_rank": 248,
+      "unique_atp_player": 2
     }
   },
   "ARM": {
@@ -5142,25 +5971,29 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sargis Sargsian",
-      "top_rank": 392
+      "top_rank": 392,
+      "unique_atp_player": 1
     },
     "2000": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Sargis Sargsian",
-      "top_rank": 51
+      "top_rank": 51,
+      "unique_atp_player": 1
     },
     "2003": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Sargis Sargsian",
-      "top_rank": 46
+      "top_rank": 46,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sargis Sargsian",
-      "top_rank": 391
+      "top_rank": 391,
+      "unique_atp_player": 1
     }
   },
   "KAZ": {
@@ -5168,55 +6001,64 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alexey Kedryuk",
-      "top_rank": 1207
+      "top_rank": 1207,
+      "unique_atp_player": 1
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alexey Kedryuk",
-      "top_rank": 809
+      "top_rank": 809,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Evgeny Korolev",
-      "top_rank": 88
+      "top_rank": 88,
+      "unique_atp_player": 4
     },
     "2009": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Evgeny Korolev",
-      "top_rank": 50
+      "top_rank": 50,
+      "unique_atp_player": 5
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Mikhail Kukushkin",
-      "top_rank": 49
+      "top_rank": 49,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 3,
       "ever_in_top10": 0,
       "top_player": "Mikhail Kukushkin",
-      "top_rank": 48
+      "top_rank": 48,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Mikhail Kukushkin",
-      "top_rank": 54
+      "top_rank": 54,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Alexander Bublik",
-      "top_rank": 34
+      "top_rank": 34,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Alexander Bublik",
-      "top_rank": 17
+      "top_rank": 17,
+      "unique_atp_player": 3
     }
   },
   "GUA": {
@@ -5224,25 +6066,29 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jacobo Chavez",
-      "top_rank": 1078
+      "top_rank": 1078,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Cristian Paiz",
-      "top_rank": 963
+      "top_rank": 963,
+      "unique_atp_player": 1
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Christopher Diaz Figueroa",
-      "top_rank": 1059
+      "top_rank": 1059,
+      "unique_atp_player": 2
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Christopher Diaz Figueroa",
-      "top_rank": 630
+      "top_rank": 630,
+      "unique_atp_player": 2
     }
   },
   "LIB": {
@@ -5250,19 +6096,22 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jicham Zaatini",
-      "top_rank": 573
+      "top_rank": 573,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Patrick Chucri",
-      "top_rank": 1390
+      "top_rank": 1390,
+      "unique_atp_player": 1
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Bassam Beidas",
-      "top_rank": 521
+      "top_rank": 521,
+      "unique_atp_player": 1
     }
   },
   "ESA": {
@@ -5270,31 +6119,36 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jose Baires",
-      "top_rank": 1162
+      "top_rank": 1162,
+      "unique_atp_player": 1
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marcelo Arevalo",
-      "top_rank": 582
+      "top_rank": 582,
+      "unique_atp_player": 2
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marcelo Arevalo",
-      "top_rank": 280
+      "top_rank": 280,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marcelo Arevalo",
-      "top_rank": 145
+      "top_rank": 145,
+      "unique_atp_player": 1
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Marcelo Arevalo",
-      "top_rank": 457
+      "top_rank": 457,
+      "unique_atp_player": 1
     }
   },
   "CRC": {
@@ -5302,25 +6156,29 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Juan Antonio Marin",
-      "top_rank": 68
+      "top_rank": 68,
+      "unique_atp_player": 2
     },
     "2003": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Juan Antonio Marin",
-      "top_rank": 137
+      "top_rank": 137,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Juan Antonio Marin",
-      "top_rank": 97
+      "top_rank": 97,
+      "unique_atp_player": 1
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Julian Saborio",
-      "top_rank": 1180
+      "top_rank": 1180,
+      "unique_atp_player": 1
     }
   },
   "BIH": {
@@ -5328,49 +6186,57 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Amer Delic",
-      "top_rank": 511
+      "top_rank": 511,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Amer Delic",
-      "top_rank": 161
+      "top_rank": 161,
+      "unique_atp_player": 1
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Amer Delic",
-      "top_rank": 127
+      "top_rank": 127,
+      "unique_atp_player": 1
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Amer Delic",
-      "top_rank": 178
+      "top_rank": 178,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Damir Dzumhur",
-      "top_rank": 86
+      "top_rank": 86,
+      "unique_atp_player": 4
     },
     "2018": {
       "ever_in_top100": 2,
       "ever_in_top10": 0,
       "top_player": "Damir Dzumhur",
-      "top_rank": 23
+      "top_rank": 23,
+      "unique_atp_player": 4
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Damir Dzumhur",
-      "top_rank": 120
+      "top_rank": 120,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Damir Dzumhur",
-      "top_rank": 147
+      "top_rank": 147,
+      "unique_atp_player": 3
     }
   },
   "GEO": {
@@ -5378,43 +6244,50 @@
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Irakli Labadze",
-      "top_rank": 83
+      "top_rank": 83,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Irakli Labadze",
-      "top_rank": 149
+      "top_rank": 149,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Irakli Labadze",
-      "top_rank": 523
+      "top_rank": 523,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nikoloz Basilashvili",
-      "top_rank": 93
+      "top_rank": 93,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nikoloz Basilashvili",
-      "top_rank": 21
+      "top_rank": 21,
+      "unique_atp_player": 2
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Nikoloz Basilashvili",
-      "top_rank": 21
+      "top_rank": 21,
+      "unique_atp_player": 1
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Saba Purtseladze",
-      "top_rank": 450
+      "top_rank": 450,
+      "unique_atp_player": 2
     }
   },
   "AHO": {
@@ -5422,19 +6295,22 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jean Julien Rojer",
-      "top_rank": 256
+      "top_rank": 256,
+      "unique_atp_player": 1
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Jean Julien Rojer",
-      "top_rank": 248
+      "top_rank": 248,
+      "unique_atp_player": 1
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Alexander Blom",
-      "top_rank": 1121
+      "top_rank": 1121,
+      "unique_atp_player": 2
     }
   },
   "DOM": {
@@ -5442,49 +6318,57 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Victor Estrella",
-      "top_rank": 884
+      "top_rank": 884,
+      "unique_atp_player": 2
     },
     "2006": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Victor Estrella",
-      "top_rank": 569
+      "top_rank": 569,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Victor Estrella",
-      "top_rank": 235
+      "top_rank": 235,
+      "unique_atp_player": 3
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Victor Estrella",
-      "top_rank": 168
+      "top_rank": 168,
+      "unique_atp_player": 3
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Victor Estrella",
-      "top_rank": 43
+      "top_rank": 43,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Victor Estrella",
-      "top_rank": 79
+      "top_rank": 79,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Roberto Cid",
-      "top_rank": 281
+      "top_rank": 281,
+      "unique_atp_player": 2
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Nick Hardt",
-      "top_rank": 229
+      "top_rank": 229,
+      "unique_atp_player": 1
     }
   },
   "AND": {
@@ -5492,7 +6376,8 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Joan Jimenez Guerra",
-      "top_rank": 673
+      "top_rank": 673,
+      "unique_atp_player": 2
     }
   },
   "TUN": {
@@ -5500,37 +6385,43 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Walid Jallali",
-      "top_rank": 689
+      "top_rank": 689,
+      "unique_atp_player": 2
     },
     "2012": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Malek Jaziri",
-      "top_rank": 70
+      "top_rank": 70,
+      "unique_atp_player": 1
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Malek Jaziri",
-      "top_rank": 65
+      "top_rank": 65,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Malek Jaziri",
-      "top_rank": 45
+      "top_rank": 45,
+      "unique_atp_player": 3
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Malek Jaziri",
-      "top_rank": 249
+      "top_rank": 249,
+      "unique_atp_player": 3
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Aziz Dougaz",
-      "top_rank": 219
+      "top_rank": 219,
+      "unique_atp_player": 2
     }
   },
   "UAE": {
@@ -5538,7 +6429,8 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Omar Awadhy",
-      "top_rank": 1001
+      "top_rank": 1001,
+      "unique_atp_player": 1
     }
   },
   "KUW": {
@@ -5546,19 +6438,22 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mohammad Ghareeb",
-      "top_rank": 352
+      "top_rank": 352,
+      "unique_atp_player": 2
     },
     "2009": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mohammad Ghareeb",
-      "top_rank": 469
+      "top_rank": 469,
+      "unique_atp_player": 2
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Abdullah Maqdas",
-      "top_rank": 1695
+      "top_rank": 1695,
+      "unique_atp_player": 2
     }
   },
   "QAT": {
@@ -5566,13 +6461,15 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sultan Khalfan",
-      "top_rank": 1497
+      "top_rank": 1497,
+      "unique_atp_player": 1
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Mousa Shanan Zayed",
-      "top_rank": 1851
+      "top_rank": 1851,
+      "unique_atp_player": 1
     }
   },
   "MDA": {
@@ -5580,37 +6477,43 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Andrei Gorban",
-      "top_rank": 351
+      "top_rank": 351,
+      "unique_atp_player": 3
     },
     "2012": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Radu Albot",
-      "top_rank": 233
+      "top_rank": 233,
+      "unique_atp_player": 4
     },
     "2015": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Radu Albot",
-      "top_rank": 86
+      "top_rank": 86,
+      "unique_atp_player": 3
     },
     "2018": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Radu Albot",
-      "top_rank": 86
+      "top_rank": 86,
+      "unique_atp_player": 1
     },
     "2021": {
       "ever_in_top100": 1,
       "ever_in_top10": 0,
       "top_player": "Radu Albot",
-      "top_rank": 76
+      "top_rank": 76,
+      "unique_atp_player": 1
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Radu Albot",
-      "top_rank": 136
+      "top_rank": 136,
+      "unique_atp_player": 2
     }
   },
   "MNE": {
@@ -5618,7 +6521,8 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Goran Tosic",
-      "top_rank": 499
+      "top_rank": 499,
+      "unique_atp_player": 1
     }
   },
   "MAD": {
@@ -5626,13 +6530,15 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Antso Rakotondramanga",
-      "top_rank": 1606
+      "top_rank": 1606,
+      "unique_atp_player": 1
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Antso Rakotondramanga",
-      "top_rank": 1581
+      "top_rank": 1581,
+      "unique_atp_player": 2
     }
   },
   "BAR": {
@@ -5640,31 +6546,36 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Darian King",
-      "top_rank": 723
+      "top_rank": 723,
+      "unique_atp_player": 2
     },
     "2015": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Darian King",
-      "top_rank": 206
+      "top_rank": 206,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Darian King",
-      "top_rank": 169
+      "top_rank": 169,
+      "unique_atp_player": 1
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Darian King",
-      "top_rank": 351
+      "top_rank": 351,
+      "unique_atp_player": 1
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Darian King",
-      "top_rank": 547
+      "top_rank": 547,
+      "unique_atp_player": 1
     }
   },
   "SOL": {
@@ -5672,7 +6583,8 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Michael Leong",
-      "top_rank": 1782
+      "top_rank": 1782,
+      "unique_atp_player": 1
     }
   },
   "LBN": {
@@ -5680,25 +6592,29 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Giovani Samaha",
-      "top_rank": 1573
+      "top_rank": 1573,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hady Habib",
-      "top_rank": 643
+      "top_rank": 643,
+      "unique_atp_player": 1
     },
     "2021": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hady Habib",
-      "top_rank": 754
+      "top_rank": 754,
+      "unique_atp_player": 1
     },
     "2024": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Hady Habib",
-      "top_rank": 304
+      "top_rank": 304,
+      "unique_atp_player": 1
     }
   },
   "SRI": {
@@ -5706,13 +6622,15 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sharmal Dissanayake",
-      "top_rank": 1969
+      "top_rank": 1969,
+      "unique_atp_player": 1
     },
     "2018": {
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Sharmal Dissanayake",
-      "top_rank": 1455
+      "top_rank": 1455,
+      "unique_atp_player": 2
     }
   },
   "JOR": {
@@ -5720,7 +6638,8 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Abedallah Shelbayh",
-      "top_rank": 228
+      "top_rank": 228,
+      "unique_atp_player": 1
     }
   },
   "VIE": {
@@ -5728,7 +6647,8 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Nam Hoang Ly",
-      "top_rank": 554
+      "top_rank": 554,
+      "unique_atp_player": 1
     }
   },
   "TOG": {
@@ -5736,7 +6656,8 @@
       "ever_in_top100": 0,
       "ever_in_top10": 0,
       "top_player": "Thomas Yaka Kofi Setodji",
-      "top_rank": 819
+      "top_rank": 819,
+      "unique_atp_player": 1
     }
   }
 }

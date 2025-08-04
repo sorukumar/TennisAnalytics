@@ -31,13 +31,14 @@
     <link rel="icon" type="image/png" href="../image/favicon.png">
     
     <!-- Scripts -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
     <script src="https://unpkg.com/topojson-client@3"></script>
     <script src="../components/include.js"></script>
        
     <!-- Bootstrap JS for tooltips -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../components/social-share.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
 </head>
 <body>
             
@@ -45,29 +46,93 @@
         <div class="container-body">
             <div class="intro-text">
                 <h1 class="section-title">Tennis Top 100 Evolution (1970-2024)</h1>
-                <p class="section-description">Explore how the geographic distribution of top tennis talent has evolved over the past five decades. This visualization shows the number of players each country has had in the ATP Top 100 and Top 10.</p>
+                <p class="section-description">See how the ATP Top 100 and Top 10 have shifted across countries over five decades.</p>
             </div>
 
-            <div id="map-container" class="chart-container">
-                <div class="controls-panel">
-                    <div class="play-controls">
-                        <button id="play-pause" class="btn btn-primary">Play</button>
-                        <span id="year-label" class="year-display"></span>
+            <section class="chart-section">
+                <div class="chart-explanation">
+                    <h2>Animation map </h2>
+                    <ul>
+                        <li>
+                            The global spread of tennis talent has accelerated: in the 1980s, ATP Top 100 players hailed from just over 30 countries—today, nearly 80 nations are represented.
+                        </li>
+                        <li>
+                            Europe’s ascent has reshaped the tennis landscape, with Spain and France emerging as new powerhouses, while the USA’s dominance has steadily waned.
+                        </li>
+                        <li>
+                            The ATP Top 100 is more internationally diverse than ever: in 1980, the elite came from 30 countries; now, that number has climbed to around 45.
+                        </li>
+                    </ul>
+                </div>
+                <div id="map-container" class="chart-container">
+                    <div class="visualization-area">
+                        <div class="controls-panel">
+                            <!-- Controls will be dynamically inserted by JS, but this ensures overlay structure -->
+                        </div>
+                        <div id="world-map"></div>
+                        <div id="legend"></div>
                     </div>
-                    <input type="range" id="year-slider" min="0" max="14" value="0">
                 </div>
-                
-                <div class="visualization-area">
-                    <svg id="world-map"></svg>
-                    <div id="legend"></div>
-                </div>
+            </section>
 
-                <!-- Trends chart moved up -->
-                <div id="trends-chart" class="trends-panel">
-                    <h3>Historical Trends of Major Tennis Nations</h3>
-                    <p class="chart-description">Evolution of top tennis nations' representation in ATP Top 100 over time.</p>
+            <section class="chart-section">
+                <div class="chart-explanation">
+                    <h2>Major countries and Top 100</h2>
+                    <ul>
+                        <li>
+                            Spain and France have surged as tennis powerhouses. Argentina, after a period of decline, is making a notable comeback.
+                        </li>
+                        <li>
+                            The USA’s has lost its dominance as tennis globalizes, while Sweden’s dramatic fall stands out. Italy is a winner post 2000 as it climbs the ranks
+                        </li>
+                        <li>
+                            The rise of Roger Federer (Switzerland) and Novak Djokovic (Serbia) highlights how even smaller tennis nations can produce all-time greats—true outliers in the modern era.
+                        </li>
+                    </ul>
                 </div>
-            </div>
+                <div class="chart-title">Top Tennis Nations in the ATP Top 100 Over Time".</div>
+                <div id="trends-chart" class="chart-container"></div>
+            </section>
+
+            <section class="chart-section">
+                <div class="chart-explanation">
+                    <h2>Global Tennis Diversity Over Time</h2>
+                    <ul>
+                        <li>
+                            The ATP Top 100 is more internationally diverse than ever: in 1980, players came from 30 countries; today, that number is closer to 45.
+                        </li>
+                        <li>
+                           The Top 10 remains concentrated among a handful of nations though.
+                        </li>
+                        <li>
+                            The  emerging tennis talent is coming from smaller and less traditional European and adjacent nations.
+                        </li>
+                    </ul>
+                </div>
+                <div class="chart-title">Growth of Country Representation in the ATP Top 100</div>
+                <div id="global-timeline-chart" class="chart-container"> </div>
+                
+               
+            </section>
+
+            <section class="chart-section">
+                <div class="chart-explanation">
+                    <h2>New Country Entries into Top 100</h2>
+                    <ul>
+                        <li>
+                            Any country appearing in the Top 100 from 1980 onward, but absent in 1970 and 1975, is considered a new entry. Our data tracks these debuts since 1970.
+                        </li>
+                        <li>
+                            Each dot on the chart marks the year a nation first placed a player in the ATP Top 100.
+                        </li>
+                        <li>
+                            Many of these new entries come from Eastern Europe and North Africa.
+                        </li>
+                    </ul>
+                </div>
+                <div class="chart-title">First-Time Top 100 Nations</div>
+                <div id="new-entries-chart" class="chart-container"></div>
+            </section>
 
             <div id="country-details" class="info-panel">
                 <h2 id="country-name"></h2>
@@ -81,9 +146,11 @@
     <!-- Scripts -->
     <script src="js/tennis_map.js"></script>
     <script src="js/tennis_trends.js"></script>
-    <script>
+    <script src="js/global_timeline_chart.js"></script>
+    <script src="js/tennis_new_entries.js"></script>
+    <!-- <script>
         // Initialize components
         includeHTML();
-    </script>
+    </script> -->
 </body>
 </html>

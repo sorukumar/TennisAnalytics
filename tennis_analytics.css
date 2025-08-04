@@ -716,6 +716,106 @@ body {
   }
 }
 
+/* Chart Section Styles */
+.chart-section {
+  background: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+.chart-explanation {
+  margin-bottom: 30px;
+  background-color: rgba(30, 86, 49, 0.05);
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.chart-explanation h2 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.chart-explanation p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.chart-explanation p:last-child {
+  margin-bottom: 0;
+}
+
+.chart-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.axis-label {
+  font-size: 12px;
+  fill: #555;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.legend-color {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+  .chart-section {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    height: 400px;
+  }
+  .chart-explanation h2 {
+    font-size: 1.3rem;
+  }
+  .chart-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .chart-section {
+    padding: 15px;
+  }
+  .chart-explanation {
+    padding: 15px;
+  }
+  .chart-container {
+    padding: 10px;
+  }
+}
+
 /* Responsive Adjustments */
 @media (max-width: 992px) {
   .hero-content {
@@ -839,29 +939,6 @@ body {
   opacity: 0;
   z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* Chart containers */
-.chart-container {
-  background-color: white;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 30px;
-  box-shadow: var(--shadow-soft);
-}
-
-.chart-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.4rem;
-  color: var(--primary-color);
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-/* Axis labels and other chart elements */
-.axis-label {
-  font-size: 12px;
-  fill: #555;
 }
 
 /* Social Share FAB (Floating Action Button) */

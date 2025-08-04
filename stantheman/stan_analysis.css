@@ -25,42 +25,6 @@ h1 {
     font-size: 2rem;
 }
 
-/* Chart sections */
-.chart-section {
-    background: var(--card-bg);
-    border-radius: 8px;
-    box-shadow: var(--shadow-soft);
-    padding: 25px;
-    margin-bottom: 40px;
-}
-
-/* Explanation sections */
-.chart-explanation {
-    margin-bottom: 30px;
-    background-color: rgba(30, 86, 49, 0.05);
-    padding: 20px;
-    border-radius: 8px;
-    border-left: 4px solid var(--primary-color);
-}
-
-.chart-explanation h2 {
-    font-family: 'Playfair Display', serif;
-    color: var(--primary-color);
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 1.5rem;
-}
-
-.chart-explanation p {
-    line-height: 1.6;
-    margin-bottom: 15px;
-    color: #444;
-}
-
-.chart-explanation p:last-child {
-    margin-bottom: 0;
-}
-
 /* Chart containers */
 .chart-container {
     width: 100%;
@@ -70,14 +34,6 @@ h1 {
     padding: 20px;
     margin: 0;
     overflow: visible; /* Changed from hidden to visible to show axis labels */
-}
-
-.chart-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.4rem;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    text-align: center;
 }
 
 /* Tooltip */
@@ -94,46 +50,6 @@ h1 {
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
-/* Axis labels */
-.axis-label {
-    font-size: 12px;
-    fill: #555;
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* Make sure axis ticks and domain lines are visible */
-.axis path,
-.axis line {
-    stroke: #ccc;
-}
-
-.axis text {
-    fill: #555;
-    font-size: 11px;
-}
-
-/* Legend */
-.legend {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    flex-wrap: wrap;
-}
-
-.legend-item {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-    margin-bottom: 10px;
-}
-
-.legend-color {
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
-    border-radius: 50%;
-}
-
 /* Conclusion section */
 #conclusion {
     background-color: #e6f2e6;
@@ -148,10 +64,6 @@ h1 {
     .container {
         padding: 15px;
     }
-
-    .chart-section {
-        padding: 20px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -162,23 +74,11 @@ h1 {
     h1 {
         font-size: 1.8rem;
     }
-
-    .chart-explanation h2 {
-        font-size: 1.3rem;
-    }
-
-    .chart-title {
-        font-size: 1.2rem;
-    }
 }
 
 @media (max-width: 576px) {
-    .chart-section {
-        padding: 15px;
-    }
-
-    .chart-explanation {
-        padding: 15px;
+    .container {
+        padding: 10px;
     }
 
     .chart-container {
