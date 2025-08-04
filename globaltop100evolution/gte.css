@@ -1,8 +1,11 @@
 #map-container {
     position: relative;
     width: 100%;
-    margin: 20px 0;
+    max-width: 100vw;
+    min-width: 0;
+    margin: 0 auto;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .controls-panel {
@@ -76,6 +79,8 @@
     height: 60vh;
     min-height: 320px;
     max-width: 100vw;
+    box-sizing: border-box;
+    overflow-x: auto;
     margin: 0 auto;
     display: block;
 }
@@ -252,6 +257,14 @@
     border-radius: 2px;
     margin-right: 8px;
     display: inline-block;
+}
+
+/* Make Plotly slider and updatemenu containers transparent */
+.plotly .slider-container,
+.plotly .slider,
+.plotly .updatemenu-container {
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
 @media (max-width: 768px) {

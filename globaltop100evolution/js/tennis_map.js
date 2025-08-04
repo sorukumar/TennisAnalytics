@@ -37,6 +37,20 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(tennisData => {
             const years = tennisData.map(d => d.year);
 
+            // Use the same colorbar config as in frames for the initial trace
+            const colorbarConfig = {
+                title: 'Players in Top 100',
+                thickness: 14,
+                len: 0.25, // 50% of plot height
+                x: 1.02, // right side
+                y: 0.5,
+                xanchor: 'left',
+                yanchor: 'middle',
+                orientation: 'v',
+                outlinewidth: 0,
+                tickfont: {family: 'Montserrat, sans-serif', size: 10}
+            };
+
             const frames = tennisData.map((yearData, i) => {
                 const year = yearData.year;
                 const locations = Object.keys(yearData.countries);
@@ -58,37 +72,12 @@ document.addEventListener('DOMContentLoaded', function() {
                         colorscale: colorscale,
                         zmin: 0,
                         zmax: 50,
-                        colorbar: {
-                            title: 'Players in Top 100',
-                            thickness: 15,
-                            len: 0.6,
-                            x: 0.5,
-                            y: -0.08,
-                            xanchor: 'center',
-                            yanchor: 'top',
-                            orientation: 'h',
-                            outlinewidth: 0,
-                            tickfont: {family: 'Montserrat, sans-serif', size: 10}
-                        },
+                        colorbar: colorbarConfig,
                         hovertemplate: '%{text}<extra></extra>',
                         marker: {line: {color: 'white', width: 0.5}}
                     }]
                 };
             });
-
-            // Use the same colorbar config as in frames for the initial trace
-            const colorbarConfig = {
-                title: 'Players in Top 100',
-                thickness: 15,
-                len: 0.6,
-                x: 0.5,
-                y: -0.08,
-                xanchor: 'center',
-                yanchor: 'top',
-                orientation: 'h',
-                outlinewidth: 0,
-                tickfont: {family: 'Montserrat, sans-serif', size: 10}
-            };
 
             const initial = {
                 type: 'choropleth',
@@ -130,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Layout with controls in top margin, map takes most space
             const layout = {
-                margin: {t: 100, r: 10, b: 10, l: 10},
+                margin: {t: 10, r: 10, b: 10, l: 10}, // reduced top margin to move map up
                 geo: {
                     projection: {type: 'natural earth'},
                     showland: true,
@@ -140,6 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     showframe: false,
                     lonaxis: {range: [-180, 180]},
                     lataxis: {range: [-60, 85]},
+                    domain: {x: [0, 1], y: [0, 1]}, // maximize map area
                 },
                 annotations: labelAnnotations,
                 font: {family: 'Montserrat, sans-serif', size: 13, color: '#333'},
@@ -147,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     type: 'buttons',
                     showactive: false,
                     x: 0.01,
-                    y: 1.13, // in top margin
+                    y: 1.08, // move buttons up
                     xanchor: 'left',
                     yanchor: 'top',
                     direction: 'left',
@@ -175,9 +165,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 }],
                 sliders: [{
                     active: 0,
-                    x: 0.2,
-                    y: 1.08, // in top margin
-                    len: 0.7,
+                    x: 0.3, // move slider right to make space for buttons
+                    y: 1.12, // move slider up
+                    len: 0.7, // reduced length for compactness
+                    thickness: 10,
                     pad: {t: 0, b: 0},
                     currentvalue: {
                         visible: true,

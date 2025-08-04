@@ -8,32 +8,32 @@ document.addEventListener('DOMContentLoaded', function() {
     // Remove any existing Plotly chart
     container.querySelectorAll('div.plotly-graph-div').forEach(el => el.remove());
 
+    const MAJOR_TENNIS_NATIONS = ['USA', 'ESP', 'FRA', 'ITA', 'SWE', 'SUI', 'GER', 'SRB', 'AUS', 'RUS', 'ARG'];
     const COUNTRY_COLORS = [
-        "#1a9850", // Green
-        "#87CEEB", // Sky blue
-        "#FFCC00", // Bright Yellow
-        "#FF9933", // Deep Apricot
-        "#A3B18A", // Olive-Teal
-        "#DDA15E", // Rich Camel
-        "#9E2A2B", // Burgundy
-        "#336699", // Denim Blue
-        "#002147", // Midnight Blue
-        "#C62F47",//Crimson
-        "#800080"// (Purple)
-      ];
-    const MAJOR_TENNIS_NATIONS = ['USA', 'ESP', 'FRA', 'AUS', 'ITA', 'SWE', 'ARG', 'GER', 'RUS','SRB','SUI'];
+        '#002868',  // USA: Navy Blue
+        '#C60B1E',  // Spain: Red
+        '#002395',  // France: Dark Blue
+        '#008C45',  // Italy: Green
+        '#006AA7',  // Sweden: Blue
+        '#D52B1E',  // Switzerland: Red
+        '#000000',  // Germany: Black
+        '#C6363B',  // Serbia: Red
+        '#00008B',  // Australia: Dark Blue
+        '#D52B1E',  // Russia: Red
+        '#75AADB'   // Argentina: Sky Blue
+    ];
     const COUNTRY_NAMES = {
-      USA: "United States",
-      ESP: "Spain",
-      FRA: "France",
-      AUS: "Australia",
-      ITA: "Italy",
-      SWE: "Sweden",
-      ARG: "Argentina",
-      GER: "Germany",
-      RUS: "Russia",
-      SRB: "Serbia",
-      SUI: "Switerland"
+        'USA': 'United States',
+        'ESP': 'Spain',
+        'FRA': 'France',
+        'AUS': 'Australia',
+        'ITA': 'Italy',
+        'SWE': 'Sweden',
+        'ARG': 'Argentina',
+        'GER': 'Germany',
+        'RUS': 'Russia',
+        'SRB': 'Serbia',
+        'SUI': 'Switzerland'
     };
 
     fetch('data/top_tennis_players_timeline.json')
